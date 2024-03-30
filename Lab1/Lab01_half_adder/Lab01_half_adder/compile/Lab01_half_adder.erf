@@ -1,0 +1,4 @@
+MESSAGE "File: F:/ESE382-Lab/Lab1/Lab01_half_adder/Lab01_half_adder/src/half_adder.vhd" 
+MESSAGE "Compile Entity "half_adder"" 
+MESSAGE "Compile Architecture "dataflow" of Entity "half_adder"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

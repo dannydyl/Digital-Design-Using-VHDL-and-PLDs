@@ -1,0 +1,5 @@
+3
+~E 1 "../src/half_adder.vhd" 28 half_adder
+~A 1 "../src/half_adder.vhd" 39 dataflow
+~E 1 "../src/half_adder_tb.vhd" 10 testbench
+~A 1 "../src/half_adder_tb.vhd" 13 behavior

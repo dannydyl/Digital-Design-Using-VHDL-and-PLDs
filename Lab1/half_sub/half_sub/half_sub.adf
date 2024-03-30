@@ -1,0 +1,43 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=half_sub
+
+[Library]
+half_sub=.\half_sub\half_sub.lib
+
+[$LibMap$]
+half_sub=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=half_sub|half_sub|0 testbench|behavior|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/half_sub_tb.vhd=-1
+/half_sub.vhd=-1
+/half_sub.asdb=-1
+/half_sub.awc=-1
+
+[Files.Data]
+.\src\half_sub_tb.vhd=VHDL Source Code
+
+.\src\half_sub.vhd=VHDL Source Code
+.\src\half_sub.asdb=Accelerated Waveform File
+.\src\half_sub.awc=Accelerated Waveform Configuration

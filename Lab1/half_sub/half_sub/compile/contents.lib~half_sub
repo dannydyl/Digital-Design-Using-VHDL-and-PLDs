@@ -1,0 +1,6 @@
+7
+~E 1 "../src/half_sub.vhd" 28 half_sub
+~A 1 "../src/half_sub.vhd" 39 dataflow
+~A 1 "../src/half_sub.vhd" 39 half_sub
+~E 1 "../src/half_sub_tb.vhd" 10 testbench
+~A 1 "../src/half_sub_tb.vhd" 13 behavior

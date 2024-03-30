@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: F:/ESE382-Lab/Lab1/half_sub/half_sub/src/half_sub.vhd" 
+MESSAGE "Compile Entity "half_sub"" 
+MESSAGE "Compile Architecture "dataflow" of Entity "half_sub"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

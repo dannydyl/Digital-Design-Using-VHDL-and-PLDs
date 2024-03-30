@@ -1,0 +1,34 @@
+Active-HDL 12.0.118.7745 2024-01-31 10:11:58
+
+Elaboration top modules:
+Architecture                  behavior(testbench)
+
+
+---------------------------------------------------------------------------------------------
+Entity    | Architecture | Library  | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------
+testbench | behavior     | half_sub |      | 12.0.118.7745 (Windows64) | -O3
+half_sub  | dataflow     | half_sub |      | 12.0.118.7745 (Windows64) | -O3
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+VHDL Package             | Library  | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------
+standard                 | std      |      |                           | <unavailable>
+TEXTIO                   | std      |      |                           | <unavailable>
+std_logic_1164           | ieee     |      |                           | <unavailable>
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Library                  | Comment
+---------------------------------------------------------------------------------------------
+half_sub                 | None
+ieee                     | Standard IEEE packages library
+std                      | Standard VHDL library
+---------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+testbench testbench behavior
+
+
+The performance of simulation is reduced. Version EDU Edition

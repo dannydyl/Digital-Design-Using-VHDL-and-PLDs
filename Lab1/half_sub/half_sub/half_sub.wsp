@@ -1,0 +1,12 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Lab01_half_adder=1
+Built-in symbols=0
+half_sub=0
+[CACHEDOC|Aldec.Project.Generic.7|.\half_sub\half_sub.adf|]
+Path=
+[COMPILESTATUS|.\src\half_sub.vhd]
+FileTimeLow=31085656
+Status=Modified
+[COMPILESTATUS|.\src\half_sub_tb.vhd]
+FileTimeLow=31085650
+Status=Compiled

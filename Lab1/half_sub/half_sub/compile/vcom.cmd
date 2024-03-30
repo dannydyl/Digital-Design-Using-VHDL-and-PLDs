@@ -1,0 +1,1 @@
+-w -erf F:/ESE382-Lab/Lab1/half_sub/half_sub/compile/half_sub.erf -d F:/ESE382-Lab/Lab1/half_sub/half_sub/compile -s F:/ESE382-Lab/Lab1/half_sub/library.cfg -j F:/ESE382-Lab/Lab1/half_sub/half_sub/projlib.cfg -work half_sub -O3 -e 100 -work half_sub -2002 F:/ESE382-Lab/Lab1/half_sub/half_sub/src/half_sub.vhd 

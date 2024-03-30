@@ -1,0 +1,19 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Lab01_half_adder=1
+Built-in symbols=0
+[COMPILESTATUS|.\src\half_adder.vhd]
+FileTimeLow=31085646
+Status=Compiled
+[COMPILESTATUS|.\src\half_adder_tb.vhd]
+FileTimeLow=31085646
+Status=Compiled
+[CACHEDOC|Aldec.Project.Generic.7|.\Lab01_half_adder\Lab01_half_adder.adf|]
+Path=/testbench
+[COMPILESTATUS|.\src\half_adder.asdb]
+FileTimeLow=31085649
+Status=Modified
+[COMPILESTATUS|.\src\half_adder.awc]
+FileTimeLow=31085649
+Status=Modified
+[Gui config]
+RunFor=100 ns
