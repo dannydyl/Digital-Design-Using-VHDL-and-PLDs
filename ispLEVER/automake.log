@@ -1,0 +1,192 @@
+ispLEVER Auto-Make Log File
+---------------------------
+
+Updating: VHDL Post-Route Simulation Model
+Start to record tcl script...
+Finished recording TCL script.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\edif2blf.exe -edf "..\rev_1\lab02b.edf" -out "half_adder.bl0" -err automake.err -log "lab02b.log" -prj half_adder -lib "C:\ispLEVER_Classic2_1\ispcpld/dat/mach.edn" @"lab02b.esp" -nbx -cvt YES'
+
+Starting EDIF2BLIF....
+readEDIF ended normally.
+
+Inspect circuit half_adder
+    Number of input ports   : 2
+    Number of output ports  : 2
+    Number of bidir ports   : 0
+    Number of instances     : 8
+    Number of nets          : 10
+
+No design errors found in circuit half_adder
+
+WriteBLIF ended normally.
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\blif2eqn.exe half_adder.bl0 -o half_adder.btp -template "C:\ispLEVER_Classic2_1\ispcpld/pld/j2mod.tft" -testfix -bus rebuild -prj half_adder -err automake.err'
+
+BLIF2EQN  Open-ABEL Report Generator
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\iblifopt.exe "half_adder.bl0" -red bypin choose -collapse -pterms 8 -family -err automake.err -gui'
+
+BLIFOPT  Open-ABEL Optimizer 
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+U.C. Berkeley, SIS Ver. 1.0, supported by Lattice Semiconductor Corp.
+Reading Open-ABEL 2 file half_adder.bl0...
+Node b_i has been collapsed.
+Node b_c has been collapsed.
+Node a_c has been collapsed.
+Node N_2 has been collapsed.
+Node N_2_i_0 has been collapsed.
+Node carry_out_c has been collapsed.
+Performing 'bypin choose' optimization...
+Writing Open-ABEL 2 (BLIF) file half_adder.bl1...
+
+BLIFOPT complete - 0 errors, 0 warnings. Time: 1 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\iblflink.exe "half_adder.bl1" -o "half_adder.bl2" -omod half_adder -family -err automake.err -gui'
+
+BLIFLINK  Top-Down Design Linker
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+
+Top-level file: 'half_adder.bl1'
+
+Hierarchical BLIF: 'half_adder.bl2'
+
+BLIFLINK complete.  Time: 1 second 
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\iblifopt.exe half_adder.bl2 -red bypin choose -sweep -collapse all -pterms 8 -err automake.err -gui'
+
+BLIFOPT  Open-ABEL Optimizer 
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+U.C. Berkeley, SIS Ver. 1.0, supported by Lattice Semiconductor Corp.
+Reading Open-ABEL 2 file half_adder.bl2...
+Performing 'bypin choose' optimization...
+Writing Open-ABEL 2 (BLIF) file half_adder.bl3...
+
+BLIFOPT complete - 0 errors, 0 warnings. Time: 1 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\idiofft.exe half_adder.bl3 -pla -o half_adder.tt2 -dev p22v10gc -define N -err automake.err -gui'
+
+DIOFFT  Flip-Flop Transformation program
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Input file: half_adder.bl3.
+Output file: half_adder.tt2.
+Cross reference file: half_adder.xrf.
+
+Shortening signal names...
+Writing signal name cross reference file half_adder.xrf... 
+
+DIOFFT complete. - Time 0 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\fit.exe half_adder.tt2 -dev p22v10gc -str -err automake.err -gui'
+
+FIT  Generic Device Fitter
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Input file: 'half_adder.tt2'
+Device 'p22v10gc'
+Design FITS
+Pin-assigned pla: 'half_adder.tt3'
+
+FIT complete.  Time: 1 second.
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\fuseasm.exe half_adder.tt3 -dev p22v10gc -o half_adder.jed -ivec NoInput.tmv -rep half_adder.rpt -doc brief -con ptblown -for brief -err automake.err -gui'
+
+FUSEASM  Fusemap Assembler
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Note 5144: Could not open vector file NoInput.tmv
+
+Input file: 'half_adder.tt3'
+Device: 'P22V10GC'
+Building model...
+Choosing best polarities...
+Mapping equations...
+.
+5 of 132 terms used; 0 vectors loaded
+Programmer load file: 'half_adder.jed'
+Generating report...
+Report file: 'half_adder.rpt'
+
+FUSEASM complete.  Time: 1 second 
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\timsel.exe @half_adder.psl'
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\chipsim.exe "half_adder._sp" "half_adder.vtd" none'
+
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\chipsim.exe "half_adder._sp" "half_adder.vatd" none'
+
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\j2svhdl.exe half_adder.jed -dly custom half_adder.tim max -pldbus default half_adder.btp -o half_adder.vhq -module half_adder -suppress -err automake.err -gui'
+
+JED2VHDL  JEDEC to IEEE1076 VHDL Model Builder
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+
+JEDEC file: 'half_adder.jed'
+Device: 'P22V10GC'
+Module Name: half_adder
+Reading JEDEC Input File
+Extracting PLD Circuit Model
+BUS template file: 'half_adder.btp' 
+.
+Input file: half_adder.tim
+Local timing delay file: 'half_adder.tim' 
+Delay Model Selected :MAX
+Total FF type(s) used= 1
+VHDL pldmodel file    : 'half_adder.vhq'
+
+JED2VHDL complete. Time: 1 second 
+Done: completed successfully.

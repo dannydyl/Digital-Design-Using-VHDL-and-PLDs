@@ -1,0 +1,8 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: F:/ESE382-Lab/Lab2/lab02b/lab02b/src/half_adder.vhq" 
+MESSAGE "Compile Entity "half_adder"" 
+MESSAGE "Compile Architecture "structure" of Entity "half_adder"" 
+MESSAGE "File: F:/ESE382-Lab/Lab2/lab02b/lab02b/src/half_adder_tb.vhd" 
+MESSAGE "Compile Entity "testbench"" 
+MESSAGE "Compile Architecture "behavior" of Entity "testbench"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

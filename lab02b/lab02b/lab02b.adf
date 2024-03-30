@@ -1,0 +1,50 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=lab02b
+
+[Library]
+lab02b=.\lab02b\lab02b.lib
+j2svlib=c:\program files\aldec\active-hdl-12-x64\vlib\j2svlib\j2svlib.lib
+
+[$LibMap$]
+lab02b=.
+Active_lib=
+j2svlib=.
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=F:\ESE382-Lab\Lab2\ispLEVER
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=testbench|behavior|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/half_adder.vhq=-1
+/half_adder_tb.vhd=-1
+/lab02b_waveform.asdb=-1
+/lab02b_waveform.awc=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+
+[Files.Data]
+.\src\half_adder.vhq=VHDL Source Code
+.\src\half_adder_tb.vhd=VHDL Source Code
+.\src\lab02b_waveform.asdb=Accelerated Waveform File
+.\src\lab02b_waveform.awc=Accelerated Waveform Configuration
+
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration

@@ -1,0 +1,19 @@
+#$ TOOL ispLEVER Classic 2.1.00.02.49.20
+#$ DATE Wed Feb 07 09:50:28 2024
+#$ MODULE half_adder
+#$ DEVICE p22v10gc
+#$ PINS 4 a:3 b:4 sum+:27 carry_out+:26
+.i 2 
+.o 2 
+.type fr
+.ilb a b
+.ob sum carry_out
+.phase 11
+.p 6
+11 01
+01 1~
+10 1~
+0- ~0
+-0 ~0
+00 0~
+.e
