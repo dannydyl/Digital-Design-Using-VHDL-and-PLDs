@@ -1,0 +1,195 @@
+
+
+#Build: Synplify Pro (R) S-2021.09-SP2, Build 244R, Jun  1 2022
+#install: C:\Synopsys\fpga_S-2021.09-SP2
+#OS: Windows 10 or later
+#Hostname: DESKTOP-VAQIVAN
+
+# Wed Feb  7 08:59:02 2024
+
+#Implementation: rev_1
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N: :  | Running in 64-bit mode 
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_1
+Synopsys VHDL Compiler, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N: :  | Running in 64-bit mode 
+@N: : half_adder.vhd(28) | Top entity is set to half_adder.
+@N:CD140 :  | Using the VHDL 1993 Standard for file 'F:\ESE382-Lab\Lab2\lab02\lab02\src\half_adder.vhd'. 
+VHDL syntax check successful!
+@N:CD630 : half_adder.vhd(28) | Synthesizing work.half_adder.dataflow.
+Post processing for work.half_adder.dataflow
+Running optimization stage 1 on half_adder .......
+Finished optimization stage 1 on half_adder (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on half_adder .......
+Finished optimization stage 2 on half_adder (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+Linked File:  layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 89MB peak: 89MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Feb  7 08:59:03 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N: :  | Running in 64-bit mode 
+@N:NF107 : half_adder.vhd(28) | Selected library: work cell: half_adder view dataflow as top level
+@N:NF107 : half_adder.vhd(28) | Selected library: work cell: half_adder view dataflow as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Feb  7 08:59:04 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+Linked File:  lab02_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 29MB peak: 30MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Feb  7 08:59:04 2024
+
+###########################################################]
+
+
+
+
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N: :  | Running in 64-bit mode 
+@N:NF107 : half_adder.vhd(28) | Selected library: work cell: half_adder view dataflow as top level
+@N:NF107 : half_adder.vhd(28) | Selected library: work cell: half_adder view dataflow as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Feb  7 08:59:05 2024
+
+###########################################################]
+
+
+
+
+Map & Optimize Report
+
+
+
+
+
+# Wed Feb  7 08:59:06 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_1
+Synopsys CPLD Technology Mapper, Version map202109syn, Build 243R, Built Jun  1 2022 05:17:33, @
+
+@N:MF248 :  | Running in 64-bit mode. 
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 119MB)
+
+@A:MF827 :  | No constraint file specified. 
+---------------------------------------
+Resource Usage Report
+
+Simple gate primitives:
+IBUF            2 uses
+OBUF            2 uses
+INV             2 uses
+XOR2            1 use
+AND2            1 use
+
+
+@N:FC100 :  | Timing Report not generated for this device, please use place and route tools for timing analysis. 
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 43MB peak: 129MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Feb  7 08:59:06 2024
+
+###########################################################]
+

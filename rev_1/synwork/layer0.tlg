@@ -1,0 +1,11 @@
+@N: CD630 :"F:\ESE382-Lab\Lab2\lab02b\lab02b\src\half_adder.vhd":28:7:28:16|Synthesizing work.half_adder.dataflow.
+Post processing for work.half_adder.dataflow
+Running optimization stage 1 on half_adder .......
+Finished optimization stage 1 on half_adder (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on half_adder .......
+Finished optimization stage 2 on half_adder (CPU Time 0h:00m:00s, Memory Used current: 88MB peak: 89MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\ESE382-Lab\Lab2\rev_1\synwork\layer0.rt.csv
+
