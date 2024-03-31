@@ -1,0 +1,38 @@
+Active-HDL 12.0.118.7745 2024-02-21 09:38:19
+
+Elaboration top modules:
+Architecture                  tb_architecture(converter_xs3_bcd_tb)
+
+
+-----------------------------------------------------------------------------------------------------------
+Entity               | Architecture    | Library  | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+converter_xs3_bcd_tb | tb_architecture | selected |      | 12.0.118.7745 (Windows64) | -dbg -2008
+xs3_to_BCD_LUT       | structure       | selected |      | 12.0.118.7745 (Windows64) | -dbg -2008
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+VHDL Package                           | Library  | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------------
+standard                               | std      |      |                           | <unavailable>
+TEXTIO                                 | std      |      |                           | <unavailable>
+std_logic_1164                         | ieee     |      |                           | <unavailable>
+NUMERIC_STD                            | ieee     |      |                           | <unavailable>
+ENV                                    | std      |      |                           | <unavailable>
+j2svlib                                | j2svlib  |      |                           | <unavailable>
+-----------------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------------
+Library                                | Comment
+-----------------------------------------------------------------------------------------------------------
+ieee                                   | Standard IEEE packages library
+j2svlib                                | LATTICE ispLEVER Classic 1.4, j2svlib VHDL LIBRARY
+selected                               | None
+std                                    | Standard VHDL library
+-----------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+converter_xs3_bcd_tb converter_xs3_bcd_tb tb_architecture
+
+
+The performance of simulation is reduced. Version EDU Edition

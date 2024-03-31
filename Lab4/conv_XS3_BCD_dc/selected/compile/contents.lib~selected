@@ -1,0 +1,7 @@
+31
+~E 1 "../src/converter_xs3_bcd_TB (1).vhd" 12 converter_xs3_bcd_tb
+~A 1 "../src/converter_xs3_bcd_TB (1).vhd" 15 tb_architecture
+~E 1 "../src/xs3_to_BCD_conditional.vhd" 4 xs3_to_BCD_conditional
+~E 1 "../src/xs3_to_bcd_lut.vhq" 33 xs3_to_BCD_LUT
+~A 1 "../src/xs3_to_bcd_lut.vhq" 100 structure
+~E 1 "../src/xs3_to_bcd_selected.vhd" 4 xs3_to_BCD_selected

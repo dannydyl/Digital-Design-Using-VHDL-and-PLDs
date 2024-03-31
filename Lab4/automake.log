@@ -1,0 +1,199 @@
+ispLEVER Auto-Make Log File
+---------------------------
+
+Updating: VHDL Post-Route Simulation Model
+Start to record tcl script...
+Finished recording TCL script.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\edif2blf.exe -edf "xs3_to_bcd_lut.edf" -out "xs3_to_BCD_LUT.bl0" -err automake.err -log "xs3_to_bcd_lut.log" -prj xs3_to_bcd_lut -lib "C:\ispLEVER_Classic2_1\ispcpld/dat/mach.edn" @"xs3_to_bcd_lut.esp" -nbx -cvt ...'
+
+Starting EDIF2BLIF....
+readEDIF ended normally.
+
+Inspect circuit xs3_to_BCD_LUT
+    Number of input ports   : 4
+    Number of output ports  : 4
+    Number of bidir ports   : 0
+    Number of instances     : 17
+    Number of nets          : 21
+
+No design errors found in circuit xs3_to_BCD_LUT
+
+WriteBLIF ended normally.
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\blif2eqn.exe xs3_to_BCD_LUT.bl0 -o xs3_to_BCD_LUT.btp -template "C:\ispLEVER_Classic2_1\ispcpld/pld/j2mod.tft" -testfix -bus rebuild -prj xs3_to_bcd_lut -err automake.err'
+
+BLIF2EQN  Open-ABEL Report Generator
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\iblifopt.exe "xs3_to_BCD_LUT.bl0" -red bypin choose -collapse -pterms 8 -family -err automake.err -gui'
+
+BLIFOPT  Open-ABEL Optimizer 
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+U.C. Berkeley, SIS Ver. 1.0, supported by Lattice Semiconductor Corp.
+Reading Open-ABEL 2 file xs3_to_BCD_LUT.bl0...
+Node q_i has been collapsed.
+Node un3_a_3_0__n_3_i_n has been collapsed.
+Node p_c has been collapsed.
+Node r_c has been collapsed.
+Node q_c has been collapsed.
+Node un3_a_3_0__n_5_n has been collapsed.
+Node N_6 has been collapsed.
+Node s_c has been collapsed.
+Node un3_a_3_0__n_3_n has been collapsed.
+Node un3_a_3_0__n_6_n has been collapsed.
+Node N_5 has been collapsed.
+Node s_i has been collapsed.
+Node N_6_i has been collapsed.
+Performing 'bypin choose' optimization...
+Writing Open-ABEL 2 (BLIF) file xs3_to_BCD_LUT.bl1...
+
+BLIFOPT complete - 0 errors, 0 warnings. Time: 1 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\iblflink.exe "xs3_to_BCD_LUT.bl1" -o "xs3_to_bcd_lut.bl2" -omod xs3_to_BCD_LUT -family -err automake.err -gui'
+
+BLIFLINK  Top-Down Design Linker
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+
+Top-level file: 'xs3_to_BCD_LUT.bl1'
+
+Hierarchical BLIF: 'xs3_to_bcd_lut.bl2'
+
+BLIFLINK complete.  Time: 1 second 
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\iblifopt.exe xs3_to_bcd_lut.bl2 -red bypin choose -sweep -collapse all -pterms 8 -err automake.err -gui'
+
+BLIFOPT  Open-ABEL Optimizer 
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+U.C. Berkeley, SIS Ver. 1.0, supported by Lattice Semiconductor Corp.
+Reading Open-ABEL 2 file xs3_to_bcd_lut.bl2...
+Performing 'bypin choose' optimization...
+Writing Open-ABEL 2 (BLIF) file xs3_to_bcd_lut.bl3...
+
+BLIFOPT complete - 0 errors, 0 warnings. Time: 1 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\idiofft.exe xs3_to_bcd_lut.bl3 -pla -o xs3_to_bcd_lut.tt2 -dev p22v10gc -define N -err automake.err -gui'
+
+DIOFFT  Flip-Flop Transformation program
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Input file: xs3_to_bcd_lut.bl3.
+Output file: xs3_to_bcd_lut.tt2.
+Cross reference file: xs3_to_bcd_lut.xrf.
+
+Shortening signal names...
+Writing signal name cross reference file xs3_to_bcd_lut.xrf... 
+
+DIOFFT complete. - Time 0 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\fit.exe xs3_to_bcd_lut.tt2 -dev p22v10gc -str -err automake.err -gui'
+
+FIT  Generic Device Fitter
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Input file: 'xs3_to_bcd_lut.tt2'
+Device 'p22v10gc'
+Design FITS
+Pin-assigned pla: 'xs3_to_bcd_lut.tt3'
+
+FIT complete.  Time: 1 second.
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\fuseasm.exe xs3_to_bcd_lut.tt3 -dev p22v10gc -o xs3_to_bcd_lut.jed -ivec NoInput.tmv -rep xs3_to_bcd_lut.rpt -doc brief -con ptblown -for brief -err automake.err -gui'
+
+FUSEASM  Fusemap Assembler
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Note 5144: Could not open vector file NoInput.tmv
+
+Input file: 'xs3_to_bcd_lut.tt3'
+Device: 'P22V10GC'
+Building model...
+Choosing best polarities...
+Mapping equations...
+.
+14 of 132 terms used; 0 vectors loaded
+Programmer load file: 'xs3_to_bcd_lut.jed'
+Generating report...
+Report file: 'xs3_to_bcd_lut.rpt'
+
+FUSEASM complete.  Time: 1 second 
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\timsel.exe @xs3_to_bcd_lut.psl'
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\chipsim.exe "xs3_to_bcd_lut._sp" "xs3_to_bcd_lut.vtd" none'
+
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\chipsim.exe "xs3_to_bcd_lut._sp" "xs3_to_bcd_lut.vatd" none'
+
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\j2svhdl.exe xs3_to_bcd_lut.jed -dly custom xs3_to_bcd_lut.tim max -pldbus default xs3_to_BCD_LUT.btp -o xs3_to_bcd_lut.vhq -module xs3_to_BCD_LUT -suppress -err automake.err -gui'
+
+JED2VHDL  JEDEC to IEEE1076 VHDL Model Builder
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+
+JEDEC file: 'xs3_to_bcd_lut.jed'
+Device: 'P22V10GC'
+Module Name: xs3_to_BCD_LUT
+Reading JEDEC Input File
+Extracting PLD Circuit Model
+BUS template file: 'xs3_to_BCD_LUT.btp' 
+.
+Input file: xs3_to_bcd_lut.tim
+Local timing delay file: 'xs3_to_bcd_lut.tim' 
+Delay Model Selected :MAX
+Total FF type(s) used= 1
+VHDL pldmodel file    : 'xs3_to_bcd_lut.vhq'
+
+JED2VHDL complete. Time: 1 second 
+Done: completed successfully.

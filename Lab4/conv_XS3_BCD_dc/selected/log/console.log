@@ -1,0 +1,68 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -dbg -e 100 -work selected -2008  "$dsn/src/converter_xs3_bcd_TB (1).vhd" $dsn/src/xs3_to_bcd_lut.vhq
+# File: F:/ESE382-Lab/Lab4/conv_XS3_BCD_dc/selected/src/converter_xs3_bcd_TB (1).vhd
+# Compile Entity "converter_xs3_bcd_tb"
+# Compile Architecture "tb_architecture" of Entity "converter_xs3_bcd_tb"
+# File: F:/ESE382-Lab/Lab4/conv_XS3_BCD_dc/selected/src/xs3_to_bcd_lut.vhq
+# Compile Entity "xs3_to_BCD_LUT"
+# Compile Architecture "structure" of Entity "xs3_to_BCD_LUT"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+converter_xs3_bcd_tb converter_xs3_bcd_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'selected.xs3_to_bcd_lut' instantiated in architecture 'tb_architecture:converter_xs3_bcd_tb' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'selected.xs3_to_bcd_lut' instantiated in architecture 'tb_architecture:converter_xs3_bcd_tb' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'selected.xs3_to_bcd_lut' instantiated in architecture 'tb_architecture:converter_xs3_bcd_tb' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -dbg -e 100 -work selected -2008  "$dsn/src/converter_xs3_bcd_TB (1).vhd" $dsn/src/xs3_to_bcd_lut.vhq
+# File: F:/ESE382-Lab/Lab4/conv_XS3_BCD_dc/selected/src/converter_xs3_bcd_TB (1).vhd
+# Compile Entity "converter_xs3_bcd_tb"
+# Compile Architecture "tb_architecture" of Entity "converter_xs3_bcd_tb"
+# File: F:/ESE382-Lab/Lab4/conv_XS3_BCD_dc/selected/src/xs3_to_bcd_lut.vhq
+# Compile Entity "xs3_to_BCD_LUT"
+# Compile Architecture "structure" of Entity "xs3_to_BCD_LUT"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+converter_xs3_bcd_tb converter_xs3_bcd_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6584 kB (elbread=427 elab2=6009 kernel=148 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab4\conv_XS3_BCD_dc\selected\src\wave.asdb
+#  9:38 AM, Wednesday, February 21, 2024
+#  Simulation has been initialized
+# 8 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab4/conv_XS3_BCD_dc/selected/src/wave.asdb'.
+run 400 ns
+# EXECUTION:: ERROR  : Error for input 0000.
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /converter_xs3_bcd_tb,  Process: stimulus.
+# EXECUTION:: ERROR  : Error for input 0001.
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /converter_xs3_bcd_tb,  Process: stimulus.
+# EXECUTION:: ERROR  : Error for input 0010.
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /converter_xs3_bcd_tb,  Process: stimulus.
+# EXECU

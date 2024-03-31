@@ -1,0 +1,7 @@
+MESSAGE "File: F:/ESE382-Lab/Lab4/conv_XS3_BCD_dc/selected/src/converter_xs3_bcd_TB (1).vhd" 
+MESSAGE "Compile Entity "converter_xs3_bcd_tb"" 
+MESSAGE "Compile Architecture "tb_architecture" of Entity "converter_xs3_bcd_tb"" 
+MESSAGE "File: F:/ESE382-Lab/Lab4/conv_XS3_BCD_dc/selected/src/xs3_to_bcd_lut.vhq" 
+MESSAGE "Compile Entity "xs3_to_BCD_LUT"" 
+MESSAGE "Compile Architecture "structure" of Entity "xs3_to_BCD_LUT"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

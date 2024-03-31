@@ -1,0 +1,56 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=selected
+
+[Library]
+selected=.\selected\selected.lib
+
+[$LibMap$]
+selected=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=F:\ESE382-Lab\Lab4
+
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=converter_xs3_bcd_tb|tb_architecture|0
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/converter_xs3_bcd_TB (1).vhd=-1
+/xs3_to_bcd_lut.vhq=-1
+
+[Files.Data]
+.\src\converter_xs3_bcd_TB (1).vhd=VHDL Source Code
+.\src\xs3_to_bcd_lut.vhq=VHDL Source Code
+
