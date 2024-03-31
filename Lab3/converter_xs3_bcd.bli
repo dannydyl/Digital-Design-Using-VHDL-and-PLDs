@@ -1,0 +1,96 @@
+#$ DATE Wed Feb 14 10:29:47 2024
+#$ TOOL EDIF2BLIF version IspLever 1.0 
+#$ MODULE converter_xs3_bcd
+#$ PINS 8 p:6'ke'  q:5'ke'  r:4'ke'  s:3'ke'  d:27'ke'  c:26'ke'  b:25'ke'  a:24'ke' 
+#$ NODES 34 N_11 N_15 N_16 N_17 N_18 N_19 N_20 N_21 N_22 N_10_i \
+#  r_i s_i q_i p_i p_c q_c r_c s_c d_c N_11_0 \
+#  N_18_i N_19_i d_c_0 N_17_i N_22_i N_8_0 N_21_i N_6_0 N_15_i N_16_i \
+#  N_4_0 N_8_0_1 N_6_0_1 N_4_0_1 
+.model converter_xs3_bcd
+.inputs p.BLIF q.BLIF r.BLIF s.BLIF N_11.BLIF N_15.BLIF N_16.BLIF N_17.BLIF N_18.BLIF \
+  N_19.BLIF N_20.BLIF N_21.BLIF N_22.BLIF N_10_i.BLIF r_i.BLIF s_i.BLIF q_i.BLIF p_i.BLIF \
+  p_c.BLIF q_c.BLIF r_c.BLIF s_c.BLIF d_c.BLIF N_11_0.BLIF N_18_i.BLIF N_19_i.BLIF d_c_0.BLIF \
+  N_17_i.BLIF N_22_i.BLIF N_8_0.BLIF N_21_i.BLIF N_6_0.BLIF N_15_i.BLIF N_16_i.BLIF N_4_0.BLIF N_8_0_1.BLIF \
+  N_6_0_1.BLIF N_4_0_1.BLIF  
+.outputs d c b a N_11 N_15 N_16 N_17 N_18 N_19 N_20 \
+  N_21 N_22 N_10_i r_i s_i q_i p_i p_c q_c r_c s_c \
+  d_c N_11_0 N_18_i N_19_i d_c_0 N_17_i N_22_i N_8_0 N_21_i N_6_0 N_15_i \
+  N_16_i N_4_0 N_8_0_1 N_6_0_1 N_4_0_1
+.names  p.BLIF p_c
+1 1
+.names  q.BLIF q_c
+1 1
+.names  r.BLIF r_c
+1 1
+.names  s.BLIF s_c
+1 1
+.names  d_c.BLIF d
+1 1
+.names  N_8_0.BLIF c
+1 1
+.names  N_6_0.BLIF b
+1 1
+.names  N_4_0.BLIF a
+1 1
+.names  N_15.BLIF N_15_i
+0 1
+.names  N_16.BLIF N_16_i
+0 1
+.names  N_10_i.BLIF N_17_i.BLIF N_8_0_1
+11 1
+.names  N_8_0_1.BLIF N_22_i.BLIF N_8_0
+11 1
+.names  N_10_i.BLIF N_11.BLIF N_6_0_1
+11 1
+.names  N_6_0_1.BLIF N_21_i.BLIF N_6_0
+11 1
+.names  N_15_i.BLIF N_16_i.BLIF N_4_0_1
+11 1
+.names  N_4_0_1.BLIF s_i.BLIF N_4_0
+11 1
+.names  N_11_0.BLIF N_11
+0 1
+.names  N_18.BLIF N_18_i
+0 1
+.names  N_19.BLIF N_19_i
+0 1
+.names  d_c_0.BLIF d_c
+0 1
+.names  N_17.BLIF N_17_i
+0 1
+.names  N_22.BLIF N_22_i
+0 1
+.names  N_21.BLIF N_21_i
+0 1
+.names  p_i.BLIF q_i.BLIF N_15
+11 1
+.names  N_20.BLIF r_c.BLIF N_16
+11 1
+.names  p_c.BLIF p_i
+0 1
+.names  N_11.BLIF p_i.BLIF N_17
+11 1
+.names  N_20.BLIF N_21.BLIF N_18
+11 1
+.names  q_c.BLIF q_i
+0 1
+.names  N_22.BLIF q_i.BLIF N_19
+11 1
+.names  p_c.BLIF q_c.BLIF N_20
+11 1
+.names  r_i.BLIF s_i.BLIF N_21
+11 1
+.names  N_11_0.BLIF p_c.BLIF N_22
+11 1
+.names  N_18_i.BLIF N_19_i.BLIF d_c_0
+11 1
+.names  p_c.BLIF q_c.BLIF N_10_i
+01 1
+10 1
+.names  r_c.BLIF r_i
+0 1
+.names  s_c.BLIF s_i
+0 1
+.names  r_c.BLIF s_c.BLIF N_11_0
+11 1
+.end

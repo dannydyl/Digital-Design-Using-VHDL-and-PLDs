@@ -1,0 +1,13 @@
+Starting EDIF2BLIF....
+readEDIF ended normally.
+
+Inspect circuit converter_xs3_bcd
+    Number of input ports   : 4
+    Number of output ports  : 4
+    Number of bidir ports   : 0
+    Number of instances     : 38
+    Number of nets          : 42
+
+No design errors found in circuit converter_xs3_bcd
+
+WriteBLIF ended normally.

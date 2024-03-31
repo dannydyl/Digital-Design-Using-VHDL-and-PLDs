@@ -1,0 +1,11 @@
+JDF B
+// Created by Version 2.1 
+PROJECT converter_xs3_to_BCD
+DESIGN converter_xs3_to_bcd Normal
+DEVKIT ispGAL22V10C-10LJ
+ENTRY EDIF
+MODULE .\lab3_synthesize\rev_3\proj_1.edf
+MODSTYLE converter_xs3_bcd Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ModelSim
+TOPMODULE converter_xs3_bcd

@@ -1,0 +1,11 @@
+JDF B
+// Created by Version 2.1 
+PROJECT attibuted_pins
+DESIGN attibuted_pins Normal
+DEVKIT ispGAL22V10C-10LJ
+ENTRY EDIF
+MODULE .\rev_4\xs3_to_bcd_port_pins.edf
+MODSTYLE converter_xs3_bcd Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ModelSim
+TOPMODULE converter_xs3_bcd

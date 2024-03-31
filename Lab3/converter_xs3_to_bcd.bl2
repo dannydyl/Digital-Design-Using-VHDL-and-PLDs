@@ -1,0 +1,40 @@
+#$ TOOL ispLEVER Classic 2.1.00.02.49.20
+#$ DATE Wed Feb 14 09:54:02 2024
+#$ MODULE converter_xs3_bcd
+#$ PINS 8 p q r s d c b a
+
+.model converter_xs3_bcd
+.inputs p.BLIF q.BLIF r.BLIF s.BLIF
+.outputs d c b a
+.names p.BLIF q.BLIF r.BLIF s.BLIF d
+1100 1
+1011 1
+--10 0
+-1-1 0
+-00- 0
+0--- 0
+.names p.BLIF q.BLIF r.BLIF s.BLIF c
+0111 1
+100- 1
+10-0 1
+-011 0
+0-0- 0
+11-- 0
+0--0 0
+.names p.BLIF q.BLIF r.BLIF s.BLIF b
+1010 1
+0110 1
+1001 1
+0101 1
+00-- 0
+11-- 0
+--00 0
+--11 0
+.names p.BLIF q.BLIF r.BLIF s.BLIF a
+-100 1
+10-0 1
+01-0 1
+111- 0
+00-- 0
+---1 0
+.end

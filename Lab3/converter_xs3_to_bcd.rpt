@@ -1,0 +1,216 @@
+
+
+                                                                      Page 1
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 14 09:54:05 2024
+
+
+
+--------------------------------------------------------------------------------
+
+Module                   : 'converter_xs3_bcd'
+
+--------------------------------------------------------------------------------
+
+Input files:
+
+    ABEL PLA file        : converter_xs3_to_bcd.tt3
+    Device library       : P22V10GC.dev
+
+Output files:
+
+    Report file          : converter_xs3_to_bcd.rpt
+    Programmer load file : converter_xs3_to_bcd.jed
+
+--------------------------------------------------------------------------------
+
+
+                                                                      Page 2
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 14 09:54:05 2024
+
+P22V10GC Programmed Logic:
+--------------------------------------------------------------------------------
+
+
+
+d     = (  p & !q & r & s 
+         #   p & q & !r & !s );
+
+c     = (  p & !q & !r 
+         #   !p & q & r & s 
+         #   p & !q & !s );
+
+b     = (  !p & q & !r & s 
+         #   p & !q & !r & s 
+         #   !p & q & r & !s 
+         #   p & !q & r & !s );
+
+a     = (  !p & q & !s 
+         #   p & !q & !s 
+         #   q & !r & !s );
+
+
+
+                                                                      Page 3
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 14 09:54:05 2024
+
+P22V10GC Chip Diagram: (PLCC package)
+--------------------------------------------------------------------------------
+
+
+
+
+                                    P22V10GC
+
+                                r  q  p        a  c
+                              /----------------------
+                             /  4  3  2  1 28 27 26 |
+                             |                      |
+                           s |  5                25 |                             
+                             |                      |
+                             |  6                24 |                             
+                             |                      |
+                             |  7                23 |                             
+                             |                      |
+                             |  8                22 |                             
+                             |                      |
+                             |  9                21 |                             
+                             |                      |
+                             | 10                20 |                             
+                             |                      |
+                             | 11                19 |                             
+                             |                      |
+                             | 12 13 14 15 16 17 18 |
+                             ------------------------
+                                               b  d
+
+                        SIGNATURE: N/A
+
+
+                                                                      Page 4
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 14 09:54:05 2024
+
+P22V10GC Chip Diagram: (SSOP package)
+--------------------------------------------------------------------------------
+
+
+
+
+                                  P22V10GC
+
+                          ___________________________
+                         | ***                       |
+                         |                           |
+                         |  1                    28  | Vcc                     
+                         |                           |
+                       p |  2                    27  | a                       
+                         |                           |
+                       q |  3                    26  | c                       
+                         |                           |
+                       r |  4                    25  |                         
+                         |                           |
+                       s |  5                    24  |                         
+                         |                           |
+                         |  6                    23  |                         
+                         |                           |
+                         |  7                    22  |                         
+                         |                           |
+                         |  8                    21  |                         
+                         |                           |
+                         |  9                    20  |                         
+                         |                           |
+                         | 10                    19  |                         
+                         |                           |
+                         | 11                    18  | d                       
+                         |                           |
+                         | 12                    17  | b                       
+                         |                           |
+                         | 13                    16  |                         
+                         |                           |
+                     GND | 14                    15  |                         
+                         |                           |
+                         |                           |
+                         `---------------------------'
+
+                        SIGNATURE: N/A
+
+
+                                                                      Page 5
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 14 09:54:05 2024
+
+P22V10GC Resource Allocations:
+--------------------------------------------------------------------------------
+
+
+
+        Device        | Resource  |   Design    |
+       Resources      | Available | Requirement | Unused
+======================|===========|=============|==============
+                      |           |             |
+Input Pins:           |           |             |
+                      |           |             |
+          Input:      |     12    |      4      |    8 ( 66 %)
+                      |           |             |
+Output Pins:          |           |             |
+                      |           |             |
+          In/Out:     |     10    |      4      |    6 ( 60 %)
+          Output:     |      -    |      -      |    -
+                      |           |             |
+Buried Nodes:         |           |             |
+                      |           |             |
+          Input Reg:  |      -    |      -      |    -
+          Pin Reg:    |     10    |      0      |   10 (100 %)
+          Buried Reg: |      -    |      -      |    -
+
+
+                                                                      Page 6
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 14 09:54:05 2024
+
+P22V10GC Product Terms Distribution:
+--------------------------------------------------------------------------------
+
+
+
+            Signal                       |    Pin   | Terms | Terms | Terms
+             Name                        | Assigned | Used  |  Max  | Unused
+=========================================|==========|=======|=======|=======
+d                                        |   18     |   2   |  10   |   8
+c                                        |   26     |   3   |  10   |   7
+b                                        |   17     |   4   |   8   |   4
+a                                        |   27     |   3   |   8   |   5
+
+
+     ==== List of Inputs/Feedbacks ====
+
+Signal Name                              | Pin      | Pin Type
+=========================================|==========|=========
+p                                        |    2     | CLK/IN
+q                                        |    3     | INPUT
+r                                        |    4     | INPUT
+s                                        |    5     | INPUT
+
+
+                                                                      Page 7
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 14 09:54:05 2024
+
+P22V10GC Unused Resources:
+--------------------------------------------------------------------------------
+
+
+
+ Pin   |  Pin   |   Product   | Flip-flop
+Number |  Type  |   Terms     |   Type
+=======|========|=============|==========
+    6  |  INPUT |      -      |    -   
+    7  |  INPUT |      -      |    -   
+    9  |  INPUT |      -      |    -   
+   10  |  INPUT |      -      |    -   
+   11  |  INPUT |      -      |    -   
+   12  |  INPUT |      -      |    -   
+   13  |  INPUT |      -      |    -   
+   16  |  INPUT |      -      |    -   
+   19  |  BIDIR | NORMAL 12   |    D
+   20  |  BIDIR | NORMAL 14   |    D
+   21  |  BIDIR | NORMAL 16   |    D
+   23  |  BIDIR | NORMAL 16   |    D
+   24  |  BIDIR | NORMAL 14   |    D
+   25  |  BIDIR | NORMAL 12   |    D

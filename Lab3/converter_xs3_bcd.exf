@@ -1,0 +1,20 @@
+Section Cross Reference File
+Design 'converter_xs3_bcd' created Wed Feb 14 10:29:49 2024
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst           un4_d_0_i_0_                              un4_d_0_i[0]
+   Inst          un4_d_0_a3_0_                             un4_d_0_a3[0]
+   Inst        un4_d_0_a3_0_0_                           un4_d_0_a3_0[0]
+   Inst             un4_d_0_0_                                un4_d_0[0]
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     p
+        Input     q
+        Input     r
+        Input     s
+        Output     d
+        Output     c
+        Output     b
+        Output     a
+End
