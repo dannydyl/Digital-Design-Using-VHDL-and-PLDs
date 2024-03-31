@@ -1,0 +1,11 @@
+JDF B
+// Created by Version 2.1 
+PROJECT xs3_to_BCD_LUT
+DESIGN xs3_to_bcd_lut Normal
+DEVKIT ispGAL22V10C-10LJ
+ENTRY EDIF
+MODULE xs3_to_bcd_lut.edf
+MODSTYLE xs3_to_BCD_LUT Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ModelSim
+TOPMODULE xs3_to_BCD_LUT

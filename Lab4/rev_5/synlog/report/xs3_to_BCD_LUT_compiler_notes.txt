@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"F:\ESE382-Lab\Lab4\conv_XS3_BCD_dc\selected\src\xs3_to_BCD_LUT.vhd":5:7:5:20|Top entity is set to xs3_to_BCD_LUT.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'F:\ESE382-Lab\Lab4\conv_XS3_BCD_dc\selected\src\xs3_to_BCD_LUT.vhd'.
+@N: CD630 :"F:\ESE382-Lab\Lab4\conv_XS3_BCD_dc\selected\src\xs3_to_BCD_LUT.vhd":5:7:5:20|Synthesizing work.xs3_to_bcd_lut.table_lookup.
+@N|Running in 64-bit mode
+@N: NF107 :"f:\ese382-lab\lab4\conv_xs3_bcd_dc\selected\src\xs3_to_bcd_lut.vhd":5:7:5:20|Selected library: work cell: xs3_to_BCD_LUT view table_lookup as top level
+@N: NF107 :"f:\ese382-lab\lab4\conv_xs3_bcd_dc\selected\src\xs3_to_bcd_lut.vhd":5:7:5:20|Selected library: work cell: xs3_to_BCD_LUT view table_lookup as top level
+

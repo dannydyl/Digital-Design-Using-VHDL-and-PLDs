@@ -1,0 +1,7 @@
+C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe  -link  -multisrs  F:\ESE382-Lab\Lab4\rev_5\synwork\xs3_to_BCD_LUT_comp.srs  -osyn  F:\ESE382-Lab\Lab4\rev_5\synwork\xs3_to_BCD_LUT_mult.srs  -log  F:\ESE382-Lab\Lab4\rev_5\synlog\xs3_to_BCD_LUT_multi_srs_gen.srr 
+relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe -link -multisrs ..\synwork\xs3_to_BCD_LUT_comp.srs -osyn ..\synwork\xs3_to_BCD_LUT_mult.srs -log ..\synlog\xs3_to_BCD_LUT_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\xs3_to_BCD_LUT_comp.srs|io:i|time:1708525788|size:2309|exec:0|csum:86629ED54C74EE8E1A8E26268031370E
+file:..\synwork\xs3_to_BCD_LUT_mult.srs|io:o|time:1708525788|size:2032|exec:0|csum:
+file:..\synlog\xs3_to_BCD_LUT_multi_srs_gen.srr|io:o|time:1708525788|size:1375|exec:0|csum:
+file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe|io:i|time:1654086548|size:8736768|exec:1|csum:8DE049913141524B2CDFB82FB9120055

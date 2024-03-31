@@ -1,0 +1,28 @@
+Section Cross Reference File
+Design 'xs3_to_BCD_LUT' created Wed Feb 21 09:36:50 2024
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst          un3_a_3_0__m5                             un3_a_3_0_.m5
+   Inst          un3_a_3_0__m3                             un3_a_3_0_.m3
+   Inst          un3_a_3_0__m1                             un3_a_3_0_.m1
+   Inst         un3_a_3_0__q_i                            un3_a_3_0_.q_i
+   Inst       un3_a_3_0__N_3_i                          un3_a_3_0_.N_3_i
+   Inst          un3_a_3_0__m4                             un3_a_3_0_.m4
+   Inst          un3_a_3_0__m2                             un3_a_3_0_.m2
+   Inst       un3_a_3_0__N_6_i                          un3_a_3_0_.N_6_i
+   Net        un3_a_3_0__n_5_n                            un3_a_3_0_.N_5
+   Net        un3_a_3_0__n_6_n                            un3_a_3_0_.N_6
+   Net        un3_a_3_0__n_3_n                            un3_a_3_0_.N_3
+   Net      un3_a_3_0__n_3_i_n                          un3_a_3_0_.N_3_i
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     p
+        Input     q
+        Input     r
+        Input     s
+        Output     d
+        Output     c
+        Output     b
+        Output     a
+End

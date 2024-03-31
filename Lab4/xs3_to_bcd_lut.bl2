@@ -1,0 +1,33 @@
+#$ TOOL ispLEVER Classic 2.1.00.02.49.20
+#$ DATE Wed Feb 21 09:36:50 2024
+#$ MODULE xs3_to_BCD_LUT
+#$ PINS 8 p:3'ke'  q:4'ke'  r:5'ke'  s:6'ke'  d:27'ke'  c:26'ke'  b:25'ke'  a:24'ke' 
+
+.model xs3_to_bcd_lut
+.inputs p.BLIF q.BLIF r.BLIF s.BLIF
+.outputs d c b a
+.names p.BLIF q.BLIF r.BLIF s.BLIF d
+000- 1
+00-0 1
+11-- 1
+1-11 1
+100- 0
+10-0 0
+01-- 0
+0-11 0
+.names q.BLIF r.BLIF s.BLIF c
+111 1
+00- 1
+0-0 1
+011 0
+10- 0
+1-0 0
+.names r.BLIF s.BLIF b
+10 1
+01 1
+00 0
+11 0
+.names s.BLIF a
+0 1
+1 0
+.end

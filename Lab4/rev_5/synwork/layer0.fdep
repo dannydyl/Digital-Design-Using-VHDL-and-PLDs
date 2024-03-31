@@ -1,0 +1,27 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|F:\\ESE382-Lab\\Lab4\\rev_5\\synwork\\xs3_to_BCD_LUT_comp.srs|-autotop|-prodtype|synplify_pro|-nostructver|-dfltencoding|sequential|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\bin64\\c_vhdl.exe":1654086372
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\location.map":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\std.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\snps_haps_pkg.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\std1164.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\numeric.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\umr_capim.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\arith.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\unsigned.vhd":1654084412
+#CUR:"C:\\Synopsys\\fpga_S-2021.09-SP2\\lib\\vhd\\hyperents.vhd":1654084412
+#CUR:"F:\\ESE382-Lab\\Lab4\\conv_XS3_BCD_dc\\selected\\src\\xs3_to_BCD_LUT.vhd":1708525188
+0 "F:\ESE382-Lab\Lab4\conv_XS3_BCD_dc\selected\src\xs3_to_BCD_LUT.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work xs3_to_bcd_lut table_lookup 0
+module work xs3_to_bcd_lut 0
+
+
+# Configuration files used

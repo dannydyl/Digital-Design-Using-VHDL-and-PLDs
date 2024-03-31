@@ -1,0 +1,11 @@
+@N: CD630 :"F:\ESE382-Lab\Lab4\conv_XS3_BCD_dc\selected\src\xs3_to_BCD_LUT.vhd":5:7:5:20|Synthesizing work.xs3_to_bcd_lut.table_lookup.
+Post processing for work.xs3_to_bcd_lut.table_lookup
+Running optimization stage 1 on xs3_to_BCD_LUT .......
+Finished optimization stage 1 on xs3_to_BCD_LUT (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on xs3_to_BCD_LUT .......
+Finished optimization stage 2 on xs3_to_BCD_LUT (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\ESE382-Lab\Lab4\rev_5\synwork\layer0.rt.csv
+

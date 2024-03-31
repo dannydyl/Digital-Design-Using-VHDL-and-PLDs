@@ -1,0 +1,5 @@
+InFile:xs3_to_bcd_lut.psl
+DBaseFile: C:\ispLEVER_Classic2_1\ispcpld\lib5\devices\Lattice.tim
+Outfile: -o xs3_to_bcd_lut.tim
+Partname:$PARTNAME LAT ISPGAL22V10C-10LJ GAL P22V10
+Size:42
