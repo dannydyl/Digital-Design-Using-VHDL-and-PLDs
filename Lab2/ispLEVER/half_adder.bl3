@@ -1,0 +1,18 @@
+#$ TOOL ispLEVER Classic 2.1.00.02.49.20
+#$ DATE Wed Feb 07 09:50:28 2024
+#$ MODULE half_adder
+#$ PINS 4 a:3'ke'  b:4'ke'  sum:27'ke'  carry_out:26'ke' 
+
+.model half_adder
+.inputs a.BLIF b.BLIF
+.outputs sum carry_out
+.names a.BLIF b.BLIF sum
+10 1
+01 1
+00 0
+11 0
+.names a.BLIF b.BLIF carry_out
+11 1
+0- 0
+-0 0
+.end

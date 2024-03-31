@@ -1,0 +1,1 @@
+-w -erf F:/ESE382-Lab/Lab2/lab02b/lab02b/compile/lab02b.erf -d F:/ESE382-Lab/Lab2/lab02b/lab02b/compile -s F:/ESE382-Lab/Lab2/lab02b/library.cfg -j F:/ESE382-Lab/Lab2/lab02b/lab02b/projlib.cfg -work lab02b -O3 -e 100 -work lab02b -2002 F:/ESE382-Lab/Lab2/lab02b/lab02b/src/half_adder.vhq F:/ESE382-Lab/Lab2/lab02b/lab02b/src/half_adder_tb.vhd 

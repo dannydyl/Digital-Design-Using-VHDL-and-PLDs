@@ -1,0 +1,5 @@
+13
+~E 1 "../src/half_adder.vhq" 33 half_adder
+~A 1 "../src/half_adder.vhq" 96 structure
+~E 1 "../src/half_adder_tb.vhd" 10 testbench
+~A 1 "../src/half_adder_tb.vhd" 13 behavior
