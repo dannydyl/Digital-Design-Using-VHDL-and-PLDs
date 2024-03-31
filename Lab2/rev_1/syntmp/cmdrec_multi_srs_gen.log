@@ -1,0 +1,7 @@
+C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe  -link  -multisrs  F:\ESE382-Lab\Lab2\rev_1\synwork\lab02b_comp.srs  -osyn  F:\ESE382-Lab\Lab2\rev_1\synwork\lab02b_mult.srs  -log  F:\ESE382-Lab\Lab2\rev_1\synlog\lab02b_multi_srs_gen.srr 
+relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe -link -multisrs ..\synwork\lab02b_comp.srs -osyn ..\synwork\lab02b_mult.srs -log ..\synlog\lab02b_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\lab02b_comp.srs|io:i|time:1707317044|size:1734|exec:0|csum:262DE00BD507486CF1267B6E0DDE071B
+file:..\synwork\lab02b_mult.srs|io:o|time:1707317046|size:1451|exec:0|csum:
+file:..\synlog\lab02b_multi_srs_gen.srr|io:o|time:1707317046|size:1333|exec:0|csum:
+file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe|io:i|time:1654086548|size:8736768|exec:1|csum:8DE049913141524B2CDFB82FB9120055
