@@ -1,9 +1,0 @@
-@N|Running in 64-bit mode
-@N|Running in 64-bit mode
-@N:"F:\ESE382-Lab\Lab2\lab02\lab02\src\half_adder.vhd":28:7:28:16|Top entity is set to half_adder.
-@N: CD140 :	| Using the VHDL 1993 Standard for file 'F:\ESE382-Lab\Lab2\lab02\lab02\src\half_adder.vhd'.
-@N: CD630 :"F:\ESE382-Lab\Lab2\lab02\lab02\src\half_adder.vhd":28:7:28:16|Synthesizing work.half_adder.dataflow.
-@N|Running in 64-bit mode
-@N: NF107 :"f:\ese382-lab\lab2\lab02\lab02\src\half_adder.vhd":28:7:28:16|Selected library: work cell: half_adder view dataflow as top level
-@N: NF107 :"f:\ese382-lab\lab2\lab02\lab02\src\half_adder.vhd":28:7:28:16|Selected library: work cell: half_adder view dataflow as top level
-

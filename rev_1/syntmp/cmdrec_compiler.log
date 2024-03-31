@@ -1,7 +1,0 @@
-C:\Synopsys\fpga_S-2021.09-SP2\bin64\c_hdl.exe  -osyn  F:\ESE382-Lab\Lab2\rev_1\synwork\lab02b_comp.srs  -hdllog  F:\ESE382-Lab\Lab2\rev_1\synlog\lab02b_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -nostructver  -dfltencoding sequential  -encrypt  -pro  -dmgen  F:\ESE382-Lab\Lab2\rev_1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work F:\ESE382-Lab\Lab2\lab02b\lab02b\src\half_adder.vhd  -jobname  "compiler" 
-relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\c_hdl.exe -osyn ..\synwork\lab02b_comp.srs -hdllog ..\synlog\lab02b_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -nostructver -dfltencoding sequential -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\lab02b\lab02b\src\half_adder.vhd -jobname "compiler"
-rc:0 success:1 runtime:3
-file:..\synwork\lab02b_comp.srs|io:o|time:1707317044|size:1734|exec:0|csum:
-file:..\synlog\lab02b_compiler.srr|io:o|time:1707317044|size:4510|exec:0|csum:
-file:..\..\lab02b\lab02b\src\half_adder.vhd|io:i|time:1707316398|size:1384|exec:0|csum:4CBCEB7FDBCCED856BCBC95AB00EED47
-file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\c_hdl.exe|io:i|time:1654085988|size:5621760|exec:1|csum:FEA3F98A19EE7FFA7FDB1670D0E95318
