@@ -1,0 +1,7 @@
+MESSAGE "File: F:/ESE382-Lab/Lab3/conv_xs3_BCD/csop/src/converter_xs3_bcd_tb.vhd" 
+MESSAGE "Compile Entity "converter_xs3_bcd_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "converter_xs3_bcd_tb"" 
+MESSAGE "File: F:/ESE382-Lab/Lab3/conv_xs3_BCD/csop/src/converter_xs3_to_bcd.vhq" 
+MESSAGE "Compile Entity "converter_xs3_bcd"" 
+MESSAGE "Compile Architecture "structure" of Entity "converter_xs3_bcd"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]" 

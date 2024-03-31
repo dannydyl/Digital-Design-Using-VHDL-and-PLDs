@@ -1,0 +1,1 @@
+-w -erf F:/ESE382-Lab/Lab3/conv_xs3_BCD/csop/compile/csop.erf -d F:/ESE382-Lab/Lab3/conv_xs3_BCD/csop/compile -s F:/ESE382-Lab/Lab3/conv_xs3_BCD/library.cfg -j F:/ESE382-Lab/Lab3/conv_xs3_BCD/csop/projlib.cfg -work csop -dbg -e 100 -work csop -2002 F:/ESE382-Lab/Lab3/conv_xs3_BCD/csop/src/converter_xs3_bcd_tb.vhd F:/ESE382-Lab/Lab3/conv_xs3_BCD/csop/src/converter_xs3_to_bcd.vhq 

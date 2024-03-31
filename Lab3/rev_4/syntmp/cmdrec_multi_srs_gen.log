@@ -1,0 +1,7 @@
+C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe  -link  -multisrs  F:\ESE382-Lab\Lab3\rev_4\synwork\xs3_to_BCD_port_pins_comp.srs  -osyn  F:\ESE382-Lab\Lab3\rev_4\synwork\xs3_to_BCD_port_pins_mult.srs  -log  F:\ESE382-Lab\Lab3\rev_4\synlog\xs3_to_BCD_port_pins_multi_srs_gen.srr 
+relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe -link -multisrs ..\synwork\xs3_to_BCD_port_pins_comp.srs -osyn ..\synwork\xs3_to_BCD_port_pins_mult.srs -log ..\synlog\xs3_to_BCD_port_pins_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\xs3_to_BCD_port_pins_comp.srs|io:i|time:1707924388|size:2406|exec:0|csum:B5EB7CDEF62688230D872ECAFF13667F
+file:..\synwork\xs3_to_BCD_port_pins_mult.srs|io:o|time:1707924390|size:2177|exec:0|csum:
+file:..\synlog\xs3_to_BCD_port_pins_multi_srs_gen.srr|io:o|time:1707924390|size:1389|exec:0|csum:
+file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\syn_nfilter.exe|io:i|time:1654086548|size:8736768|exec:1|csum:8DE049913141524B2CDFB82FB9120055

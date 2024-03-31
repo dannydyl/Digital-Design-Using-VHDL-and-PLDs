@@ -1,0 +1,8 @@
+12
+~E 1 "../src/converter_xs3_to_bcd.vhq" 33 converter_xs3_bcd
+~A 1 "../src/xs3_to_BCD_selected_signal.vhd" 24 converter_xs3_bcd
+~A 1 "../src/converter_xs3_to_bcd.vhq" 99 structure
+~E 1 "../src/xs3_to_BCD_CPOS.vhd" 4 converter_xs3_bcd_cpos
+~E 1 "../src/xs3_to_bcd_csop.vhd" 4 converter_xs3_bcd_selected
+~E 1 "../src/converter_xs3_bcd_tb.vhd" 7 converter_xs3_bcd_tb
+~A 1 "../src/converter_xs3_bcd_tb.vhd" 10 TB_ARCHITECTURE

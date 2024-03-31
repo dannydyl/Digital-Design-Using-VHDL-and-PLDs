@@ -1,0 +1,11 @@
+@N: CD630 :"F:\ESE382-Lab\Lab3\conv_xs3_BCD\csop\src\xs3_to_BCD_port_pins.vhd":4:7:4:23|Synthesizing work.converter_xs3_bcd.converter_xs3_bcd.
+Post processing for work.converter_xs3_bcd.converter_xs3_bcd
+Running optimization stage 1 on converter_xs3_bcd .......
+Finished optimization stage 1 on converter_xs3_bcd (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on converter_xs3_bcd .......
+Finished optimization stage 2 on converter_xs3_bcd (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\ESE382-Lab\Lab3\rev_4\synwork\layer0.rt.csv
+

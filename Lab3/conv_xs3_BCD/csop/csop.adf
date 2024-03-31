@@ -1,0 +1,64 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=csop
+
+[Library]
+csop=.\csop\csop.lib
+
+[$LibMap$]
+csop=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=F:\ESE382-Lab\Lab3
+
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=1
+EnableVHDL2008Key=0
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation= 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/converter_xs3_bcd_tb.vhd=-1
+/CSOP.asdb=-1
+/CSOP.awc=-1
+/converter_xs3_to_bcd.vhq=-1
+/VHQ_simulation.asdb=-1
+/VHQ_simulation.awc=-1
+
+[Files.Data]
+.\src\converter_xs3_bcd_tb.vhd=VHDL Source Code
+.\src\CSOP.asdb=Accelerated Waveform File
+.\src\CSOP.awc=Accelerated Waveform Configuration
+.\src\converter_xs3_to_bcd.vhq=VHDL Source Code
+
+.\src\VHQ_simulation.asdb=Accelerated Waveform File
+.\src\VHQ_simulation.awc=Accelerated Waveform Configuration

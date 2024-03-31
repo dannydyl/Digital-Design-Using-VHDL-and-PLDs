@@ -1,0 +1,59 @@
+timestamp=1707922726612
+
+[~A]
+ModifyID=12
+Version=74
+
+[~MFT]
+0=4|0csop.mgf|24204|7214
+1=4|1csop.mgf|28355|25856
+3=4|3csop.mgf|13192|10926
+
+[converter_xs3_bcd]
+A/converter_xs3_bcd=+21|../src/xs3_to_BCD_selected_signal.vhd|24|1*6332
+A/structure=21|../src/converter_xs3_to_bcd.vhq|99|1*28355
+BinW64/structure=3*13192
+I=0*13108
+I/structure=0*24204
+M=11|2|ve8|1707922652415|../src/converter_xs3_to_bcd.vhq|0*11524*0x006e065c0520a4520251cc09250658c2fb8c24a0|0*13006*0x23b75c12e3e89f2ef000564498faa8c2
+M/converter_xs3_bcd=21|2|ve8|1707921243304|../src/xs3_to_BCD_selected_signal.vhd|0*7416*0x6042bd83956dc91eb51d88a87ba5a7dbe318e190|0*7965*0x9065d32a2e40e13794b29a2731812845
+M/structure=21|2|ve8|1707922726512|../src/converter_xs3_to_bcd.vhq|0*13355*0x4061ede0b6145e53848cc37578baf5b82a004e3d|0*23463*0x9065d32a2e40e13794b29a2731812845
+R=../src/converter_xs3_to_bcd.vhq|33
+Version=12.0.118.7745 (Windows64)|00000004789cd34d494a0700030f015b|94e0d402fe330b411fbec30026ba8a029fc40ff56f7eaaf616ce67f6de8f90f08d2386ead49297e2b87e5557a045ce7e
+Version/converter_xs3_bcd=12.0.118.7745 (Windows64)|00000004789cd34d494a0700030f015b|94e0d402fe330b411fbec30026ba8a029fc40ff56f7eaaf616ce67f6de8f90f032b0d57cb8d97a151354704e23ac07fd
+Version/structure=12.0.118.7745 (Windows64)|00000004789cd34d494a0700030f015b|eab8953fe0a98340e036eda18bd6d669520908b071c9b2c5bba6c893b05fa6801ad65299f972261c5d623b3b6233b4ad
+
+[converter_xs3_bcd_cpos]
+BinW64/cpos=3*4422
+I=0*9500
+I/cpos=I/CPOS 0*10559
+M=11|2|ve8|1707921552739|../src/xs3_to_BCD_CPOS.vhd|0*9114*0x8f5d676bf5b06a55b2ef9b01a6c6569ab58d2c3e|0*9398*0x23b75c12e3e89f2ef000564498faa8c2
+R=../src/xs3_to_BCD_CPOS.vhd|4
+Version=12.0.118.7745 (Windows64)|00000004789cd34d494a0700030f015b|94e0d402fe330b411fbec30026ba8a025aaa98438b47bcc59eb5ccc46585ca5cece61665cb9403ca3217e50a0171938a
+Version/cpos=12.0.118.7745 (Windows64)|00000004789cd34d494a0700030f015b|4eab1e34bef0f326120e1607f0ef2cba919b12c7ad41711a827861d626d6ef3f
+
+[converter_xs3_bcd_selected]
+BinW64/csop=3*0
+I=0*1385
+I/csop=I/CSOP 0*2499
+M=11|2|ve8|1707920289099|../src/xs3_to_bcd_csop.vhd|0*984*0xb90e6f5e50448cbf81b9427068bc2025ba93d4b3|0*1279*0x23b75c12e3e89f2ef000564498faa8c2
+R=../src/xs3_to_bcd_csop.vhd|4
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|94e0d402fe330b411fbec30026ba8a0218f2bb442c5d456ed7e0eafac477097e0238a604194483c81a59b43fc4408e02c4a3771842c547552e37b24bc1aa4936
+Version/csop=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|949f7559a2dd8b3e596e6c84b724a59f6f87d303f7324db7935a1c224732a504
+
+[converter_xs3_bcd_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|../src/converter_xs3_bcd_tb.vhd|10|1*26981
+BinW64/tb_architecture=3*12481
+I=0*502
+I/tb_architecture=I/TB_ARCHITECTURE 0*23864
+M=11|2|ve8|1707920289062|../src/converter_xs3_bcd_tb.vhd|0*146*0x6cca331f5e3b597b7807024b4e6e891dd7d87326|0*397*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|2|ve8|1707922726481|../src/converter_xs3_bcd_tb.vhd|0*5422*0x4463dd7a99191a364b2e2bcc45588f772f9f0059|0*5940*0x9065d32a2e40e13794b29a2731812845
+R=../src/converter_xs3_bcd_tb.vhd|7
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|94e0d402fe330b411fbec30026ba8a02b9dded00e0a48eb0fc71f87b00aa2aace74a655cb47d7bf41869a291a9701b76
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000004789cd34d494a0700030f015b|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea381984f8051f47052b166bb8d6d5afd6
+
+[~U]
+converter_xs3_bcd=11|0*11120|
+converter_xs3_bcd_cpos=11|0*8891|
+converter_xs3_bcd_selected=11|0*753|
+converter_xs3_bcd_tb=11|0*0|

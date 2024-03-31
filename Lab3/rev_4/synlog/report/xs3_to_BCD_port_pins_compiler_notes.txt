@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"F:\ESE382-Lab\Lab3\conv_xs3_BCD\csop\src\xs3_to_BCD_port_pins.vhd":4:7:4:23|Top entity is set to converter_xs3_bcd.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'F:\ESE382-Lab\Lab3\conv_xs3_BCD\csop\src\xs3_to_BCD_port_pins.vhd'.
+@N: CD630 :"F:\ESE382-Lab\Lab3\conv_xs3_BCD\csop\src\xs3_to_BCD_port_pins.vhd":4:7:4:23|Synthesizing work.converter_xs3_bcd.converter_xs3_bcd.
+@N|Running in 64-bit mode
+@N: NF107 :"f:\ese382-lab\lab3\conv_xs3_bcd\csop\src\xs3_to_bcd_port_pins.vhd":4:7:4:23|Selected library: work cell: converter_xs3_bcd view converter_xs3_bcd as top level
+@N: NF107 :"f:\ese382-lab\lab3\conv_xs3_bcd\csop\src\xs3_to_bcd_port_pins.vhd":4:7:4:23|Selected library: work cell: converter_xs3_bcd view converter_xs3_bcd as top level
+
