@@ -1,5 +1,0 @@
-InFile:half_adder.psl
-DBaseFile: C:\ispLEVER_Classic2_1\ispcpld\lib5\devices\Lattice.tim
-Outfile: -o half_adder.tim
-Partname:$PARTNAME LAT ISPGAL22V10C-10LJ GAL P22V10
-Size:42
