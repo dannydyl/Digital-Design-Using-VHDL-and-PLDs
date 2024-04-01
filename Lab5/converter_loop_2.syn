@@ -1,0 +1,11 @@
+JDF B
+// Created by Version 2.1 
+PROJECT converter_loop_2
+DESIGN converter_loop_2 Normal
+DEVKIT ispGAL22V10C-10LJ
+ENTRY EDIF
+MODULE proj_1.edf
+MODSTYLE converter_xs3_bcd Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ModelSim
+TOPMODULE converter_xs3_bcd

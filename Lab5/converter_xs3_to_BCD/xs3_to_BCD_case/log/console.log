@@ -1,0 +1,20 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Unit converter_xs3_bcd_vector_tb(tb_architecture) created by an old version of the compiler found.
+# ELBREAD: Error: Library 'xs3_to_bcd_case' has incompatible format. Recompile all library units.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -dbg -e 100 -work xs3_to_BCD_case -2008  $dsn/src/converter_xs3_bcd_TB1.vhd $dsn/src/converter_loop_2.vhq
+# File: X:/ESE382-Lab/Lab5/converter_xs3_to_BCD/xs3_to_BCD_case/src/converter_xs3_bcd_TB1.vhd
+# Compile Entity "converter_xs3_bcd_vector_tb"
+# Compile Architecture "tb_architecture" of Entity "converter_xs3_bcd_vector_tb"
+# Error: COMP96_0059: converter_loop_2.vhq : (22, 0): Library "j2svlib" not found.
+# Error: COMP96_0078: converter_loop_2.vhq : (23, 0): Unknown identifier "j2svlib".
+# Error: COMP96_0055: converter_xs3_bcd_TB1.vhd : (25, 15): Cannot find context item "converter_xs3_bcd".
+# File: X:/ESE382-Lab/Lab5/converter_xs3_to_BCD/xs3_to_BCD_case/src/converter_loop_2.vhq
+# Compile Entity "converter_xs3_bcd"
+# Error: COMP96_0059: converter_loop_2.vhq : (22, 1): Library "j2svlib" not found.
+# Error: COMP96_0078: converter_loop_2.vhq : (23, 5): Unknown identifier "j2svlib".
+# Compile Architecture "structure" of Entity "converter_xs3_bcd"
+# Error: VLM_0009: converter_loop_2.vhq : (94, 1): Entity "xs3_to_bcd_case.converter_xs3_bcd" must be recompiled because package "ieee.std_logic_1164" has changed.
+# Error: COMP96_0056: converter_loop_2.vhq : (94, 1): Cannot find referenced entity declaration "converter_xs3_bcd".
+# Compile failure 7 Errors 0 Warnings  Analysis time :  94.0 [ms]

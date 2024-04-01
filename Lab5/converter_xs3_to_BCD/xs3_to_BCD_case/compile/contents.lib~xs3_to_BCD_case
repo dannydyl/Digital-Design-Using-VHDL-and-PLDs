@@ -1,0 +1,8 @@
+72
+~E 1 "../src/converter_loop_2.vhq" 33 converter_xs3_bcd
+~A 1 "../src/converter_loop_2.vhq" 94 structure
+~E 1 "../src/converter_xs3_bcd_TB (3).vhd" 12 converter_xs3_bcd_tb
+~E 1 "../src/converter_xs3_bcd_TB1.vhd" 9 converter_xs3_bcd_vector_tb
+~A 1 "../src/converter_xs3_bcd_TB1.vhd" 12 tb_architecture
+~E 1 "../src/xs3_bcd_case.vhd" 23 converter_xs3_to_BCD
+~A 1 "../src/xs3_bcd_case.vhd" 29 xs3_bcd_case

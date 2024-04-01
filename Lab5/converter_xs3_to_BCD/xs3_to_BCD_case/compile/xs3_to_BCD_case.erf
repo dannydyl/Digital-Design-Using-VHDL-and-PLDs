@@ -1,0 +1,14 @@
+MESSAGE "File: X:/ESE382-Lab/Lab5/converter_xs3_to_BCD/xs3_to_BCD_case/src/converter_xs3_bcd_TB1.vhd" 
+MESSAGE "Compile Entity "converter_xs3_bcd_vector_tb"" 
+MESSAGE "Compile Architecture "tb_architecture" of Entity "converter_xs3_bcd_vector_tb"" 
+ERROR COMP96_0059: "Library "j2svlib" not found." "./converter_loop_2.vhq" 22 0
+ERROR COMP96_0078: "Unknown identifier "j2svlib"." "./converter_loop_2.vhq" 23 0
+ERROR COMP96_0055: "Cannot find context item "converter_xs3_bcd"." "X:/ESE382-Lab/Lab5/converter_xs3_to_BCD/xs3_to_BCD_case/src/converter_xs3_bcd_TB1.vhd" 25 15
+MESSAGE "File: X:/ESE382-Lab/Lab5/converter_xs3_to_BCD/xs3_to_BCD_case/src/converter_loop_2.vhq" 
+MESSAGE "Compile Entity "converter_xs3_bcd"" 
+ERROR COMP96_0059: "Library "j2svlib" not found." "X:/ESE382-Lab/Lab5/converter_xs3_to_BCD/xs3_to_BCD_case/src/converter_loop_2.vhq" 22 1
+ERROR COMP96_0078: "Unknown identifier "j2svlib"." "X:/ESE382-Lab/Lab5/converter_xs3_to_BCD/xs3_to_BCD_case/src/converter_loop_2.vhq" 23 5
+MESSAGE "Compile Architecture "structure" of Entity "converter_xs3_bcd"" 
+ERROR VLM_0009: "Entity "xs3_to_bcd_case.converter_xs3_bcd" must be recompiled because package "ieee.std_logic_1164" has changed." "X:/ESE382-Lab/Lab5/converter_xs3_to_BCD/xs3_to_BCD_case/src/converter_loop_2.vhq" 94 1
+ERROR COMP96_0056: "Cannot find referenced entity declaration "converter_xs3_bcd"." "X:/ESE382-Lab/Lab5/converter_xs3_to_BCD/xs3_to_BCD_case/src/converter_loop_2.vhq" 94 1
+FAILURE "Compile failure 7 Errors 0 Warnings  Analysis time :  94.0 [ms]" 

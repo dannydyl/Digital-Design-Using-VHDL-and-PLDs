@@ -1,0 +1,234 @@
+ispLEVER Auto-Make Log File
+---------------------------
+
+Updating: VHDL Post-Route Simulation Model
+Start to record tcl script...
+Finished recording TCL script.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\edif2blf.exe -edf "proj_1.edf" -out "converter_xs3_bcd.bl0" -err automake.err -log "proj_1.log" -prj converter_loop_2 -lib "C:\ispLEVER_Classic2_1\ispcpld/dat/mach.edn" @"proj_1.esp" -nbx -cvt YES'
+
+Starting EDIF2BLIF....
+readEDIF ended normally.
+
+Inspect circuit converter_xs3_bcd
+    Number of input ports   : 1
+    Number of output ports  : 1
+    Number of bidir ports   : 0
+    Number of instances     : 40
+    Number of nets          : 44
+
+No design errors found in circuit converter_xs3_bcd
+
+WriteBLIF ended normally.
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\blif2eqn.exe converter_xs3_bcd.bl0 -o converter_xs3_bcd.btp -template "C:\ispLEVER_Classic2_1\ispcpld/pld/j2mod.tft" -testfix -bus rebuild -prj converter_loop_2 -err automake.err'
+
+BLIF2EQN  Open-ABEL Report Generator
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\iblifopt.exe "converter_xs3_bcd.bl0" -red bypin choose -collapse -pterms 8 -family -err automake.err -gui'
+
+BLIFOPT  Open-ABEL Optimizer 
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+U.C. Berkeley, SIS Ver. 1.0, supported by Lattice Semiconductor Corp.
+Reading Open-ABEL 2 file converter_xs3_bcd.bl0...
+Node N_19 has been collapsed.
+Node pqrs_i_3__n has been collapsed.
+Node un5_bcd_value_i_i_2__n has been collapsed.
+Node un5_bcd_value_i_i_3__n has been collapsed.
+Node pqrs_i_1__n has been collapsed.
+Node comp_3_op_eq_bcd_value122_1_i_n has been collapsed.
+Node comp_12_op_eq_bcd_value86_i_n has been collapsed.
+Node comp_11_op_eq_bcd_value90_i_n has been collapsed.
+Node comp_3_op_eq_bcd_value122_i_n has been collapsed.
+Node comp_7_op_eq_bcd_value106_i_n has been collapsed.
+Node pqrs_i_0__n has been collapsed.
+Node comp_12_op_eq_bcd_value86_1_n has been collapsed.
+Node un5_bcd_value_i_2__n has been collapsed.
+Node un5_bcd_value_i_3__n has been collapsed.
+Node un5_bcd_value_1__n has been collapsed.
+Node N_19_0 has been collapsed.
+Node bcd_value_0_sqmuxa_1 has been collapsed.
+Node comp_3_op_eq_bcd_value122_n has been collapsed.
+Node comp_7_op_eq_bcd_value106_n has been collapsed.
+Node bcd_value_0_sqmuxa_2 has been collapsed.
+Node comp_11_op_eq_bcd_value90_n has been collapsed.
+Node pqrs_i_2__n has been collapsed.
+Node pqrs_c_1__n has been collapsed.
+Node pqrs_c_2__n has been collapsed.
+Node pqrs_c_3__n has been collapsed.
+Node bcd_value_0_sqmuxa_i has been collapsed.
+Node pqrs_c_0__n has been collapsed.
+Node comp_12_op_eq_bcd_value86_n has been collapsed.
+Node comp_3_op_eq_bcd_value122_1_n has been collapsed.
+Node bcd_value_0_sqmuxa has been collapsed.
+Node dcba_c_0__n has been collapsed.
+Node dcba_c_1__n has been collapsed.
+Node dcba_c_2__n has been collapsed.
+Node dcba_c_3__n has been collapsed.
+Performing 'bypin choose' optimization...
+Writing Open-ABEL 2 (BLIF) file converter_xs3_bcd.bl1...
+
+BLIFOPT complete - 0 errors, 0 warnings. Time: 2 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\iblflink.exe "converter_xs3_bcd.bl1" -o "converter_loop_2.bl2" -omod converter_xs3_bcd -family -err automake.err -gui'
+
+BLIFLINK  Top-Down Design Linker
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+
+Top-level file: 'converter_xs3_bcd.bl1'
+
+Hierarchical BLIF: 'converter_loop_2.bl2'
+
+BLIFLINK complete.  Time: 1 second 
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\iblifopt.exe converter_loop_2.bl2 -red bypin choose -sweep -collapse all -pterms 8 -err automake.err -gui'
+
+BLIFOPT  Open-ABEL Optimizer 
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+U.C. Berkeley, SIS Ver. 1.0, supported by Lattice Semiconductor Corp.
+Reading Open-ABEL 2 file converter_loop_2.bl2...
+Performing 'bypin choose' optimization...
+Writing Open-ABEL 2 (BLIF) file converter_loop_2.bl3...
+
+BLIFOPT complete - 0 errors, 0 warnings. Time: 1 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\idiofft.exe converter_loop_2.bl3 -pla -o converter_loop_2.tt2 -dev p22v10gc -define N -err automake.err -gui'
+
+DIOFFT  Flip-Flop Transformation program
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Input file: converter_loop_2.bl3.
+Output file: converter_loop_2.tt2.
+Cross reference file: converter_loop_2.xrf.
+
+Shortening signal names...
+Writing signal name cross reference file converter_loop_2.xrf... 
+
+DIOFFT complete. - Time 0 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\fit.exe converter_loop_2.tt2 -dev p22v10gc -str -err automake.err -gui'
+
+FIT  Generic Device Fitter
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Input file: 'converter_loop_2.tt2'
+Device 'p22v10gc'
+Design FITS
+Pin-assigned pla: 'converter_loop_2.tt3'
+
+FIT complete.  Time: 1 second.
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\fuseasm.exe converter_loop_2.tt3 -dev p22v10gc -o converter_loop_2.jed -ivec NoInput.tmv -rep converter_loop_2.rpt -doc brief -con ptblown -for brief -err automake.err -gui'
+
+FUSEASM  Fusemap Assembler
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Note 5144: Could not open vector file NoInput.tmv
+
+Input file: 'converter_loop_2.tt3'
+Device: 'P22V10GC'
+Building model...
+Choosing best polarities...
+Mapping equations...
+.
+16 of 132 terms used; 0 vectors loaded
+Programmer load file: 'converter_loop_2.jed'
+Generating report...
+Report file: 'converter_loop_2.rpt'
+
+FUSEASM complete.  Time: 1 second 
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\timsel.exe @converter_loop_2.psl'
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\chipsim.exe "converter_loop_2._sp" "converter_loop_2.vtd" none'
+
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\chipsim.exe "converter_loop_2._sp" "converter_loop_2.vatd" none'
+
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\j2svhdl.exe converter_loop_2.jed -dly custom converter_loop_2.tim max -pldbus default converter_xs3_bcd.btp -o converter_loop_2.vhq -module converter_xs3_bcd -suppress -err automake.err -gui'
+
+JED2VHDL  JEDEC to IEEE1076 VHDL Model Builder
+ispLEVER Classic 2.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+
+JEDEC file: 'converter_loop_2.jed'
+Device: 'P22V10GC'
+Module Name: converter_xs3_bcd
+Reading JEDEC Input File
+Extracting PLD Circuit Model
+BUS template file: 'converter_xs3_bcd.btp' 
+
+-- Reconstructing bus signal name as read from bus template file. 
+It may take a moment... 
+
+
+*** Signal Name Conversion ***
+PIN 2 -- signal: 'pqrs_3_' is converted to: 'pqrs(3)'. 
+PIN 3 -- signal: 'pqrs_2_' is converted to: 'pqrs(2)'. 
+PIN 4 -- signal: 'pqrs_1_' is converted to: 'pqrs(1)'. 
+PIN 5 -- signal: 'pqrs_0_' is converted to: 'pqrs(0)'. 
+PIN 23 -- signal: 'dcba_0_' is converted to: 'dcba(0)'. 
+PIN 24 -- signal: 'dcba_1_' is converted to: 'dcba(1)'. 
+PIN 25 -- signal: 'dcba_2_' is converted to: 'dcba(2)'. 
+PIN 26 -- signal: 'dcba_3_' is converted to: 'dcba(3)'. 
+.
+Input file: converter_loop_2.tim
+Local timing delay file: 'converter_loop_2.tim' 
+Delay Model Selected :MAX
+Total FF type(s) used= 1
+VHDL pldmodel file    : 'converter_loop_2.vhq'
+
+JED2VHDL complete. Time: 1 second 
+Done: completed successfully.

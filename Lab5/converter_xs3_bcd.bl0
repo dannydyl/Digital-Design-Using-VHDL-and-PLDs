@@ -1,0 +1,98 @@
+#$ DATE Wed Feb 28 09:02:40 2024
+#$ TOOL EDIF2BLIF version IspLever 1.0 
+#$ MODULE converter_xs3_bcd
+#$ PINS 8 pqrs_3_:3'ke'  dcba_3_:27'ke'  pqrs_2_:4'ke'  pqrs_1_:5'ke'  pqrs_0_:6'ke'  dcba_2_:26'ke'  dcba_1_:25'ke'  dcba_0_:24'ke' 
+#$ NODES 34 comp_3_op_eq_bcd_value122_1_n N_19 un5_bcd_value_i_2__n un5_bcd_value_i_3__n un5_bcd_value_1__n bcd_value_0_sqmuxa comp_3_op_eq_bcd_value122_n comp_7_op_eq_bcd_value106_n comp_12_op_eq_bcd_value86_n comp_11_op_eq_bcd_value90_n \
+#  pqrs_i_2__n pqrs_i_3__n bcd_value_0_sqmuxa_i pqrs_i_0__n un5_bcd_value_i_i_2__n un5_bcd_value_i_i_3__n pqrs_i_1__n comp_12_op_eq_bcd_value86_i_n comp_11_op_eq_bcd_value90_i_n comp_3_op_eq_bcd_value122_i_n \
+#  comp_7_op_eq_bcd_value106_i_n pqrs_c_0__n pqrs_c_1__n pqrs_c_2__n pqrs_c_3__n dcba_c_0__n dcba_c_1__n dcba_c_2__n dcba_c_3__n comp_3_op_eq_bcd_value122_1_i_n \
+#  N_19_0 bcd_value_0_sqmuxa_1 bcd_value_0_sqmuxa_2 comp_12_op_eq_bcd_value86_1_n 
+.model converter_xs3_bcd
+.inputs pqrs_3_.BLIF pqrs_2_.BLIF pqrs_1_.BLIF pqrs_0_.BLIF comp_3_op_eq_bcd_value122_1_n.BLIF N_19.BLIF un5_bcd_value_i_2__n.BLIF un5_bcd_value_i_3__n.BLIF un5_bcd_value_1__n.BLIF \
+  bcd_value_0_sqmuxa.BLIF comp_3_op_eq_bcd_value122_n.BLIF comp_7_op_eq_bcd_value106_n.BLIF comp_12_op_eq_bcd_value86_n.BLIF comp_11_op_eq_bcd_value90_n.BLIF pqrs_i_2__n.BLIF pqrs_i_3__n.BLIF bcd_value_0_sqmuxa_i.BLIF pqrs_i_0__n.BLIF \
+  un5_bcd_value_i_i_2__n.BLIF un5_bcd_value_i_i_3__n.BLIF pqrs_i_1__n.BLIF comp_12_op_eq_bcd_value86_i_n.BLIF comp_11_op_eq_bcd_value90_i_n.BLIF comp_3_op_eq_bcd_value122_i_n.BLIF comp_7_op_eq_bcd_value106_i_n.BLIF pqrs_c_0__n.BLIF pqrs_c_1__n.BLIF \
+  pqrs_c_2__n.BLIF pqrs_c_3__n.BLIF dcba_c_0__n.BLIF dcba_c_1__n.BLIF dcba_c_2__n.BLIF dcba_c_3__n.BLIF comp_3_op_eq_bcd_value122_1_i_n.BLIF N_19_0.BLIF bcd_value_0_sqmuxa_1.BLIF \
+  bcd_value_0_sqmuxa_2.BLIF comp_12_op_eq_bcd_value86_1_n.BLIF  
+.outputs dcba_3_ dcba_2_ dcba_1_ dcba_0_ comp_3_op_eq_bcd_value122_1_n N_19 un5_bcd_value_i_2__n un5_bcd_value_i_3__n un5_bcd_value_1__n bcd_value_0_sqmuxa comp_3_op_eq_bcd_value122_n \
+  comp_7_op_eq_bcd_value106_n comp_12_op_eq_bcd_value86_n comp_11_op_eq_bcd_value90_n pqrs_i_2__n pqrs_i_3__n bcd_value_0_sqmuxa_i pqrs_i_0__n un5_bcd_value_i_i_2__n un5_bcd_value_i_i_3__n pqrs_i_1__n comp_12_op_eq_bcd_value86_i_n \
+  comp_11_op_eq_bcd_value90_i_n comp_3_op_eq_bcd_value122_i_n comp_7_op_eq_bcd_value106_i_n pqrs_c_0__n pqrs_c_1__n pqrs_c_2__n pqrs_c_3__n dcba_c_0__n dcba_c_1__n dcba_c_2__n dcba_c_3__n \
+  comp_3_op_eq_bcd_value122_1_i_n N_19_0 bcd_value_0_sqmuxa_1 bcd_value_0_sqmuxa_2 comp_12_op_eq_bcd_value86_1_n
+.names  pqrs_0_.BLIF pqrs_c_0__n
+1 1
+.names  pqrs_1_.BLIF pqrs_c_1__n
+1 1
+.names  pqrs_2_.BLIF pqrs_c_2__n
+1 1
+.names  pqrs_3_.BLIF pqrs_c_3__n
+1 1
+.names  dcba_c_0__n.BLIF dcba_0_
+1 1
+.names  dcba_c_1__n.BLIF dcba_1_
+1 1
+.names  dcba_c_2__n.BLIF dcba_2_
+1 1
+.names  dcba_c_3__n.BLIF dcba_3_
+1 1
+.names  comp_3_op_eq_bcd_value122_1_n.BLIF comp_3_op_eq_bcd_value122_1_i_n
+0 1
+.names  N_19_0.BLIF N_19
+0 1
+.names  comp_3_op_eq_bcd_value122_i_n.BLIF comp_7_op_eq_bcd_value106_i_n.BLIF bcd_value_0_sqmuxa_1
+11 1
+.names  comp_11_op_eq_bcd_value90_i_n.BLIF comp_12_op_eq_bcd_value86_i_n.BLIF bcd_value_0_sqmuxa_2
+11 1
+.names  bcd_value_0_sqmuxa_1.BLIF bcd_value_0_sqmuxa_2.BLIF bcd_value_0_sqmuxa
+11 1
+.names  pqrs_c_3__n.BLIF pqrs_i_0__n.BLIF comp_12_op_eq_bcd_value86_1_n
+11 1
+.names  comp_12_op_eq_bcd_value86_1_n.BLIF pqrs_i_1__n.BLIF comp_12_op_eq_bcd_value86_n
+11 1
+.names  bcd_value_0_sqmuxa_i.BLIF un5_bcd_value_1__n.BLIF dcba_c_1__n
+11 1
+.names  bcd_value_0_sqmuxa.BLIF bcd_value_0_sqmuxa_i
+0 1
+.names  pqrs_c_0__n.BLIF pqrs_i_0__n
+0 1
+.names  bcd_value_0_sqmuxa_i.BLIF pqrs_i_0__n.BLIF dcba_c_0__n
+11 1
+.names  pqrs_c_3__n.BLIF pqrs_i_3__n
+0 1
+.names  pqrs_c_2__n.BLIF pqrs_i_3__n.BLIF comp_7_op_eq_bcd_value106_n
+11 1
+.names  pqrs_c_2__n.BLIF pqrs_i_2__n
+0 1
+.names  pqrs_c_3__n.BLIF pqrs_i_2__n.BLIF comp_11_op_eq_bcd_value90_n
+11 1
+.names  pqrs_c_0__n.BLIF pqrs_c_1__n.BLIF comp_3_op_eq_bcd_value122_1_n
+11 1
+.names  comp_3_op_eq_bcd_value122_1_i_n.BLIF pqrs_i_2__n.BLIF N_19_0
+11 1
+.names  N_19.BLIF pqrs_c_3__n.BLIF un5_bcd_value_i_3__n
+01 1
+10 1
+.names  comp_3_op_eq_bcd_value122_1_n.BLIF pqrs_c_2__n.BLIF un5_bcd_value_i_2__n
+01 1
+10 1
+.names  pqrs_c_0__n.BLIF pqrs_c_1__n.BLIF un5_bcd_value_1__n
+01 1
+10 1
+.names  comp_3_op_eq_bcd_value122_n.BLIF comp_3_op_eq_bcd_value122_i_n
+0 1
+.names  comp_7_op_eq_bcd_value106_n.BLIF comp_7_op_eq_bcd_value106_i_n
+0 1
+.names  comp_12_op_eq_bcd_value86_n.BLIF comp_12_op_eq_bcd_value86_i_n
+0 1
+.names  comp_11_op_eq_bcd_value90_n.BLIF comp_11_op_eq_bcd_value90_i_n
+0 1
+.names  comp_3_op_eq_bcd_value122_1_n.BLIF pqrs_i_2__n.BLIF comp_3_op_eq_bcd_value122_n
+11 1
+.names  pqrs_c_1__n.BLIF pqrs_i_1__n
+0 1
+.names  un5_bcd_value_i_3__n.BLIF un5_bcd_value_i_i_3__n
+0 1
+.names  bcd_value_0_sqmuxa_i.BLIF un5_bcd_value_i_i_3__n.BLIF dcba_c_3__n
+11 1
+.names  un5_bcd_value_i_2__n.BLIF un5_bcd_value_i_i_2__n
+0 1
+.names  bcd_value_0_sqmuxa_i.BLIF un5_bcd_value_i_i_2__n.BLIF dcba_c_2__n
+11 1
+.end

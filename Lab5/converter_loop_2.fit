@@ -1,0 +1,5 @@
+$DEVICE        p22v10gc    fit converter_loop_2.tt3
+$PINS    8  dcba_0_:24   dcba_1_:25   dcba_2_:26   dcba_3_:27   pqrs_0_:6   pqrs_1_:5   pqrs_2_:4   
+pqrs_3_:3   
+--------------------------------------------------------------
+

@@ -1,0 +1,40 @@
+#$ TOOL ispLEVER Classic 2.1.00.02.49.20
+#$ DATE Wed Feb 28 09:02:40 2024
+#$ MODULE converter_xs3_bcd
+#$ PINS 8 pqrs_3_:3'ke'  dcba_3_:27'ke'  pqrs_2_:4'ke'  pqrs_1_:5'ke'  pqrs_0_:6'ke'  dcba_2_:26'ke'  dcba_1_:25'ke'  dcba_0_:24'ke' 
+
+.model converter_xs3_bcd
+.inputs pqrs_3_.BLIF pqrs_2_.BLIF pqrs_1_.BLIF pqrs_0_.BLIF
+.outputs dcba_3_ dcba_2_ dcba_1_ dcba_0_
+.names pqrs_3_.BLIF pqrs_2_.BLIF pqrs_1_.BLIF pqrs_0_.BLIF dcba_3_
+1100 1
+1011 1
+--10 0
+-1-1 0
+-00- 0
+0--- 0
+.names pqrs_3_.BLIF pqrs_2_.BLIF pqrs_1_.BLIF pqrs_0_.BLIF dcba_2_
+0111 1
+100- 1
+10-0 1
+-011 0
+0-0- 0
+11-- 0
+0--0 0
+.names pqrs_3_.BLIF pqrs_2_.BLIF pqrs_1_.BLIF pqrs_0_.BLIF dcba_1_
+1010 1
+0110 1
+1001 1
+0101 1
+00-- 0
+11-- 0
+--00 0
+--11 0
+.names pqrs_3_.BLIF pqrs_2_.BLIF pqrs_1_.BLIF pqrs_0_.BLIF dcba_0_
+-100 1
+10-0 1
+01-0 1
+111- 0
+00-- 0
+---1 0
+.end

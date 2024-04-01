@@ -1,0 +1,220 @@
+
+
+                                                                      Page 1
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 28 09:02:41 2024
+
+
+
+--------------------------------------------------------------------------------
+
+Module                   : 'converter_xs3_bcd'
+
+--------------------------------------------------------------------------------
+
+Input files:
+
+    ABEL PLA file        : converter_loop_2.tt3
+    Device library       : P22V10GC.dev
+
+Output files:
+
+    Report file          : converter_loop_2.rpt
+    Programmer load file : converter_loop_2.jed
+
+--------------------------------------------------------------------------------
+
+
+                                                                      Page 2
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 28 09:02:41 2024
+
+P22V10GC Programmed Logic:
+--------------------------------------------------------------------------------
+
+
+
+dcba_3_     = (  pqrs_3_ & !pqrs_2_ & pqrs_1_ & pqrs_0_ 
+               #   pqrs_3_ & pqrs_2_ & !pqrs_1_ & !pqrs_0_ );
+
+dcba_2_     = (  pqrs_3_ & !pqrs_2_ & !pqrs_1_ 
+               #   !pqrs_3_ & pqrs_2_ & pqrs_1_ & pqrs_0_ 
+               #   pqrs_3_ & !pqrs_2_ & !pqrs_0_ );
+
+dcba_1_     = (  !pqrs_3_ & pqrs_2_ & !pqrs_1_ & pqrs_0_ 
+               #   pqrs_3_ & !pqrs_2_ & !pqrs_1_ & pqrs_0_ 
+               #   !pqrs_3_ & pqrs_2_ & pqrs_1_ & !pqrs_0_ 
+               #   pqrs_3_ & !pqrs_2_ & pqrs_1_ & !pqrs_0_ );
+
+dcba_0_     = (  !pqrs_3_ & pqrs_2_ & !pqrs_0_ 
+               #   pqrs_3_ & !pqrs_2_ & !pqrs_0_ 
+               #   pqrs_2_ & !pqrs_1_ & !pqrs_0_ );
+
+
+
+                                                                      Page 3
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 28 09:02:42 2024
+
+P22V10GC Chip Diagram: (PLCC package)
+--------------------------------------------------------------------------------
+
+
+
+
+                                    P22V10GC
+
+                                p  p           d  d
+                                q  q           c  c
+                                r  r           b  b
+                                s  s           a  a
+                                _  _           _  _
+                                2  3           3  2
+                                _  _           _  _
+                              /----------------------
+                             /  4  3  2  1 28 27 26 |
+                             |                      |
+                     pqrs_1_ |  5                25 | dcba_1_                     
+                             |                      |
+                     pqrs_0_ |  6                24 | dcba_0_                     
+                             |                      |
+                             |  7                23 |                             
+                             |                      |
+                             |  8                22 |                             
+                             |                      |
+                             |  9                21 |                             
+                             |                      |
+                             | 10                20 |                             
+                             |                      |
+                             | 11                19 |                             
+                             |                      |
+                             | 12 13 14 15 16 17 18 |
+                             ------------------------
+
+                        SIGNATURE: N/A
+
+
+                                                                      Page 4
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 28 09:02:42 2024
+
+P22V10GC Chip Diagram: (SSOP package)
+--------------------------------------------------------------------------------
+
+
+
+
+                                  P22V10GC
+
+                          ___________________________
+                         | ***                       |
+                         |                           |
+                         |  1                    28  | Vcc                     
+                         |                           |
+                         |  2                    27  | dcba_3_                 
+                         |                           |
+                 pqrs_3_ |  3                    26  | dcba_2_                 
+                         |                           |
+                 pqrs_2_ |  4                    25  | dcba_1_                 
+                         |                           |
+                 pqrs_1_ |  5                    24  | dcba_0_                 
+                         |                           |
+                 pqrs_0_ |  6                    23  |                         
+                         |                           |
+                         |  7                    22  |                         
+                         |                           |
+                         |  8                    21  |                         
+                         |                           |
+                         |  9                    20  |                         
+                         |                           |
+                         | 10                    19  |                         
+                         |                           |
+                         | 11                    18  |                         
+                         |                           |
+                         | 12                    17  |                         
+                         |                           |
+                         | 13                    16  |                         
+                         |                           |
+                     GND | 14                    15  |                         
+                         |                           |
+                         |                           |
+                         `---------------------------'
+
+                        SIGNATURE: N/A
+
+
+                                                                      Page 5
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 28 09:02:42 2024
+
+P22V10GC Resource Allocations:
+--------------------------------------------------------------------------------
+
+
+
+        Device        | Resource  |   Design    |
+       Resources      | Available | Requirement | Unused
+======================|===========|=============|==============
+                      |           |             |
+Input Pins:           |           |             |
+                      |           |             |
+          Input:      |     12    |      4      |    8 ( 66 %)
+                      |           |             |
+Output Pins:          |           |             |
+                      |           |             |
+          In/Out:     |     10    |      4      |    6 ( 60 %)
+          Output:     |      -    |      -      |    -
+                      |           |             |
+Buried Nodes:         |           |             |
+                      |           |             |
+          Input Reg:  |      -    |      -      |    -
+          Pin Reg:    |     10    |      0      |   10 (100 %)
+          Buried Reg: |      -    |      -      |    -
+
+
+                                                                      Page 6
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 28 09:02:42 2024
+
+P22V10GC Product Terms Distribution:
+--------------------------------------------------------------------------------
+
+
+
+            Signal                       |    Pin   | Terms | Terms | Terms
+             Name                        | Assigned | Used  |  Max  | Unused
+=========================================|==========|=======|=======|=======
+dcba_3_                                  |   27     |   2   |   8   |   6
+dcba_2_                                  |   26     |   3   |  10   |   7
+dcba_1_                                  |   25     |   4   |  12   |   8
+dcba_0_                                  |   24     |   3   |  14   |  11
+
+
+     ==== List of Inputs/Feedbacks ====
+
+Signal Name                              | Pin      | Pin Type
+=========================================|==========|=========
+pqrs_3_                                  |    3     | INPUT
+pqrs_2_                                  |    4     | INPUT
+pqrs_1_                                  |    5     | INPUT
+pqrs_0_                                  |    6     | INPUT
+
+
+                                                                      Page 7
+ispLEVER Classic 2.1.00.02.49.20  -  Device Utilization Chart         Wed Feb 28 09:02:42 2024
+
+P22V10GC Unused Resources:
+--------------------------------------------------------------------------------
+
+
+
+ Pin   |  Pin   |   Product   | Flip-flop
+Number |  Type  |   Terms     |   Type
+=======|========|=============|==========
+    7  |  INPUT |      -      |    -   
+    9  |  INPUT |      -      |    -   
+   10  |  INPUT |      -      |    -   
+   11  |  INPUT |      -      |    -   
+   12  |  INPUT |      -      |    -   
+   13  |  INPUT |      -      |    -   
+   16  |  INPUT |      -      |    -   
+   17  |  BIDIR | NORMAL  8   |    D
+   18  |  BIDIR | NORMAL 10   |    D
+   19  |  BIDIR | NORMAL 12   |    D
+   20  |  BIDIR | NORMAL 14   |    D
+   21  |  BIDIR | NORMAL 16   |    D
+   23  |  BIDIR | NORMAL 16   |    D

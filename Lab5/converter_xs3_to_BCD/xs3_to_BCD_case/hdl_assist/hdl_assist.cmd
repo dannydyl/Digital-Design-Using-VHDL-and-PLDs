@@ -1,0 +1,1 @@
+ -w -cvi  -2008  -s "F:/ESE382-Lab/Lab5/converter_xs3_to_BCD/xs3_to_BCD_case/hdl_assist/library.cfg"  -work xs3_to_BCD_case  -e 100  "F:/ESE382-Lab/Lab5/converter_xs3_to_BCD/xs3_to_BCD_case/hdl_assist/32f8-d976-d041-d796"
