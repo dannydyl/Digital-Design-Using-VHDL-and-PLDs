@@ -1,0 +1,10 @@
+C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  F:\ESE382-Lab\Lab5\synthesizer_loop\rev_7   -part ispGAL22LV10  -package LJ  -grade -4    -areadelay 0 -minc -RWCheckOnRam 1 -summaryfile F:\ESE382-Lab\Lab5\synthesizer_loop\rev_7\synlog\report\proj_1_fpga_mapper.xml -merge_inferred_clocks 0  -implementation  rev_7  -multisrs  -oedif  F:\ESE382-Lab\Lab5\synthesizer_loop\rev_7\proj_1.edf  F:\ESE382-Lab\Lab5\synthesizer_loop\rev_7\synwork\proj_1_mult.srs  -devicelib  C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\lattice.v  -ologparam  F:\ESE382-Lab\Lab5\synthesizer_loop\rev_7\syntmp\proj_1.plg  -osyn  F:\ESE382-Lab\Lab5\synthesizer_loop\rev_7\proj_1.srm  -prjdir  F:\ESE382-Lab\Lab5\synthesizer_loop\  -prjname  proj_1  -log  F:\ESE382-Lab\Lab5\synthesizer_loop\rev_7\synlog\proj_1_fpga_mapper.srr  -sn  2021.09  -jobname  "fpga_mapper" 
+relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\rev_7 -part ispGAL22LV10 -package LJ -grade -4 -areadelay 0 -minc -RWCheckOnRam 1 -summaryfile ..\synlog\report\proj_1_fpga_mapper.xml -merge_inferred_clocks 0 -implementation rev_7 -multisrs -oedif ..\proj_1.edf ..\synwork\proj_1_mult.srs -devicelib C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\lattice.v -ologparam proj_1.plg -osyn ..\proj_1.srm -prjdir ..\..\ -prjname proj_1 -log ..\synlog\proj_1_fpga_mapper.srr -sn 2021.09 -jobname "fpga_mapper"
+rc:0 success:1 runtime:0
+file:..\proj_1.edf|io:o|time:1709128696|size:14980|exec:0|csum:
+file:..\synwork\proj_1_mult.srs|io:i|time:1709128696|size:1969|exec:0|csum:6E9C68BF5C504A0C987D0C045A129999
+file:C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\lattice.v|io:i|time:1654084572|size:210986|exec:0|csum:673E408B94380DEA8053CBD6039A2DEA
+file:proj_1.plg|io:o|time:1709128695|size:0|exec:0|csum:
+file:..\proj_1.srm|io:o|time:1709128696|size:7172|exec:0|csum:
+file:..\synlog\proj_1_fpga_mapper.srr|io:o|time:1709128696|size:1506|exec:0|csum:
+file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe|io:i|time:1654086972|size:25899008|exec:1|csum:3276A01F336CDBD78257F2ED186E1B6A
