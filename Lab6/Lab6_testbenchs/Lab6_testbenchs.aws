@@ -1,0 +1,12 @@
+[Version]
+Version=13.0
+[Designs]
+task1=.\task1\task1.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+task1=1
