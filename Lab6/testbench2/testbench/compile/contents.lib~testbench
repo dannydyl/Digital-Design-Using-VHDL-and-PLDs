@@ -1,0 +1,10 @@
+80
+~E 0 "" 0 control
+~A 0 "" 0 csop
+~E 1 "../src/control_route_mux_tb.vhd" 25 control_route_mux_tb
+~A 1 "../src/control_route_mux_tb.vhd" 28 tb_architecture
+~E 1 "../src/untitled.vho" 7 data_selector
+~A 1 "../src/untitled.vho" 20 NetList
+~A 0 "" 0 structural
+~E 0 "" 0 route
+~A 0 "" 0 bool

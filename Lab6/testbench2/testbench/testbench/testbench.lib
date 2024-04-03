@@ -1,0 +1,44 @@
+timestamp=1709739222312
+
+[~A]
+ModifyID=80
+Version=74
+
+[~MFT]
+0=16|0testbench.mgf|5736|352
+1=2|1testbench.mgf|6976|0
+3=1|3testbench.mgf|0|0
+
+[control]
+A/csop=*21|../src/control_route_mux.vhd|31|
+
+[control_route_mux_tb]
+A/tb_architecture=21|../src/control_route_mux_tb.vhd|28|1*6976
+BinW64/tb_architecture=3*0
+I=0*1214
+I/tb_architecture=0*5736
+M=11|2|ve8|1709739222098|../src/control_route_mux_tb.vhd|0*858*0xdebf29d20c3fe397d61467b4fe587877415d94b9|0*1109*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=21|2|ve8|1709739222256|../src/control_route_mux_tb.vhd|0*5057*0x02948aa187634bd59fb8c190c35c3c67c9fd55bb|0*5612*0x20116f55b147878295aeff36dce7fc50
+R=../src/control_route_mux_tb.vhd|25
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|ee2c30bdbf4579c1b2b3d0e2ffb3fd0a3ff1ae765ac036c38fc3e604e3a911098360eb3a8332f3184618f92f7b47d233
+Version/tb_architecture=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea1ba367675e14b4aead94303e243984d1
+
+[data_selector]
+A/netlist=A/NetList 21|../src/untitled.vho|20|1*0
+A/structural=*21|../src/control_route_mux.vhd|58|
+I=0*2139
+I/netlist=I/NetList 0*4615
+M=11|2|ve8|1709739222138|../src/untitled.vho|0*1671*0xf6f9a66376a0f50a511cab2b254ccf74b93b9065|0*2053*0x23b75c12e3e89f2ef000564498faa8c2
+M/netlist=M/NetList 21|2|ve8|1709739222149|../src/untitled.vho|0*2426*0x03ce8bedddb504b9579d529a49b3536e3354f556|0*4518*0x20116f55b147878295aeff36dce7fc50
+R=../src/untitled.vho|7
+Version=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|ed523f73da24c688f63774537b52afebac2be83837f10f8110fbb05fe3330722fc9ecafd1e59314a546fc6dafc21e4cd
+Version/netlist=12.0.118.7745 (Windows64)|00000003789cd3f5370600015b00b0|1936d198a9be6bfb8bed1f1151b1c33626527262ddaa47cb266f3a3c4d9b973a25d5ccf3167224603336e1738b66e5d8
+
+[route]
+A/bool=*21|../src/control_route_mux.vhd|15|
+
+[~U]
+control=11|0*0|
+control_route_mux_tb=11|0*712|
+data_selector=11|0*1465|
+route=11|0*534|

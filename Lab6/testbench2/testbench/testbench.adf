@@ -1,0 +1,59 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=testbench
+[Library]
+testbench=.\testbench\testbench.lib
+[$LibMap$]
+testbench=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=F:\ESE382-Lab\Lab6\P_R
+NoWarningsSDF=0
+ChangeSDFErrorToWarning=0
+EnableSDFErrorLimit=0
+SDFErrorLimit=0
+DisableIEEEWarnings=0
+DisableVitalMsg=0
+VitalAccel=1
+UnboundError=0
+VitalGlitches=0
+[HierarchyViewer]
+HierarchyInformation=bcd_to_84_2_1_tb|tb_architecture|0
+ShowHide=ShowTopLevel
+Selected=
+[Files]
+/untitled.vho=-1
+/control_route_mux_tb.vhd=-1
+/untitled.sdf=-1
+[Files.Data]
+.\src\untitled.vho=VHDL Source Code
+.\src\control_route_mux_tb.vhd=VHDL Source Code
+.\src\untitled.sdf=SDF File
+[sdf.ea.control_route_mux_tb-tb_architecture]
+0=src\untitled.sdf| UUT, Average, Yes
+[LoadVHPI]
+Count=0
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=1
+EnableVHDL2019Key=0
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=0
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=0
+AdditionalOptions=
