@@ -1,0 +1,11 @@
+ispLEVER Auto-Make Log File
+---------------------------
+
+Updating: Fitter Report
+Start to record tcl script...
+Finished recording TCL script.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\synsvf.exe -exe "C:\ispLEVER_Classic2_1\ispvmsystem/ispufw" -prj untitled -if untitled.jed -j2s -log untitled.svl -gui'
+
+Need not generate svf file according to the constraints, exit
+Done: completed successfully.

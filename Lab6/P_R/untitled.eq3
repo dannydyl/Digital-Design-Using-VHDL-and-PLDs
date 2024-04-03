@@ -1,0 +1,29 @@
+ ispLEVER Classic 2.1.00.02.49.20 Linked Equations File
+Copyright(C), 1992-2020, Lattice Semiconductor Corp.
+All Rights Reserved.
+
+Design data_selector created  Wed Mar 06 10:31:01 2024
+
+
+ P-Terms   Fan-in  Fan-out  Type  Name (attributes)
+---------  ------  -------  ----  -----------------
+   2          4        1    Pin   y1- 
+   2          4        1    Pin   y2- 
+=========
+   4                 P-Term Total: 4
+                       Total Pins: 8
+                      Total Nodes: 0
+            Average P-Term/Output: 2
+
+
+Equations:
+
+!y1 = (b1 & !gn & an
+     # a1 & !gn & !an);
+
+!y2 = (b2 & !gn & an
+     # a2 & !gn & !an);
+
+
+Reverse-Polarity Equations:
+

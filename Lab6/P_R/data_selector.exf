@@ -1,0 +1,35 @@
+Section Cross Reference File
+Design 'data_selector' created Wed Mar 06 10:31:01 2024
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst               u2_N_9_i                                  u2.N_9_i
+   Inst              u2_N_10_i                                 u2.N_10_i
+   Inst         u2_un1_y_i_0_i                            u2.un1_y_i_0_i
+   Inst               u3_N_7_i                                  u3.N_7_i
+   Inst               u3_N_8_i                                  u3.N_8_i
+   Inst         u3_un1_y_i_0_i                            u3.un1_y_i_0_i
+   Inst         u2_un1_y_i_0_1                            u2.un1_y_i_0_1
+   Inst           u2_un1_y_i_0                              u2.un1_y_i_0
+   Inst         u3_un1_y_i_0_1                            u3.un1_y_i_0_1
+   Inst           u3_un1_y_i_0                              u3.un1_y_i_0
+   Inst                u3_b2_i                                   u3.b2_i
+   Inst          u3_un1_y_i_a4                             u3.un1_y_i_a4
+   Inst                u3_a2_i                                   u3.a2_i
+   Inst        u3_un1_y_i_a4_0                           u3.un1_y_i_a4_0
+   Inst                u2_b1_i                                   u2.b1_i
+   Inst          u2_un1_y_i_a4                             u2.un1_y_i_a4
+   Inst                u2_a1_i                                   u2.a1_i
+   Inst                u2_an_i                                   u2.an_i
+   Inst        u2_un1_y_i_a4_0                           u2.un1_y_i_a4_0
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     a1
+        Input     b1
+        Input     a2
+        Input     b2
+        Input     gn
+        Input     an
+        Output     y1
+        Output     y2
+End

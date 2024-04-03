@@ -1,0 +1,20 @@
+#$ TOOL ispLEVER Classic 2.1.00.02.49.20
+#$ DATE Wed Mar 06 10:31:01 2024
+#$ MODULE untitled
+#$ PINS 8 a1:15 b1:17 a2:14 b2:16 gn:3 an:4 y1:42 y2:43
+.type fr
+.i 6
+.o 2
+.ilb a1 b1 a2 b2 gn an
+.ob y1 y2
+.p 9
+----1- 11
+-0---1 1~
+---0-1 ~1
+0----0 1~
+--0--0 ~1
+-1--01 0~
+---101 ~0
+1---00 0~
+--1-00 ~0
+.end

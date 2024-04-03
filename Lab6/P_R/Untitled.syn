@@ -1,0 +1,11 @@
+JDF B
+// Created by Version 2.1 
+PROJECT Untitled
+DESIGN untitled Normal
+DEVKIT M4A5-64/32-10JC
+ENTRY EDIF
+MODULE ..\rev_8\synthesize.edf
+MODSTYLE data_selector Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ModelSim
+TOPMODULE data_selector

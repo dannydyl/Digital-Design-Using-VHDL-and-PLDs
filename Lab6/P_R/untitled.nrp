@@ -1,0 +1,16 @@
+ispLEVER Classic 2.1.00.02.49.20 SDFGEN
+Copyright(C),1992-2020, Lattice Semiconductor Corporation. All Rights Reserved.
+Output Files:
+  Netlist File: untitled.vho
+  Delay   File: untitled.sdf
+
+Parsing C:/ispLEVER_Classic2_1/ispcpld/dat/sdf.mdl
+Input file: f:/ese382-lab/lab6/p_r\untitled.tte
+Reading library information ...
+Mapping to combinational gates 
+Mapping to netlist view.
+Utilization Estimate
+    Combinational Macros:          8
+    Flip-Flop and Latch Macros:    0
+    I/O Pads:                      8
+Elapsed time: 1 seconds
