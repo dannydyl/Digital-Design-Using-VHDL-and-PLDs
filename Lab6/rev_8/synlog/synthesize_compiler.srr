@@ -1,0 +1,111 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_8
+Synopsys HDL Compiler, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_8
+Synopsys VHDL Compiler, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N|Running in 64-bit mode
+@N:"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":42:7:42:19|Top entity is set to data_selector.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd'.
+VHDL syntax check successful!
+@N: CD630 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":42:7:42:19|Synthesizing work.data_selector.structural.
+@N: CD630 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":4:7:4:11|Synthesizing work.route.bool.
+Post processing for work.route.bool
+Running optimization stage 1 on route .......
+Finished optimization stage 1 on route (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+@N: CD630 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":24:7:24:13|Synthesizing work.control.csop.
+Post processing for work.control.csop
+Running optimization stage 1 on control .......
+Finished optimization stage 1 on control (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Post processing for work.data_selector.structural
+Running optimization stage 1 on data_selector .......
+Finished optimization stage 1 on data_selector (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on control .......
+Finished optimization stage 2 on control (CPU Time 0h:00m:00s, Memory Used current: 88MB peak: 89MB)
+Running optimization stage 2 on route .......
+Finished optimization stage 2 on route (CPU Time 0h:00m:00s, Memory Used current: 88MB peak: 89MB)
+Running optimization stage 2 on data_selector .......
+Finished optimization stage 2 on data_selector (CPU Time 0h:00m:00s, Memory Used current: 88MB peak: 89MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\ESE382-Lab\Lab6\rev_8\synwork\layer0.rt.csv
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 88MB peak: 89MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar  6 10:29:14 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_8
+Synopsys Synopsys Netlist Linker, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N|Running in 64-bit mode
+@N: NF107 :"f:\ese382-lab\lab6\testbench2\testbench\src\control_route_mux.vhd":42:7:42:19|Selected library: work cell: data_selector view structural as top level
+@N: NF107 :"f:\ese382-lab\lab6\testbench2\testbench\src\control_route_mux.vhd":42:7:42:19|Selected library: work cell: data_selector view structural as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 90MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar  6 10:29:14 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: F:\ESE382-Lab\Lab6\rev_8\synwork\synthesize_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Mar  6 10:29:14 2024
+
+###########################################################]

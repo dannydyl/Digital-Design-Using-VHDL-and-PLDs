@@ -1,0 +1,12 @@
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":13:18:13:19|No such identifier, gn, of proper type in current declarative region
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":14:18:14:19|No such identifier, an, of proper type in current declarative region
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":15:18:15:19|No such identifier, a2, of proper type in current declarative region
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":16:18:16:19|No such identifier, a1, of proper type in current declarative region
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":17:18:17:19|No such identifier, b2, of proper type in current declarative region
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":18:18:18:19|No such identifier, b1, of proper type in current declarative region
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":19:18:19:19|No such identifier, y2, of proper type in current declarative region
+@E: CD242 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":20:1:20:9|Expecting ;
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":20:18:20:19|No such identifier, y1, of proper type in current declarative region
+@E: CD242 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":22:0:22:2|Expecting ;
+@E: Parse errors encountered - exiting
+

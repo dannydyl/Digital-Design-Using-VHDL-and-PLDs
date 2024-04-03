@@ -1,0 +1,7 @@
+C:\Synopsys\fpga_S-2021.09-SP2\bin64\c_hdl.exe  -osyn  F:\ESE382-Lab\Lab6\rev_8\synwork\synthesize_comp.srs  -hdllog  F:\ESE382-Lab\Lab6\rev_8\synlog\synthesize_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -nostructver  -dfltencoding sequential  -encrypt  -pro  -dmgen  F:\ESE382-Lab\Lab6\rev_8\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd  -jobname  "compiler" 
+relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\c_hdl.exe -osyn ..\synwork\synthesize_comp.srs -hdllog ..\synlog\synthesize_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -nostructver -dfltencoding sequential -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\testbench2\testbench\src\control_route_mux.vhd -jobname "compiler"
+rc:0 success:1 runtime:3
+file:..\synwork\synthesize_comp.srs|io:o|time:1709738956|size:2841|exec:0|csum:
+file:..\synlog\synthesize_compiler.srr|io:o|time:1709738956|size:5471|exec:0|csum:
+file:..\..\testbench2\testbench\src\control_route_mux.vhd|io:i|time:1709738930|size:1493|exec:0|csum:193DBC0A57B49EC59364D677295ADCD8
+file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\c_hdl.exe|io:i|time:1654085988|size:5621760|exec:1|csum:FEA3F98A19EE7FFA7FDB1670D0E95318

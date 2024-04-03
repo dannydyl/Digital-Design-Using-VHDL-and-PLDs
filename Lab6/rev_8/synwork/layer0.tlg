@@ -1,0 +1,23 @@
+@N: CD630 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":42:7:42:19|Synthesizing work.data_selector.structural.
+@N: CD630 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":4:7:4:11|Synthesizing work.route.bool.
+Post processing for work.route.bool
+Running optimization stage 1 on route .......
+Finished optimization stage 1 on route (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+@N: CD630 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":24:7:24:13|Synthesizing work.control.csop.
+Post processing for work.control.csop
+Running optimization stage 1 on control .......
+Finished optimization stage 1 on control (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Post processing for work.data_selector.structural
+Running optimization stage 1 on data_selector .......
+Finished optimization stage 1 on data_selector (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on control .......
+Finished optimization stage 2 on control (CPU Time 0h:00m:00s, Memory Used current: 88MB peak: 89MB)
+Running optimization stage 2 on route .......
+Finished optimization stage 2 on route (CPU Time 0h:00m:00s, Memory Used current: 88MB peak: 89MB)
+Running optimization stage 2 on data_selector .......
+Finished optimization stage 2 on data_selector (CPU Time 0h:00m:00s, Memory Used current: 88MB peak: 89MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\ESE382-Lab\Lab6\rev_8\synwork\layer0.rt.csv
+

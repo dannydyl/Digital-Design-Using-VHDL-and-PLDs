@@ -1,0 +1,10 @@
+C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  F:\ESE382-Lab\Lab6\rev_8   -part MACH111    -RWCheckOnRam 1 -areadelay 0 -minc -summaryfile F:\ESE382-Lab\Lab6\rev_8\synlog\report\synthesize_fpga_mapper.xml -merge_inferred_clocks 0  -implementation  rev_8  -multisrs  -oedif  F:\ESE382-Lab\Lab6\rev_8\synthesize.edf  F:\ESE382-Lab\Lab6\rev_8\synwork\synthesize_mult.srs  -devicelib  C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\mach.v  -ologparam  F:\ESE382-Lab\Lab6\rev_8\syntmp\synthesize.plg  -osyn  F:\ESE382-Lab\Lab6\rev_8\synthesize.srm  -prjdir  F:\ESE382-Lab\Lab6\  -prjname  synthesize  -log  F:\ESE382-Lab\Lab6\rev_8\synlog\synthesize_fpga_mapper.srr  -sn  2021.09  -jobname  "fpga_mapper" 
+relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\rev_8 -part MACH111 -RWCheckOnRam 1 -areadelay 0 -minc -summaryfile ..\synlog\report\synthesize_fpga_mapper.xml -merge_inferred_clocks 0 -implementation rev_8 -multisrs -oedif ..\synthesize.edf ..\synwork\synthesize_mult.srs -devicelib C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\mach.v -ologparam synthesize.plg -osyn ..\synthesize.srm -prjdir ..\..\ -prjname synthesize -log ..\synlog\synthesize_fpga_mapper.srr -sn 2021.09 -jobname "fpga_mapper"
+rc:0 success:1 runtime:1
+file:..\synthesize.edf|io:o|time:1709738958|size:9953|exec:0|csum:
+file:..\synwork\synthesize_mult.srs|io:i|time:1709738958|size:2029|exec:0|csum:627C3B2863F3A4CCC1FE299420A1BE23
+file:C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\mach.v|io:i|time:1654084572|size:10867|exec:0|csum:B09F820C1C6530D62BE318CBF6A69084
+file:synthesize.plg|io:o|time:1709738956|size:0|exec:0|csum:
+file:..\synthesize.srm|io:o|time:1709738958|size:5199|exec:0|csum:
+file:..\synlog\synthesize_fpga_mapper.srr|io:o|time:1709738958|size:1481|exec:0|csum:
+file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe|io:i|time:1654086972|size:25899008|exec:1|csum:3276A01F336CDBD78257F2ED186E1B6A

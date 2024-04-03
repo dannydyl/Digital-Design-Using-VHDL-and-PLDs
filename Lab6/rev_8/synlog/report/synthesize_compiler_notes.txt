@@ -1,0 +1,11 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":42:7:42:19|Top entity is set to data_selector.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd'.
+@N: CD630 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":42:7:42:19|Synthesizing work.data_selector.structural.
+@N: CD630 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":4:7:4:11|Synthesizing work.route.bool.
+@N: CD630 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":24:7:24:13|Synthesizing work.control.csop.
+@N|Running in 64-bit mode
+@N: NF107 :"f:\ese382-lab\lab6\testbench2\testbench\src\control_route_mux.vhd":42:7:42:19|Selected library: work cell: data_selector view structural as top level
+@N: NF107 :"f:\ese382-lab\lab6\testbench2\testbench\src\control_route_mux.vhd":42:7:42:19|Selected library: work cell: data_selector view structural as top level
+

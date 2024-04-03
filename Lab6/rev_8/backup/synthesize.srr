@@ -1,0 +1,65 @@
+#Build: Synplify Pro (R) S-2021.09-SP2, Build 244R, Jun  1 2022
+#install: C:\Synopsys\fpga_S-2021.09-SP2
+#OS: Windows 10 or later
+#Hostname: DESKTOP-VAQIVAN
+
+# Wed Mar  6 10:27:42 2024
+
+#Implementation: rev_8
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_8
+Synopsys HDL Compiler, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: S-2021.09-SP2
+Install: C:\Synopsys\fpga_S-2021.09-SP2
+OS: Windows 10 or later
+Hostname: DESKTOP-VAQIVAN
+
+Implementation : rev_8
+Synopsys VHDL Compiler, Version comp202109syn, Build 243R, Built Jun  1 2022 05:18:42, @
+
+@N|Running in 64-bit mode
+@N:"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":51:7:51:19|Top entity is set to data_selector.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd'.
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":13:18:13:19|No such identifier, gn, of proper type in current declarative region
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":14:18:14:19|No such identifier, an, of proper type in current declarative region
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":15:18:15:19|No such identifier, a2, of proper type in current declarative region
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":16:18:16:19|No such identifier, a1, of proper type in current declarative region
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":17:18:17:19|No such identifier, b2, of proper type in current declarative region
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":18:18:18:19|No such identifier, b1, of proper type in current declarative region
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":19:18:19:19|No such identifier, y2, of proper type in current declarative region
+@E: CD242 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":20:1:20:9|Expecting ;
+@E: CD134 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":20:18:20:19|No such identifier, y1, of proper type in current declarative region
+@E: CD242 :"F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd":22:0:22:2|Expecting ;
+10 errors parsing file F:\ESE382-Lab\Lab6\testbench2\testbench\src\control_route_mux.vhd
+@E: Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Mar  6 10:27:42 2024
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Mar  6 10:27:42 2024
+
+###########################################################]
