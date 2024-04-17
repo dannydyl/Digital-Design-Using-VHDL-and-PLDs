@@ -1,0 +1,12 @@
+@N: CD630 :"F:\ESE382-Lab\Lab7\feedback\feedback\src\feedback.vhd":4:7:4:13|Synthesizing work.nandwfb.fb.
+Post processing for work.nandwfb.fb
+Running optimization stage 1 on nandwfb .......
+Finished optimization stage 1 on nandwfb (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 89MB)
+Running optimization stage 2 on nandwfb .......
+@W: FX105 :"F:\ESE382-Lab\Lab7\feedback\feedback\src\feedback.vhd":17:16:17:32|Found combinational loop at sigout
+Finished optimization stage 2 on nandwfb (CPU Time 0h:00m:00s, Memory Used current: 88MB peak: 89MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: F:\ESE382-Lab\Lab7\rev_1\synwork\layer0.rt.csv
+

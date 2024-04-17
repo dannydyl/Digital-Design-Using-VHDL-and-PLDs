@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"F:\ESE382-Lab\Lab7\feedback\feedback\src\feedback.vhd":4:7:4:13|Top entity is set to nandwfb.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'F:\ESE382-Lab\Lab7\feedback\feedback\src\feedback.vhd'.
+@N: CD630 :"F:\ESE382-Lab\Lab7\feedback\feedback\src\feedback.vhd":4:7:4:13|Synthesizing work.nandwfb.fb.
+@N|Running in 64-bit mode
+@N: NF107 :"f:\ese382-lab\lab7\feedback\feedback\src\feedback.vhd":4:7:4:13|Selected library: work cell: nandwfb view fb as top level
+@N: NF107 :"f:\ese382-lab\lab7\feedback\feedback\src\feedback.vhd":4:7:4:13|Selected library: work cell: nandwfb view fb as top level
+

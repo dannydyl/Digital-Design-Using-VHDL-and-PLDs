@@ -1,0 +1,10 @@
+C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  F:\ESE382-Lab\Lab7\rev_1   -part MACH111    -RWCheckOnRam 1 -areadelay 0 -minc -summaryfile F:\ESE382-Lab\Lab7\rev_1\synlog\report\feedback_syn_fpga_mapper.xml -merge_inferred_clocks 0  -implementation  rev_1  -multisrs  -oedif  F:\ESE382-Lab\Lab7\rev_1\feedback_syn.edf  F:\ESE382-Lab\Lab7\rev_1\synwork\feedback_syn_mult.srs  -devicelib  C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\mach.v  -ologparam  F:\ESE382-Lab\Lab7\rev_1\syntmp\feedback_syn.plg  -osyn  F:\ESE382-Lab\Lab7\rev_1\feedback_syn.srm  -prjdir  F:\ESE382-Lab\Lab7\  -prjname  feedback_syn  -log  F:\ESE382-Lab\Lab7\rev_1\synlog\feedback_syn_fpga_mapper.srr  -sn  2021.09  -jobname  "fpga_mapper" 
+relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\rev_1 -part MACH111 -RWCheckOnRam 1 -areadelay 0 -minc -summaryfile ..\synlog\report\feedback_syn_fpga_mapper.xml -merge_inferred_clocks 0 -implementation rev_1 -multisrs -oedif ..\feedback_syn.edf ..\synwork\feedback_syn_mult.srs -devicelib C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\mach.v -ologparam feedback_syn.plg -osyn ..\feedback_syn.srm -prjdir ..\..\ -prjname feedback_syn -log ..\synlog\feedback_syn_fpga_mapper.srr -sn 2021.09 -jobname "fpga_mapper"
+rc:0 success:1 runtime:1
+file:..\feedback_syn.edf|io:o|time:1710944750|size:2792|exec:0|csum:
+file:..\synwork\feedback_syn_mult.srs|io:i|time:1710944750|size:1254|exec:0|csum:4A9133A51E76B3B6CBA116A3CBF3F215
+file:C:\Synopsys\fpga_S-2021.09-SP2\lib\cpld\mach.v|io:i|time:1654084572|size:10867|exec:0|csum:B09F820C1C6530D62BE318CBF6A69084
+file:feedback_syn.plg|io:o|time:1710944749|size:0|exec:0|csum:
+file:..\feedback_syn.srm|io:o|time:1710944750|size:3455|exec:0|csum:
+file:..\synlog\feedback_syn_fpga_mapper.srr|io:o|time:1710944752|size:1499|exec:0|csum:
+file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\m_cpld.exe|io:i|time:1654086972|size:25899008|exec:1|csum:3276A01F336CDBD78257F2ED186E1B6A

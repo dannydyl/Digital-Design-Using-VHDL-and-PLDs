@@ -1,0 +1,7 @@
+C:\Synopsys\fpga_S-2021.09-SP2\bin64\c_hdl.exe  -osyn  F:\ESE382-Lab\Lab7\rev_1\synwork\feedback_syn_comp.srs  -hdllog  F:\ESE382-Lab\Lab7\rev_1\synlog\feedback_syn_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -nostructver  -dfltencoding sequential  -encrypt  -pro  -dmgen  F:\ESE382-Lab\Lab7\rev_1\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work F:\ESE382-Lab\Lab7\feedback\feedback\src\feedback.vhd  -jobname  "compiler" 
+relcom:C:\Synopsys\fpga_S-2021.09-SP2\bin64\c_hdl.exe -osyn ..\synwork\feedback_syn_comp.srs -hdllog ..\synlog\feedback_syn_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -nostructver -dfltencoding sequential -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work ..\..\feedback\feedback\src\feedback.vhd -jobname "compiler"
+rc:0 success:1 runtime:3
+file:..\synwork\feedback_syn_comp.srs|io:o|time:1710944748|size:1510|exec:0|csum:
+file:..\synlog\feedback_syn_compiler.srr|io:o|time:1710944748|size:4663|exec:0|csum:
+file:..\..\feedback\feedback\src\feedback.vhd|io:i|time:1710944142|size:357|exec:0|csum:4E3B1F5EA7BAF4D9A15483FBAC466E7E
+file:C:\Synopsys\fpga_S-2021.09-SP2\bin64\c_hdl.exe|io:i|time:1654085988|size:5621760|exec:1|csum:FEA3F98A19EE7FFA7FDB1670D0E95318
