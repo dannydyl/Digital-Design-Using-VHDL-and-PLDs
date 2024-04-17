@@ -1,0 +1,8 @@
+MESSAGE "File: F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/two_level_gate.vhd" 
+MESSAGE "Compile Entity "two_level_gate"" 
+ERROR COMP96_0078: "Unknown identifier "enable"." "F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/two_level_gate.vhd" 32 19
+ERROR COMP96_0133: "Cannot find object declaration." "F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/two_level_gate.vhd" 32 19
+ERROR COMP96_0078: "Unknown identifier "sigout"." "F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/two_level_gate.vhd" 33 19
+ERROR COMP96_0133: "Cannot find object declaration." "F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/two_level_gate.vhd" 33 19
+MESSAGE "Compile Architecture "behavioral" of Entity "two_level_gate"" 
+FAILURE "Compile failure 4 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

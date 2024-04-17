@@ -1,0 +1,5 @@
+10
+~E 1 "../src/two_level_gate.vhd" 26 two_level_gate
+~A 1 "../src/two_level_gate.vhd" 39 behavioral
+~E 1 "../src/two_level_gate_tb.vhd" 28 two_level_gate_tb
+~A 1 "../src/two_level_gate_tb.vhd" 32 testbench

@@ -1,0 +1,10 @@
+Section Cross Reference File
+Design 'nandwfb' created Wed Mar 20 10:30:34 2024
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     enable
+        Output     sigout
+End

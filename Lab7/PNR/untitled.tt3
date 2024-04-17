@@ -1,0 +1,16 @@
+#$ TOOL ispLEVER Classic 2.1.00.02.49.20
+#$ DATE Wed Mar 20 10:30:34 2024
+#$ MODULE nandwfb
+#$ DEVICE p22v10gc
+#$ PINS 2 enable:3 sigout-:27
+.i 2 
+.o 1 
+.type fr
+.ilb enable sigout
+.ob sigout
+.phase 1
+.p 3
+0- 1
+-0 1
+11 0
+.e

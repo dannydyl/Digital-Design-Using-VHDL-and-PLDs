@@ -1,0 +1,14 @@
+#$ TOOL ispLEVER Classic 2.1.00.02.49.20
+#$ DATE Wed Mar 20 10:30:34 2024
+#$ MODULE nandwfb
+#$ PINS 2 enable:3 sigout:27
+.type fr
+.i 2
+.o 1
+.ilb enable sigout
+.ob sigout
+.p 3
+0- 1
+-0 1
+11 0
+.end

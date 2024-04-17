@@ -1,0 +1,17 @@
+#$ DATE Wed Mar 20 10:30:34 2024
+#$ TOOL EDIF2BLIF version IspLever 1.0 
+#$ MODULE nandwfb
+#$ PINS 2 enable:3'ke'  sigout:27'ke' 
+#$ NODES 3 N_6_i enable_c sigout_1 
+.model nandwfb
+.inputs enable.BLIF N_6_i.BLIF enable_c.BLIF sigout_1.BLIF  
+.outputs sigout N_6_i enable_c sigout_1
+.names  enable.BLIF enable_c
+1 1
+.names  N_6_i.BLIF sigout
+1 1
+.names  N_6_i.BLIF enable_c.BLIF sigout_1
+11 1
+.names  sigout_1.BLIF N_6_i
+0 1
+.end

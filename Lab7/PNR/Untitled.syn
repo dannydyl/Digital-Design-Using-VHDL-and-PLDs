@@ -1,0 +1,11 @@
+JDF B
+// Created by Version 2.1 
+PROJECT Untitled
+DESIGN untitled Normal
+DEVKIT ispGAL22V10C-10LJ
+ENTRY EDIF
+MODULE ..\rev_1\feedback_syn.edf
+MODSTYLE nandwfb Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ModelSim
+TOPMODULE nandwfb

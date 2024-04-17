@@ -1,0 +1,27 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+two_level_gate_circuit=0
+[COMPILESTATUS|.\src\two_level_gate.vhd]
+FileTimeLow=31095503
+FileTimeHigh=31094359
+Status=Modified
+[COMPILESTATUS|.\src\two_level_gate_tb.vhd]
+FileTimeLow=31095503
+FileTimeHigh=31094359
+Status=Modified
+[COMPILESTATUS|.\src\waveform.asdb]
+FileTimeLow=31094358
+FileTimeHigh=31094358
+Status=Modified
+[COMPILESTATUS|.\src\waveform.awc]
+FileTimeLow=31094358
+FileTimeHigh=31094358
+Status=Modified
+[COMPILESTATUS|.\src\wave1.asdb]
+FileTimeLow=31095494
+Status=Modified
+[COMPILESTATUS|.\src\wave1.awc]
+FileTimeLow=31095494
+Status=Modified
+[CACHEDOC|Aldec.Project.Generic.7|.\two_level_gate_circuit\two_level_gate_circuit.adf|]
+Path=

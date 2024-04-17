@@ -1,0 +1,487 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -dbg -e 100 -work two_level_gate_circuit -2008  $dsn/src/two_level_gate.vhd $dsn/src/two_level_gate_tb.vhd
+# File: F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/two_level_gate.vhd
+# Compile Entity "two_level_gate"
+# Compile Architecture "behavioral" of Entity "two_level_gate"
+# File: F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/two_level_gate_tb.vhd
+# Compile Entity "two_level_gate_tb"
+# Compile Architecture "testbench" of Entity "two_level_gate_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+two_level_gate_tb two_level_gate_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6464 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave.asdb
+#  8:53 AM, Wednesday, March 20, 2024
+#  Simulation has been initialized
+endsim
+# VSIM: Simulation has finished.
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+# Error: Accelerated Waveform: Simulation database is not connected. Initialize simulation or load simulation database by opening waveform file (AWC, ASDB).
+asim -O5 +access +r +m+two_level_gate_tb two_level_gate_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6464 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave.asdb
+#  8:54 AM, Wednesday, March 20, 2024
+#  Simulation has been initialized
+# 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/two_level_gate_tb/a' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/two_level_gate_tb/b' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/two_level_gate_tb/c' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/two_level_gate_tb/s1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/two_level_gate_tb/f' has already been traced.
+# 0 object(s) traced.
+run 160 ns
+# RUNTIME: Info: RUNTIME_0142 two_level_gate_tb.vhd (78): finish called.
+# KERNEL: Time: 160 ns,  Iteration: 0,  Instance: /two_level_gate_tb,  Process: verify.
+# KERNEL: stopped at time: 160 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# Waveform file 'F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/wave1.awc' connected to 'F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/wave1.asdb'.
+# Adding file F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave1.asdb ... Done
+# Adding file F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave1.awc ... Done
+# Preparing list of files to print. Please wait...
+# Finished preparing list of files to print.
+# Preparing list of files to print. Please wait...
+# Finished preparing list of files to print.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+two_level_gate_tb two_level_gate_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6464 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave.asdb
+#  9:09 AM, Wednesday, March 20, 2024
+#  Simulation has been initialized
+step
+step
+step -out
+step
+acom -dbg -e 100 -work two_level_gate_circuit -2008  $dsn/src/two_level_gate_tb.vhd
+# File: F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/two_level_gate_tb.vhd
+# Compile Entity "two_level_gate_tb"
+# Compile Architecture "testbench" of Entity "two_level_gate_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6464 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave.asdb
+#  9:13 AM, Wednesday, March 20, 2024
+#  Simulation has been initialized
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+two_level_gate_tb two_level_gate_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6464 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave.asdb
+#  9:14 AM, Wednesday, March 20, 2024
+#  Simulation has been initialized
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+two_level_gate_tb two_level_gate_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6464 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave.asdb
+#  9:17 AM, Wednesday, March 20, 2024
+#  Simulation has been initialized
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+two_level_gate_tb two_level_gate_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6464 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave.asdb
+#  9:18 AM, Wednesday, March 20, 2024
+#  Simulation has been initialized
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+two_level_gate_tb two_level_gate_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6464 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave.asdb
+#  9:27 AM, Wednesday, March 20, 2024
+#  Simulation has been initialized
+step
+step
+step
+step
+step
+step
+step
+step
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+two_level_gate_tb two_level_gate_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6464 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave.asdb
+#  9:42 AM, Wednesday, March 20, 2024
+#  Simulation has been initialized
+step
+step
+step
+step
+step
+step
+step
+step
+step
+# 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/wave.asdb'.
+step
+step
+step
+step
+step
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+two_level_gate_tb two_level_gate_tb testbench
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6464 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave.asdb
+#  9:44 AM, Wednesday, March 20, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/wave.asdb'.
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+# 5 object(s) traced.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6464 kB (elbread=427 elab2=5897 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave.asdb
+#  9:45 AM, Wednesday, March 20, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Signal '/two_level_gate_tb/s1' has already been traced.
+# 0 object(s) traced.
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work two_level_gate_circuit -2008  $dsn/src/two_level_gate.vhd
+# File: F:/ESE382-Lab/Lab7/lab7/two_level_gate_circuit/src/two_level_gate.vhd
+# Compile Entity "two_level_gate"
+# Error: COMP96_0078: two_level_gate.vhd : (32, 19): Unknown identifier "enable".
+# Error: COMP96_0133: two_level_gate.vhd : (32, 19): Cannot find object declaration.
+# Error: COMP96_0078: two_level_gate.vhd : (33, 19): Unknown identifier "sigout".
+# Error: COMP96_0133: two_level_gate.vhd : (33, 19): Cannot find object declaration.
+# Compile Architecture "behavioral" of Entity "two_level_gate"
+# Compile failure 4 Errors 0 Warnings  Analysis time :  78.0 [ms]
+# Adding file F:\ESE382-Lab\Lab7\lab7\two_level_gate_circuit\src\wave1.awc ... Done

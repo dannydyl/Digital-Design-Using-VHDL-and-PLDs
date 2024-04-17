@@ -1,0 +1,17 @@
+#$ TOOL ispLEVER Classic 2.1.00.02.49.20
+#$ DATE Wed Mar 20 10:30:34 2024
+#$ MODULE nandwfb
+#$ PINS 2 enable:3'ke'  sigout:27'ke' 
+#$ NODES 1 N_6_i
+
+.model nandwfb
+.inputs enable.BLIF N_6_i.BLIF
+.outputs sigout N_6_i
+.names enable.BLIF N_6_i.BLIF N_6_i
+0- 1
+-0 1
+11 0
+.names N_6_i.BLIF sigout
+1 1
+0 0
+.end

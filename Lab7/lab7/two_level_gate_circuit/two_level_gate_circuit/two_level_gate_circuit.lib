@@ -1,0 +1,36 @@
+timestamp=1710943215973
+
+[~A]
+ModifyID=10
+Version=74
+
+[~MFT]
+0=8|0two_level_gate_circuit.mgf|9971|6502
+1=2|1two_level_gate_circuit.mgf|17699|15852
+3=2|3two_level_gate_circuit.mgf|10371|8969
+
+[two_level_gate]
+A/behavioral=21|../src/two_level_gate.vhd|39|1*17699
+BinW64/behavioral=3*10371
+I=0*5328
+I/behavioral=0*9971
+M=11|2|ve8|1710938409707|../src/two_level_gate.vhd|0*4992*0x770d1f812903613882ff6666f8d7f03f3b0ee214|0*5235*0xd986fd7175c8cf28cd774bcadde79966
+M/behavioral=21|2|ve8|1710943215924|../src/two_level_gate.vhd|0*9582*0x15c77b08d277d6f37a7534bb8a865c7160b539c7|0*9864*0x3666052002612506830c83371aef600f
+R=../src/two_level_gate.vhd|26
+Version=12.0.118.7745 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|4ec1346d8543bb75911bcd93c3ac2bf2a92e53620d30556af179ce1fbd73a072bad20e1dd7b0b785cc321285db312db7
+Version/behavioral=12.0.118.7745 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff49525ae16904e6bc43c8904aa6c65f174
+
+[two_level_gate_tb]
+A/testbench=21|../src/two_level_gate_tb.vhd|32|1*15852
+BinW64/testbench=3*8969
+I=0*6625
+I/testbench=0*9253
+M=11|2|ve8|1710938409764|../src/two_level_gate_tb.vhd|0*6286*0xd9994e7aad93eae84db63d92f80333f5fba828fd|0*6526*0xd986fd7175c8cf28cd774bcadde79966
+M/testbench=21|2|ve8|1710940382082|../src/two_level_gate_tb.vhd|0*6873*0xf9c3005c74468bb74728ebab8dc276ac04edef26|0*8047*0x3666052002612506830c83371aef600f
+R=../src/two_level_gate_tb.vhd|28
+Version=12.0.118.7745 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|4ec1346d8543bb75911bcd93c3ac2bf251085f8664b13ded7cf4efcd9b4a1ad206591c66e4465d774413a63a739c0445
+Version/testbench=12.0.118.7745 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|9c08cd30fe0f9550ac0d051aa32c9ba5030c5f4de3ffa3c97f58c5528f1d791387d4515327c8b0eb5ebce9528459b37d
+
+[~U]
+two_level_gate=11|0*4797|
+two_level_gate_tb=11|0*6146|
