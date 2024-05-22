@@ -1,0 +1,48 @@
+Active-HDL 12.0.118.7745 2024-04-03 10:26:36
+
+Elaboration top modules:
+Architecture                  latched_3to8_decoder_tb(latched_3to8_decoder_tb)
+
+
+----------------------------------------------------------------------------------------------------------------------------
+Entity                  | Architecture            | Library        | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------------------------------
+latched_3to8_decoder_tb | latched_3to8_decoder_tb | left_shift_reg |      | 12.0.118.7745 (Windows64) | -dbg -2008
+latched_3to8_decoder    | NetList                 | left_shift_reg |      | 12.0.118.7745 (Windows64) | -dbg -2008
+ibuf                    | vital                   | mach           |      | 12.0.118.7745 (Windows64) | <unavailable>
+obuf                    | vital                   | mach           |      | 12.0.118.7745 (Windows64) | <unavailable>
+dlat                    | vital                   | mach           |      | 12.0.118.7745 (Windows64) | <unavailable>
+inv                     | vital                   | mach           |      | 12.0.118.7745 (Windows64) | <unavailable>
+and3                    | vital                   | mach           |      | 12.0.118.7745 (Windows64) | <unavailable>
+and2                    | vital                   | mach           |      | 12.0.118.7745 (Windows64) | <unavailable>
+nor2                    | vital                   | mach           |      | 12.0.118.7745 (Windows64) | <unavailable>
+----------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------
+VHDL Package                                      | Library        | Info | Compiler Version          | Compilation Options
+----------------------------------------------------------------------------------------------------------------------------
+standard                                          | std            |      |                           | <unavailable>
+TEXTIO                                            | std            |      |                           | <unavailable>
+std_logic_1164                                    | ieee           |      |                           | <unavailable>
+ENV                                               | std            |      |                           | <unavailable>
+NUMERIC_STD                                       | ieee           |      |                           | <unavailable>
+VITAL_Timing                                      | ieee           |      |                           | <unavailable>
+Components                                        | mach           |      |                           | <unavailable>
+VITAL_Primitives                                  | ieee           |      |                           | <unavailable>
+VLOGTOVITAL_TABLES                                | mach           |      |                           | <unavailable>
+----------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------
+Library                                           | Comment
+----------------------------------------------------------------------------------------------------------------------------
+ieee                                              | Standard IEEE packages library
+left_shift_reg                                    | None
+mach                                              | LATTICE ispLEVER Classic 1.4, mach VHDL LIBRARY
+std                                               | Standard VHDL library
+----------------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -sdftyp /latched_3to8_decoder_tb/UUT=F:\ESE382-Lab\Lab8\lab8\left_shift_reg/src/untitled.sdf -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+
+
+The performance of simulation is reduced. Version EDU Edition

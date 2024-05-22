@@ -1,0 +1,795 @@
+# Design: Design left_shift_reg already active.
+acom -reorder -dbg -e 100 -work left_shift_reg -2008  $dsn/src/right_shift_reg.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/right_shift_reg.vhd
+# Compile Entity "right_shift_reg"
+# Compile Architecture "behavior" of Entity "right_shift_reg"
+# Top-level unit(s) detected:
+# Entity => right_shift_reg
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: Flow Manager: Not Defined
+acom -dbg -e 100 -work left_shift_reg -2008  $dsn/src/right_shift_reg.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/right_shift_reg.vhd
+# Compile Entity "right_shift_reg"
+# Compile Architecture "behavior" of Entity "right_shift_reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+right_shift_reg right_shift_reg behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4833 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  8:47 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# 7 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+right_shift_reg right_shift_reg behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4833 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  8:50 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+# 7 object(s) traced.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+run 3000 ns
+# KERNEL: stopped at time: 6 us
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work left_shift_reg -2008  $dsn/src/right_shift_reg.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/right_shift_reg.vhd
+# Compile Entity "right_shift_reg"
+# Compile Architecture "behavior" of Entity "right_shift_reg"
+# Error: COMP96_0078: right_shift_reg.vhd : (53, 19): Unknown identifier "memory".
+# Error: COMP96_0133: right_shift_reg.vhd : (53, 19): Cannot find object declaration.
+# Error: COMP96_0289: right_shift_reg.vhd : (53, 19): Prefix of index must be an array.
+# Error: COMP96_0077: right_shift_reg.vhd : (53, 19): Undefined type of expression. Expected type 'STD_ULOGIC'.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work left_shift_reg -2008  $dsn/src/right_shift_reg.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/right_shift_reg.vhd
+# Compile Entity "right_shift_reg"
+# Compile Architecture "behavior" of Entity "right_shift_reg"
+# Error: COMP96_0078: right_shift_reg.vhd : (53, 29): Unknown identifier "memory".
+# Error: COMP96_0133: right_shift_reg.vhd : (53, 29): Cannot find object declaration.
+# Error: COMP96_0289: right_shift_reg.vhd : (53, 29): Prefix of index must be an array.
+# Error: COMP96_0149: right_shift_reg.vhd : (53, 29): Explicit type conversions are allowed between closely related types only.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work left_shift_reg -2008  $dsn/src/right_shift_reg.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/right_shift_reg.vhd
+# Compile Entity "right_shift_reg"
+# Compile Architecture "behavior" of Entity "right_shift_reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim -O5 +access +r +m+right_shift_reg right_shift_reg behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  8:57 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+# 6 object(s) traced.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work left_shift_reg -2008  $dsn/src/right_shift_reg.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/right_shift_reg.vhd
+# Compile Entity "right_shift_reg"
+# Compile Architecture "behavior" of Entity "right_shift_reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+asim -O5 +access +r +m+right_shift_reg right_shift_reg behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  8:59 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+# 6 object(s) traced.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+right_shift_reg right_shift_reg behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -dbg -e 100 -work left_shift_reg -2008  $dsn/src/right_shift_reg.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/right_shift_reg.vhd
+# Compile Entity "right_shift_reg"
+# Compile Architecture "behavior" of Entity "right_shift_reg"
+# Warning: COMP96_0367: right_shift_reg.vhd : (48, 15): Improper array length (5). Expected length is 4.
+# Compile success 0 Errors 1 Warnings  Analysis time :  94.0 [ms]
+asim -O5 +access +r +m+right_shift_reg right_shift_reg behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  9:00 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+# 6 object(s) traced.
+run 3000 ns
+# RUNTIME: Fatal Error: RUNTIME_0046 right_shift_reg.vhd (48): Incompatible ranges; left: (3 downto 0), right: (0 to 4).
+# KERNEL: Time: 289410 ps,  Iteration: 0,  Instance: /right_shift_reg,  Process: reg.
+# KERNEL: Stopped at time 289410 ps + 0.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work left_shift_reg -2008  $dsn/src/right_shift_reg.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/right_shift_reg.vhd
+# Compile Entity "right_shift_reg"
+# Compile Architecture "behavior" of Entity "right_shift_reg"
+# Warning: COMP96_0367: right_shift_reg.vhd : (48, 15): Improper array length (5). Expected length is 4.
+# Compile success 0 Errors 1 Warnings  Analysis time :  46.0 [ms]
+acom -dbg -e 100 -work left_shift_reg -2008  $dsn/src/right_shift_reg.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/right_shift_reg.vhd
+# Compile Entity "right_shift_reg"
+# Compile Architecture "behavior" of Entity "right_shift_reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+asim -O5 +access +r +m+right_shift_reg right_shift_reg behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  9:01 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+# 6 object(s) traced.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+# 1 object(s) traced.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+right_shift_reg right_shift_reg behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  9:08 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+# 6 object(s) traced.
+# 1 object(s) traced.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+right_shift_reg right_shift_reg behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  9:09 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+endsim
+# VSIM: Simulation has finished.
+# Warning: WAVEFORM: Object matching /right_shift_reg/d not found in F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /right_shift_reg/load not found in F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /right_shift_reg/en_shift not found in F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /right_shift_reg/clk not found in F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /right_shift_reg/rst_bar not found in F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /right_shift_reg/serial_out not found in F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb.
+asim -O5 +access +r +m+right_shift_reg right_shift_reg behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  9:09 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+# 6 object(s) traced.
+# 1 object(s) traced.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+run 3000 ns
+# KERNEL: stopped at time: 6 us
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work left_shift_reg -2008  $dsn/src/right_shift_reg.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/right_shift_reg.vhd
+# Compile Entity "right_shift_reg"
+# Compile Architecture "behavior" of Entity "right_shift_reg"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim -O5 +access +r +m+right_shift_reg right_shift_reg behavior
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5399 kB (elbread=427 elab2=4832 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  9:12 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+# 6 object(s) traced.
+# 1 object(s) traced.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work left_shift_reg -2008  $dsn/src/3_to_8_decoder.vhd $dsn/src/latched_3to8_decoder_tb.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5445 kB (elbread=427 elab2=4877 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  9:16 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+run 3000 ns
+# EXECUTION:: ERROR  : Error at le_bar = '1' and e1_bar = '0' and e2 = '1'. Output should be stable
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (94): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5445 kB (elbread=427 elab2=4877 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  9:22 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+# 5 object(s) traced.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+latched_3to8_decoder latched_3to8_decoder structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5437 kB (elbread=427 elab2=4870 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  9:27 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder_tb/a
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder_tb/a" with formula "\counter\TYPE\1\DIR\1\RADIX\10\START\0\INC\1\PERIOD\100ns\REV\0".
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder_tb/le_bar
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder_tb/le_bar" with formula "0 0fs, 1 200ns, 0 500ns, 1 800ns".
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder_tb/e1_bar
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder_tb/e1_bar" with formula "0 0fs, 1 200ns, 0 400ns".
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder_tb/e2
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder_tb/e2" with formula "0 0fs, 1 400ns, 0 800ns".
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# 7 object(s) traced.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+latched_3to8_decoder latched_3to8_decoder structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5437 kB (elbread=427 elab2=4870 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  9:27 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder_tb/a
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder_tb/a" with formula "\counter\TYPE\1\DIR\1\RADIX\10\START\0\INC\1\PERIOD\100ns\REV\0".
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder_tb/le_bar
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder_tb/le_bar" with formula "0 0fs, 1 200ns, 0 500ns, 1 800ns".
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder_tb/e1_bar
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder_tb/e1_bar" with formula "0 0fs, 1 200ns, 0 400ns".
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder_tb/e2
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder_tb/e2" with formula "0 0fs, 1 400ns, 0 800ns".
+# 7 object(s) traced.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+latched_3to8_decoder latched_3to8_decoder structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5437 kB (elbread=427 elab2=4870 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  9:27 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+# 7 object(s) traced.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+latched_3to8_decoder latched_3to8_decoder structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5437 kB (elbread=427 elab2=4870 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  9:29 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+endsim
+# VSIM: Simulation has finished.
+# Warning: WAVEFORM: Object matching /latched_3to8_decoder/a_lat not found in F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /latched_3to8_decoder/g not found in F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /latched_3to8_decoder/a not found in F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /latched_3to8_decoder/le_bar not found in F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /latched_3to8_decoder/e1_bar not found in F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /latched_3to8_decoder/e2 not found in F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /latched_3to8_decoder/y not found in F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb.
+asim -O5 +access +r +m+latched_3to8_decoder latched_3to8_decoder structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5437 kB (elbread=427 elab2=4870 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  9:29 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+# 7 object(s) traced.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+acom -dbg -e 100 -work left_shift_reg -2008  $dsn/src/3_to_8_decoder.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Waveform file 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/latched3to8.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/latched3to8.asdb'.
+# Adding file F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\latched3to8.asdb ... Done
+# Adding file F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\latched3to8.awc ... Done
+acom -dbg -e 100 -work left_shift_reg -2008  $dsn/src/latched_3to8_decoder_tb.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5445 kB (elbread=427 elab2=4877 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  10:15 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder/a
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder/a" with formula "\counter\TYPE\1\DIR\1\RADIX\10\START\0\INC\1\PERIOD\50ns\REV\0".
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder/le_bar
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder/le_bar" with formula "0 0fs, 1 300ns, 0 500ns".
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder/e1_bar
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder/e1_bar" with formula "1 0fs, 0 300ns, 1 600ns, 0 800ns".
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder/e2
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder/e2" with formula "0 0fs, 1 500ns".
+# 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+run 3000 ns
+# EXECUTION:: ERROR  : Error at le_bar = '1' and e1_bar = '0' and e2 = '1'. Output should be stable
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (94): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work left_shift_reg -2008  $dsn/src/latched_3to8_decoder_tb.vhd $dsn/src/untitled.vho
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/untitled.vho
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "NetList" of Entity "latched_3to8_decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# Library Manager: Library "left_shift_reg" contents cleared.
+acom -reorder -dbg -e 100 -work left_shift_reg -2008  $dsn/src/latched_3to8_decoder_tb.vhd $dsn/src/untitled.vho
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/untitled.vho
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "NetList" of Entity "latched_3to8_decoder"
+# Incorrect order of units detected.
+# Automatic reorder and incremental recompilation of required units in progress.
+# Top-level unit(s) detected:
+# Entity => latched_3to8_decoder_tb
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/latched_3to8_decoder_tb.vhd
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Library Manager: Library "left_shift_reg" contents cleared.
+acom -reorder -dbg -e 100 -work left_shift_reg -2008  $dsn/src/untitled.vho $dsn/src/latched_3to8_decoder_tb.vhd
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/untitled.vho
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "NetList" of Entity "latched_3to8_decoder"
+# File: F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Top-level unit(s) detected:
+# Entity => latched_3to8_decoder_tb
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6752 kB (elbread=429 elab2=6177 kernel=144 sdf=0)
+# KERNEL: ASDB file was created in location F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src\wave.asdb
+#  10:17 AM, Wednesday, April 3, 2024
+#  Simulation has been initialized
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder/a
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder/a" with formula "\counter\TYPE\1\DIR\1\RADIX\10\START\0\INC\1\PERIOD\50ns\REV\0".
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder/le_bar
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder/le_bar" with formula "0 0fs, 1 300ns, 0 500ns".
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder/e1_bar
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder/e1_bar" with formula "1 0fs, 0 300ns, 1 600ns, 0 800ns".
+# KERNEL: Error: Cannot find signal /latched_3to8_decoder/e2
+# VSIM: Error: Cannot force signal "/latched_3to8_decoder/e2" with formula "0 0fs, 1 500ns".
+# 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'F:/ESE382-Lab/Lab8/lab8/left_shift_reg/src/wave.asdb'.
+run 3000 ns
+# KERNEL: WARNING: */DLAT SETUP   X  VIOLATION ON D WITH RESPECT TO LAT;
+#   Expected := 0.1 ns; Observed := 0 ns; At : 120 ns
+# KERNEL: Time: 120 ns,  Iteration: 3,  Instance: /latched_3to8_decoder_tb/UUT/LATCH_u0_a_lat_2_bus_I_1,  Process: VITALBehavior.
+# KERNEL: WARNING: */DLAT SETUP   X  VIOLATION ON D WITH RESPECT TO LAT;
+#   Expected := 0.1 ns; Observed := 0 ns; At : 120 ns
+# KERNEL: Time: 120 ns,  Iteration: 3,  Instance: /latched_3to8_decoder_tb/UUT/LATCH_u0_a_lat_1_bus_I_1,  Process: VITALBehavior.
+# KERNEL: WARNING: */DLAT SETUP   X  VIOLATION ON D WITH RESPECT TO LAT;
+#   Expected := 0.1 ns; Observed := 0 ns; At : 120 ns
+# KERNEL: Time: 120 ns,  Iteration: 3,  Instance: /latched_3to8_decoder_tb/UUT/LATCH_u0_a_lat_0_bus_I_1,  Process: VITALBehavior.
+# EXECUTION:: ERROR  : Assertion violation.
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at le_bar = '1' and e1_bar = '0' and e2 = '1'. Output should be stable
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (94): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.

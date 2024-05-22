@@ -1,0 +1,50 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=left_shift_reg
+
+[Library]
+left_shift_reg=.\left_shift_reg\left_shift_reg.lib
+
+[$LibMap$]
+left_shift_reg=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=F:\ESE382-Lab\Lab8\lab8\left_shift_reg\src
+NoWarningsSDF=0
+ChangeSDFErrorToWarning=0
+EnableSDFErrorLimit=0
+SDFErrorLimit=0
+
+[Groups]
+
+[sdf.ea.latched_3to8_decoder-structural]
+0=src\untitled.sdf| /latched_3to8_decoder_tb/UUT, Average, No
+
+[sdf.ea.latched_3to8_decoder_tb-latched_3to8_decoder_tb]
+0=src\untitled.sdf| /latched_3to8_decoder_tb/UUT, Average, Yes
+
+[Files]
+/latched3to8.asdb=-1
+/latched3to8.awc=-1
+/untitled.sdf=-1
+/d_latch.vhd=-1
+/latched_3to8_decoder_tb.vhd=-1
+
+[Files.Data]
+.\src\latched3to8.asdb=Accelerated Waveform File
+.\src\latched3to8.awc=Accelerated Waveform Configuration
+.\src\untitled.sdf=SDF File
+.\src\d_latch.vhd=VHDL Source Code
+.\src\latched_3to8_decoder_tb.vhd=VHDL Source Code
+

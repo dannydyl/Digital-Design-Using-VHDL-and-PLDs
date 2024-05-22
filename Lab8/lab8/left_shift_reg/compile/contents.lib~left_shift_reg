@@ -1,0 +1,7 @@
+25
+~E 0 "" 0 decoder_3to8
+~A 0 "" 0 cond
+~E 0 "" 0 input_latch
+~A 0 "" 0 behavioral
+~E 1 "../src/untitled.vho" 7 latched_3to8_decoder
+~E 1 "../src/latched_3to8_decoder_tb.vhd" 26 latched_3to8_decoder_tb

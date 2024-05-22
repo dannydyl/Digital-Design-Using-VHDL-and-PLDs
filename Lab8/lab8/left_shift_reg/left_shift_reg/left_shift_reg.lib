@@ -1,0 +1,38 @@
+timestamp=1712155335551
+
+[~A]
+ModifyID=25
+Version=74
+
+[~MFT]
+0=20|0left_shift_reg.mgf|11102|8397
+3=1|3left_shift_reg.mgf|0|0
+
+[decoder_3to8]
+A/cond=*21|../src/3_to_8_decoder.vhd|55|
+
+[input_latch]
+A/behavioral=*21|../src/3_to_8_decoder.vhd|32|
+
+[latched_3to8_decoder]
+I=0*1510
+I/netlist=I/NetList 0*7982
+M=11|2|ve8|1712153819786|../src/untitled.vho|0*1039*0x4adc184e9b295a131e54f434b78b39f177021e6f|0*1417*0xd986fd7175c8cf28cd774bcadde79966
+R=../src/untitled.vho|7
+Version=12.0.118.7745 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|181ac62cab8ccbb9ea7203e03003ada758796c072abc354e321f758a7b8a61aeca8618e7226640463f74b86de8467b6b
+Version/netlist=12.0.118.7745 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|1936d198a9be6bfb8bed1f1151b1c33626527262ddaa47cb266f3a3c4d9b973a35a057e95e486fa7a2aa3aadfa73ab07
+
+[latched_3to8_decoder_tb]
+BinW64/latched_3to8_decoder_tb=3*0
+I=0*9016
+I/latched_3to8_decoder_tb=0*11102
+M=11|2|ve8|1712153819827|../src/latched_3to8_decoder_tb.vhd|0*8641*0x9f95402a9d62c1cec33d162c049fbe006568c78b|0*8905*0xd986fd7175c8cf28cd774bcadde79966
+R=../src/latched_3to8_decoder_tb.vhd|26
+Version=12.0.118.7745 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|181ac62cab8ccbb9ea7203e03003ada7d8cabb2ccbd04008d28761adeed29bf926527262ddaa47cb266f3a3c4d9b973a4a58066f4325c30b304a3372fe2fd335
+Version/latched_3to8_decoder_tb=12.0.118.7745 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|181ac62cab8ccbb9ea7203e03003ada7d8cabb2ccbd04008d28761adeed29bf926527262ddaa47cb266f3a3c4d9b973a6622c7ccc779ea1fc2a96889b6490a8f
+
+[~U]
+decoder_3to8=11|0*0|
+input_latch=11|0*211|
+latched_3to8_decoder=11|0*804|
+latched_3to8_decoder_tb=11|0*8489|
