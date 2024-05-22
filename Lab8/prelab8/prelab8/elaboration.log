@@ -1,0 +1,38 @@
+Active-HDL 13.0.376.8320 2024-04-01 12:52:49
+
+Elaboration top modules:
+Architecture                  latched_3to8_decoder_tb(latched_3to8_decoder_tb)
+
+
+---------------------------------------------------------------------------------------------------------------------
+Entity                  | Architecture            | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------------------------
+latched_3to8_decoder_tb | latched_3to8_decoder_tb | prelab8 |      | 13.0.376.8320 (Windows64) | -dbg -2008
+latched_3to8_decoder    | structural              | prelab8 |      | 13.0.376.8320 (Windows64) | -dbg -2008
+input_latch             | behavioral              | prelab8 |      | 13.0.376.8320 (Windows64) | -dbg -2008
+decoder_3to8            | cond                    | prelab8 |      | 13.0.376.8320 (Windows64) | -dbg -2008
+---------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------
+VHDL Package                                      | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------------------------------
+standard                                          | std     |      |                           | <unavailable>
+TEXTIO                                            | std     |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                                    | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+ENV                                               | std     |      | 13.0.376.8320 (Windows64) |  -2019
+NUMERIC_STD                                       | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+---------------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------
+Library                                           | Comment
+---------------------------------------------------------------------------------------------------------------------
+ieee                                              | Standard IEEE packages library
+prelab8                                           | None
+std                                               | Standard VHDL library
+---------------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+
+
+The performance of simulation is reduced. Version Student Edition

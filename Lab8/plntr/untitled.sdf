@@ -1,0 +1,273 @@
+// SDF delay-file
+(DELAYFILE
+  (SDFVERSION "2.1")
+  (DESIGN "untitled")
+  (DATE "4/3/2024 10:12:38")
+  (VENDOR "Lattice Semiconductor")
+  (PROGRAM "SDF Generator")
+  (VERSION "2.1.00.02.49.20 Data sheet version: RevD-8/2000")
+  (DIVIDER /)
+  (VOLTAGE :5.0:)
+  (PROCESS "worst")
+  (TEMPERATURE :90:)
+  (TIMESCALE 100ps)
+  (CELL
+    (CELLTYPE "OBUF")
+    (INSTANCE OUT_y_0_XI_1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH I0 O (30:30:30) (30:30:30) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OBUF")
+    (INSTANCE OUT_y_1_XI_1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH I0 O (30:30:30) (30:30:30) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OBUF")
+    (INSTANCE OUT_y_2_XI_1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH I0 O (30:30:30) (30:30:30) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OBUF")
+    (INSTANCE OUT_y_3_XI_1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH I0 O (30:30:30) (30:30:30) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OBUF")
+    (INSTANCE OUT_y_4_XI_1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH I0 O (30:30:30) (30:30:30) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OBUF")
+    (INSTANCE OUT_y_5_XI_1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH I0 O (30:30:30) (30:30:30) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OBUF")
+    (INSTANCE OUT_y_6_XI_1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH I0 O (30:30:30) (30:30:30) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "OBUF")
+    (INSTANCE OUT_y_7_XI_1)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH I0 O (30:30:30) (30:30:30) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "DLAT")
+    (INSTANCE LATCH_u0_a_lat_0_bus_I_1)
+    (DELAY
+      (ABSOLUTE
+        (PORT D (0:0:0) (0:0:0) )
+        (IOPATH D Q (90:90:90) (90:90:90) )
+        (IOPATH LAT Q (100:100:100) (100:100:100) )
+      )
+    )
+    (TIMINGCHECK
+        (SETUP D (negedge LAT) (40:40:40))
+        (HOLD D (negedge LAT) (40:40:40))
+        (WIDTH (posedge LAT) (50:50:50))
+    )
+  )
+  (CELL
+    (CELLTYPE "DLAT")
+    (INSTANCE LATCH_u0_a_lat_1_bus_I_1)
+    (DELAY
+      (ABSOLUTE
+        (PORT D (0:0:0) (0:0:0) )
+        (IOPATH D Q (90:90:90) (90:90:90) )
+        (IOPATH LAT Q (100:100:100) (100:100:100) )
+      )
+    )
+    (TIMINGCHECK
+        (SETUP D (negedge LAT) (40:40:40))
+        (HOLD D (negedge LAT) (40:40:40))
+        (WIDTH (posedge LAT) (50:50:50))
+    )
+  )
+  (CELL
+    (CELLTYPE "DLAT")
+    (INSTANCE LATCH_u0_a_lat_2_bus_I_1)
+    (DELAY
+      (ABSOLUTE
+        (PORT D (0:0:0) (0:0:0) )
+        (IOPATH D Q (90:90:90) (90:90:90) )
+        (IOPATH LAT Q (100:100:100) (100:100:100) )
+      )
+    )
+    (TIMINGCHECK
+        (SETUP D (negedge LAT) (40:40:40))
+        (HOLD D (negedge LAT) (40:40:40))
+        (WIDTH (posedge LAT) (50:50:50))
+    )
+  )
+  (CELL
+    (CELLTYPE "AND3")
+    (INSTANCE GATE_y_0_XI_2)
+    (DELAY
+      (ABSOLUTE
+        (PORT I0 (0:0:0) (0:0:0) )
+        (PORT I1 (0:0:0) (0:0:0) )
+        (PORT I2 (0:0:0) (0:0:0) )
+        (IOPATH I0 O (70:70:70) (70:70:70) )
+        (IOPATH I1 O (70:70:70) (70:70:70) )
+        (IOPATH I2 O (70:70:70) (70:70:70) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "AND3")
+    (INSTANCE GATE_y_1_XI_2)
+    (DELAY
+      (ABSOLUTE
+        (PORT I0 (0:0:0) (0:0:0) )
+        (PORT I1 (0:0:0) (0:0:0) )
+        (PORT I2 (0:0:0) (0:0:0) )
+        (IOPATH I0 O (70:70:70) (70:70:70) )
+        (IOPATH I1 O (70:70:70) (70:70:70) )
+        (IOPATH I2 O (70:70:70) (70:70:70) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "AND3")
+    (INSTANCE GATE_y_2_XI_2)
+    (DELAY
+      (ABSOLUTE
+        (PORT I0 (0:0:0) (0:0:0) )
+        (PORT I1 (0:0:0) (0:0:0) )
+        (PORT I2 (0:0:0) (0:0:0) )
+        (IOPATH I0 O (70:70:70) (70:70:70) )
+        (IOPATH I1 O (70:70:70) (70:70:70) )
+        (IOPATH I2 O (70:70:70) (70:70:70) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "AND3")
+    (INSTANCE GATE_y_3_XI_2)
+    (DELAY
+      (ABSOLUTE
+        (PORT I0 (0:0:0) (0:0:0) )
+        (PORT I1 (0:0:0) (0:0:0) )
+        (PORT I2 (0:0:0) (0:0:0) )
+        (IOPATH I0 O (70:70:70) (70:70:70) )
+        (IOPATH I1 O (70:70:70) (70:70:70) )
+        (IOPATH I2 O (70:70:70) (70:70:70) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "AND3")
+    (INSTANCE GATE_y_4_XI_1)
+    (DELAY
+      (ABSOLUTE
+        (PORT I0 (0:0:0) (0:0:0) )
+        (PORT I1 (0:0:0) (0:0:0) )
+        (PORT I2 (0:0:0) (0:0:0) )
+        (IOPATH I0 O (70:70:70) (70:70:70) )
+        (IOPATH I1 O (70:70:70) (70:70:70) )
+        (IOPATH I2 O (70:70:70) (70:70:70) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "AND3")
+    (INSTANCE GATE_y_5_XI_1)
+    (DELAY
+      (ABSOLUTE
+        (PORT I0 (0:0:0) (0:0:0) )
+        (PORT I1 (0:0:0) (0:0:0) )
+        (PORT I2 (0:0:0) (0:0:0) )
+        (IOPATH I0 O (70:70:70) (70:70:70) )
+        (IOPATH I1 O (70:70:70) (70:70:70) )
+        (IOPATH I2 O (70:70:70) (70:70:70) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "AND3")
+    (INSTANCE GATE_y_6_XI_1)
+    (DELAY
+      (ABSOLUTE
+        (PORT I0 (0:0:0) (0:0:0) )
+        (PORT I1 (0:0:0) (0:0:0) )
+        (PORT I2 (0:0:0) (0:0:0) )
+        (IOPATH I0 O (70:70:70) (70:70:70) )
+        (IOPATH I1 O (70:70:70) (70:70:70) )
+        (IOPATH I2 O (70:70:70) (70:70:70) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "AND3")
+    (INSTANCE GATE_y_7_XI_1)
+    (DELAY
+      (ABSOLUTE
+        (PORT I0 (0:0:0) (0:0:0) )
+        (PORT I1 (0:0:0) (0:0:0) )
+        (PORT I2 (0:0:0) (0:0:0) )
+        (IOPATH I0 O (70:70:70) (70:70:70) )
+        (IOPATH I1 O (70:70:70) (70:70:70) )
+        (IOPATH I2 O (70:70:70) (70:70:70) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "INV")
+    (INSTANCE GATE_u0_a_lat_0_bus_LH_I_1)
+    (DELAY
+      (ABSOLUTE
+        (PORT I0 (0:0:0) (0:0:0) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "INV")
+    (INSTANCE GATE_u0_a_lat_1_bus_LH_I_1)
+    (DELAY
+      (ABSOLUTE
+        (PORT I0 (0:0:0) (0:0:0) )
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "INV")
+    (INSTANCE GATE_u0_a_lat_2_bus_LH_I_1)
+    (DELAY
+      (ABSOLUTE
+        (PORT I0 (0:0:0) (0:0:0) )
+      )
+    )
+  )
+)

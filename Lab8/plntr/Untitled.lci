@@ -1,0 +1,123 @@
+
+[Device]
+Family = M4A5;
+PartNumber = M4A5-64/32-10JC;
+Package = 44PLCC;
+PartType = M4A5-64/32;
+Speed = -10;
+Operating_condition = COM;
+Status = Production;
+
+[Revision]
+Parent = m4a5.lci;
+DATE = 2002;
+TIME = 0:00:00;
+Source_Format = EDIF;
+Synthesis = Synplify;
+
+[Ignore Assignments]
+
+[Clear Assignments]
+
+[Backannotate Assignments]
+
+[Global Constraints]
+
+[Location Assignments]
+layer = OFF;
+a_2_ = pin, 2, -, -, -;
+y_0_ = pin, 43, -, -, -;
+le_bar = pin, 16, -, -, -;
+e1_bar = pin, 14, -, -, -;
+e2 = pin, 15, -, -, -;
+a_1_ = pin, 3, -, -, -;
+a_0_ = pin, 4, -, -, -;
+y_1_ = pin, 42, -, -, -;
+y_2_ = pin, 41, -, -, -;
+y_3_ = pin, 40, -, -, -;
+y_4_ = pin, 39, -, -, -;
+y_5_ = pin, 38, -, -, -;
+y_6_ = pin, 37, -, -, -;
+y_7_ = pin, 36, -, -, -;
+
+[Group Assignments]
+layer = OFF;
+
+[Resource Reservations]
+layer = OFF;
+
+[Fitter Report Format]
+
+[Power]
+
+[Source Constraint Option]
+
+[Fast Bypass]
+
+[OSM Bypass]
+
+[Input Registers]
+
+[Netlist/Delay Format]
+NetList = VHDL;
+Delay_File = SDF;
+VCC_GND = Cell;
+
+[IO Types]
+layer = OFF;
+
+[Pullup]
+
+[Slewrate]
+
+[Region]
+
+[Timing Constraints]
+
+[HSI Attributes]
+
+[Input Delay]
+
+[opt global constraints list]
+
+[Explorer User Settings]
+
+[Pin attributes list]
+
+[global constraints list]
+
+[Global Constraints Process Update]
+
+[pin lock limitation]
+
+[LOCATION ASSIGNMENTS LIST]
+
+[RESOURCE RESERVATIONS LIST]
+
+[individual constraints list]
+
+[Attributes list setting]
+
+[Timing Analyzer]
+
+[PLL Assignments]
+
+[Dual Function Macrocell]
+
+[Explorer Results]
+
+[VHDL synplify constraints]
+
+[VHDL spectrum constraints]
+
+[verilog synplify constraints]
+
+[verilog spectrum constraints]
+
+[VHDL synplify constraints list]
+
+[VHDL spectrum constraints list]
+
+[verilog synplify constraints list]
+
+[verilog spectrum constraints list]

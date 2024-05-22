@@ -1,0 +1,11 @@
+JDF B
+// Created by Version 2.1 
+PROJECT Untitled
+DESIGN untitled Normal
+DEVKIT M4A5-64/32-10JC
+ENTRY EDIF
+MODULE ..\rev_13\3_to_8_decoder.edf
+MODSTYLE latched_3to8_decoder Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ModelSim
+TOPMODULE latched_3to8_decoder

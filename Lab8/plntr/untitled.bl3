@@ -1,0 +1,94 @@
+#$ TOOL ispLEVER Classic 2.1.00.02.49.20
+#$ DATE Wed Apr 03 10:12:05 2024
+#$ MODULE untitled
+#$ PINS 14 a_2_:2'ke'  y_0_:43'ke'  le_bar:16'ke'  e1_bar:14'ke'  e2:15'ke'  a_1_:3'ke'  a_0_:4'ke'  \
+#  y_1_:42'ke'  y_2_:41'ke'  y_3_:40'ke'  y_4_:39'ke'  y_5_:38'ke'  y_6_:37'ke'  y_7_:36'ke' 
+#$ NODES 3 u0_a_lat_0_ u0_a_lat_1_ u0_a_lat_2_
+.model latched_3to8_decoder
+.inputs a_2_.BLIF le_bar.BLIF e1_bar.BLIF e2.BLIF a_1_.BLIF a_0_.BLIF \
+u0_a_lat_0_.BLIF u0_a_lat_1_.BLIF u0_a_lat_2_.BLIF
+.outputs y_0_ y_1_ y_2_ y_3_ y_4_ y_5_ y_6_ y_7_ u0_a_lat_0_.D u0_a_lat_0_.LH \
+u0_a_lat_1_.D u0_a_lat_1_.LH u0_a_lat_2_.D u0_a_lat_2_.LH
+.names e1_bar.BLIF e2.BLIF u0_a_lat_0_.BLIF u0_a_lat_1_.BLIF u0_a_lat_2_.BLIF \
+y_0_
+01000 1
+---1- 0
+--1-- 0
+-0--- 0
+1---- 0
+----1 0
+.names e1_bar.BLIF e2.BLIF u0_a_lat_0_.BLIF u0_a_lat_1_.BLIF u0_a_lat_2_.BLIF \
+y_1_
+01100 1
+---1- 0
+--0-- 0
+-0--- 0
+1---- 0
+----1 0
+.names e1_bar.BLIF e2.BLIF u0_a_lat_0_.BLIF u0_a_lat_1_.BLIF u0_a_lat_2_.BLIF \
+y_2_
+01010 1
+---0- 0
+--1-- 0
+-0--- 0
+1---- 0
+----1 0
+.names e1_bar.BLIF e2.BLIF u0_a_lat_0_.BLIF u0_a_lat_1_.BLIF u0_a_lat_2_.BLIF \
+y_3_
+01110 1
+---0- 0
+--0-- 0
+-0--- 0
+1---- 0
+----1 0
+.names e1_bar.BLIF e2.BLIF u0_a_lat_0_.BLIF u0_a_lat_1_.BLIF u0_a_lat_2_.BLIF \
+y_4_
+01001 1
+---1- 0
+--1-- 0
+-0--- 0
+1---- 0
+----0 0
+.names e1_bar.BLIF e2.BLIF u0_a_lat_0_.BLIF u0_a_lat_1_.BLIF u0_a_lat_2_.BLIF \
+y_5_
+01101 1
+---1- 0
+--0-- 0
+-0--- 0
+1---- 0
+----0 0
+.names e1_bar.BLIF e2.BLIF u0_a_lat_0_.BLIF u0_a_lat_1_.BLIF u0_a_lat_2_.BLIF \
+y_6_
+01011 1
+---0- 0
+--1-- 0
+-0--- 0
+1---- 0
+----0 0
+.names e1_bar.BLIF e2.BLIF u0_a_lat_0_.BLIF u0_a_lat_1_.BLIF u0_a_lat_2_.BLIF \
+y_7_
+01111 1
+---0- 0
+--0-- 0
+-0--- 0
+1---- 0
+----0 0
+.names a_0_.BLIF u0_a_lat_0_.D
+1 1
+0 0
+.names le_bar.BLIF u0_a_lat_0_.LH
+0 1
+1 0
+.names a_1_.BLIF u0_a_lat_1_.D
+1 1
+0 0
+.names le_bar.BLIF u0_a_lat_1_.LH
+0 1
+1 0
+.names a_2_.BLIF u0_a_lat_2_.D
+1 1
+0 0
+.names le_bar.BLIF u0_a_lat_2_.LH
+0 1
+1 0
+.end

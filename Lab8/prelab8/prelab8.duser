@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<design-settings>
+	<plugins>
+		<Aldec.Stimuli.1>
+			<hierarchy activeStimuliSetName="StimuliSet1">
+				<stimuliSet name="StimuliSet1">
+					<stimulus name="d" strength="default" enabled="true" type="counter">
+						<stimulus_data>
+							<counter_type value="binary"/>
+							<direction value="up"/>
+							<radix value="decimal"/>
+							<period value="100ns"/>
+							<start_value value="0"/>
+							<modify_by_value value="1"/>
+							<is_reverse_order value="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/right_shift_reg/d"/>
+						</signals>
+					</stimulus>
+					<stimulus name="load" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="470ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="47.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/right_shift_reg/load"/>
+						</signals>
+					</stimulus>
+					<stimulus name="en_shift" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="300ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="43.000000"/>
+							<offset value="120ns" enabled="true"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/right_shift_reg/en_shift"/>
+						</signals>
+					</stimulus>
+					<stimulus name="clock" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="80ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="33.000000"/>
+							<offset value="33ns" enabled="true"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/right_shift_reg/clk"/>
+						</signals>
+					</stimulus>
+					<stimulus name="reset_bar" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="1us"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="high"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/right_shift_reg/rst_bar"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+			</hierarchy>
+		</Aldec.Stimuli.1>
+	</plugins>
+</design-settings>

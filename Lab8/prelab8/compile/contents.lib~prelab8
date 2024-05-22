@@ -1,0 +1,20 @@
+83
+~E 0 "" 0 d_flip_flop
+~A 0 "" 0 behavioral
+~A 0 "" 0 d_flip_flop
+~E 0 "" 0 d_latch
+~A 0 "" 0 behavioral
+~E 1 "../src/3_to_8_decoder.vhd" 47 decoder_3to8
+~A 1 "../src/3_to_8_decoder.vhd" 55 cond
+~E 0 "" 0 dff_en_tb
+~A 0 "" 0 TB_ARCHITECTURE
+~E 1 "../src/3_to_8_decoder.vhd" 24 input_latch
+~A 1 "../src/3_to_8_decoder.vhd" 32 behavioral
+~E 0 "" 0 latch_vs_flip_flop
+~A 0 "" 0 structural
+~E 1 "../src/3_to_8_decoder.vhd" 77 latched_3to8_decoder
+~A 1 "../src/3_to_8_decoder.vhd" 85 structural
+~E 1 "../src/latched_3to8_decoder_tb.vhd" 26 latched_3to8_decoder_tb
+~A 1 "../src/latched_3to8_decoder_tb.vhd" 30 latched_3to8_decoder_tb
+~E 0 "" 0 right_shift_reg
+~A 0 "" 0 behavior

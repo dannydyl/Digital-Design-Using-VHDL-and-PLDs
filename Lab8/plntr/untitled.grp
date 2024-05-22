@@ -1,0 +1,5 @@
+
+GROUP MACH_SEG_A u0_a_lat_2_ 
+GROUP MACH_SEG_B u0_a_lat_1_ 
+GROUP MACH_SEG_C u0_a_lat_0_ 
+GROUP MACH_SEG_D y_7_ y_6_ y_5_ y_4_ y_3_ y_2_ y_1_ y_0_ 

@@ -1,0 +1,37 @@
+ispLEVER Auto-Make Log File
+---------------------------
+
+Updating: Generate Timing Simulation Files
+Start to record tcl script...
+Finished recording TCL script.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\lci2vci.exe -vci untitled.vco -out untitled.lco -log untitled.v2l'
+
+
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\synsvf.exe -exe "C:\ispLEVER_Classic2_1\ispvmsystem/ispufw" -prj untitled -if untitled.jed -j2s -log untitled.svl -gui'
+
+Need not generate svf file according to the constraints, exit
+Done: completed successfully.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\sdf.exe @"untitled.rss"'
+
+ispLEVER Classic 2.1.00.02.49.20 SDFGEN
+Copyright(C),1992-2020, Lattice Semiconductor Corporation. All Rights Reserved.
+Output Files:
+  Netlist File: untitled.vho
+  Delay   File: untitled.sdf
+
+Parsing C:/ispLEVER_Classic2_1/ispcpld/dat/sdf.mdl
+Input file: f:/ese382-lab/lab8/plntr\untitled.tte
+Reading library information ...
+Mapping to combinational gates 
+Mapping to netlist view.
+Utilization Estimate
+    Combinational Macros:         27
+    Flip-Flop and Latch Macros:    3
+    I/O Pads:                     14
+Elapsed time: 1 seconds
+
+Done: completed successfully.

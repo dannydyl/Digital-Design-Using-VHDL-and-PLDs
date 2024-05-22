@@ -1,0 +1,81 @@
+timestamp=1711990367701
+
+[~A]
+ModifyID=83
+Version=74
+
+[~MFT]
+0=14|0prelab8.mgf|38218|30010
+1=8|1prelab8.mgf|56985|53833
+3=8|3prelab8.mgf|27889|26243
+
+[d_flip_flop]
+A/behavioral=*21|../src/d_structural.vhd|61|
+A/d_flip_flop=*21|../src/d_flip_flop.vhd|35|
+
+[d_latch]
+A/behavioral=*21|../src/d_structural.vhd|35|
+
+[decoder_3to8]
+A/cond=21|../src/3_to_8_decoder.vhd|55|1*54601
+BinW64/cond=3*26625
+I=0*20217
+I/cond=0*35797
+M=11|2|vef|1711839736974|../src/3_to_8_decoder.vhd|0*19820*0xd54e96c6f362bb445880492d00849f48edf6a6e5|0*20126*0xd986fd7175c8cf28cd774bcadde79966
+M/cond=21|2|vef|1711990367614|../src/3_to_8_decoder.vhd|0*11024*0xe97b6609264999c049be60726b068b3299526da7|0*11329*0x3666052002612506830c83371aef600f
+R=../src/3_to_8_decoder.vhd|47
+Version=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|ff27dd7389f77b89b7d3d7c3835c0c6b85743034c6dc8857acb3d8eb7797c37dd5e5924c05207d631913683618625140
+Version/cond=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|796744436ca093393b5290055b310f5a0cc7dec64332d2a0f8e07555ea451c45
+
+[dff_en_tb]
+A/tb_architecture=A/TB_ARCHITECTURE *21|../src/TestBench/dff_en_TB.vhd|9|
+
+[input_latch]
+A/behavioral=21|../src/3_to_8_decoder.vhd|32|1*53833
+BinW64/behavioral=3*26243
+I=0*19188
+I/behavioral=0*35581
+M=11|2|vef|1711839736955|../src/3_to_8_decoder.vhd|0*18816*0xefa11243481b6019f67840cd21fe138275fc7a5f|0*19098*0xd986fd7175c8cf28cd774bcadde79966
+M/behavioral=21|2|vef|1711990367600|../src/3_to_8_decoder.vhd|0*2518*0x7ca2e1706897597ef6f317dc8dbb608f195f66fc|0*2756*0x3666052002612506830c83371aef600f
+R=../src/3_to_8_decoder.vhd|24
+Version=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|442a7a9807fcee2b9b0cd7bfbfddaf0a004db4fb9670406a53db0cf0a94c89e57a4b71f397f88c4e3c52507ea5150ea1
+Version/behavioral=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff4a8ccab32fb8733016d87895d7d6e2773
+
+[latch_vs_flip_flop]
+A/structural=*21|../src/d_structural.vhd|86|
+
+[latched_3to8_decoder]
+A/structural=21|../src/3_to_8_decoder.vhd|85|1*55660
+BinW64/structural=3*27466
+I=0*21405
+I/structural=0*36048
+M=11|2|vef|1711839736990|../src/3_to_8_decoder.vhd|0*20949*0xe06df8e16a79069a8c1e04502482bcf22ec13854|0*21306*0xd986fd7175c8cf28cd774bcadde79966
+M/structural=21|2|vef|1711990367621|../src/3_to_8_decoder.vhd|0*21659*0x5fb7d341c84afabe9ce3a6cb1c6327b0c5f8ee6e|0*22070*0x3666052002612506830c83371aef600f
+R=../src/3_to_8_decoder.vhd|77
+Version=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|181ac62cab8ccbb9ea7203e03003ada758796c072abc354e321f758a7b8a61ae3d92ae79462b7ec453c37f4851486b33
+Version/structural=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3ebde8525d6a75a428b0c52a0cbf263d541
+
+[latched_3to8_decoder_tb]
+A/latched_3to8_decoder_tb=21|../src/latched_3to8_decoder_tb.vhd|30|1*56985
+BinW64/latched_3to8_decoder_tb=3*27889
+I=0*6916
+I/latched_3to8_decoder_tb=0*38218
+M=11|2|vef|1711838207841|../src/latched_3to8_decoder_tb.vhd|0*6541*0xcfa48e02cbc70e14b39ccea485d92e2b5eb8d0c0|0*6805*0xd986fd7175c8cf28cd774bcadde79966
+M/latched_3to8_decoder_tb=21|2|vef|1711990367678|../src/latched_3to8_decoder_tb.vhd|0*36386*0x11328d689b64c8b1e7e0c32a77bb22369ee08a2a|0*38080*0x3666052002612506830c83371aef600f
+R=../src/latched_3to8_decoder_tb.vhd|26
+Version=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|181ac62cab8ccbb9ea7203e03003ada7d8cabb2ccbd04008d28761adeed29bf926527262ddaa47cb266f3a3c4d9b973ab7f7f59534d532e00ced4099ccf2f527
+Version/latched_3to8_decoder_tb=13.0.376.8320 (Windows64)|0000000a789cd34d494a57d0353230b000000ec20272|181ac62cab8ccbb9ea7203e03003ada7d8cabb2ccbd04008d28761adeed29bf926527262ddaa47cb266f3a3c4d9b973a2e8b227b15842b4018d947fee01a41fa
+
+[right_shift_reg]
+A/behavior=*21|../src/right_shift_reg.vhd|36|
+
+[~U]
+d_flip_flop=11|0*0|
+d_latch=11|0*188|
+decoder_3to8=11|0*19609|
+dff_en_tb=11|0*579|
+input_latch=11|0*18610|
+latch_vs_flip_flop=11|0*909|
+latched_3to8_decoder=11|0*20714|
+latched_3to8_decoder_tb=11|0*6389|
+right_shift_reg=11|0*1499|

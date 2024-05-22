@@ -1,0 +1,100 @@
+#$ DATE Wed Apr 03 09:59:25 2024
+#$ TOOL EDIF2BLIF version IspLever 1.0 
+#$ MODULE latched_3to8_decoder
+#$ PINS 14 a_2_:2'ke'  y_0_:43'ke'  le_bar:16'ke'  e1_bar:14'ke'  e2:15'ke'  a_1_:3'ke'  a_0_:4'ke'  y_1_:42'ke'  y_2_:41'ke'  y_3_:40'ke'  y_4_:39'ke'  y_5_:38'ke'  y_6_:37'ke'  y_7_:36'ke' 
+#$ NODES 30 u0_a_lat_0_ u0_a_lat_1_ u0_a_lat_2_ u2_u2_un2_g_n u1_n_21_n u1_n_22_n le_bar_i e1_bar_i a_lat_i_0__n a_lat_i_1__n \
+#  a_lat_i_2__n le_bar_c e1_bar_c e2_c y_c_7__n y_c_6__n y_c_5__n y_c_4__n y_c_3__n y_c_2__n \
+#  y_c_1__n y_c_0__n y_c_1_0__n y_c_1_1__n y_c_1_2__n y_c_1_3__n y_c_1_4__n y_c_1_5__n y_c_1_6__n y_c_1_7__n \
+#  
+.model latched_3to8_decoder
+.inputs a_2_.BLIF le_bar.BLIF e1_bar.BLIF e2.BLIF a_1_.BLIF a_0_.BLIF u0_a_lat_0_.BLIF u0_a_lat_1_.BLIF u0_a_lat_2_.BLIF \
+  u2_u2_un2_g_n.BLIF u1_n_21_n.BLIF u1_n_22_n.BLIF le_bar_i.BLIF e1_bar_i.BLIF a_lat_i_0__n.BLIF a_lat_i_1__n.BLIF a_lat_i_2__n.BLIF le_bar_c.BLIF \
+  e1_bar_c.BLIF e2_c.BLIF y_c_7__n.BLIF y_c_6__n.BLIF y_c_5__n.BLIF y_c_4__n.BLIF y_c_3__n.BLIF y_c_2__n.BLIF y_c_1__n.BLIF \
+  y_c_0__n.BLIF y_c_1_0__n.BLIF y_c_1_1__n.BLIF y_c_1_2__n.BLIF y_c_1_3__n.BLIF y_c_1_4__n.BLIF y_c_1_5__n.BLIF y_c_1_6__n.BLIF y_c_1_7__n.BLIF  
+.outputs y_0_ y_1_ y_2_ y_3_ y_4_ y_5_ y_6_ y_7_ u0_a_lat_0_.D u0_a_lat_0_.LH u0_a_lat_1_.D \
+  u0_a_lat_1_.LH u0_a_lat_2_.D u0_a_lat_2_.LH u2_u2_un2_g_n u1_n_21_n u1_n_22_n le_bar_i e1_bar_i a_lat_i_0__n a_lat_i_1__n a_lat_i_2__n \
+  le_bar_c e1_bar_c e2_c y_c_7__n y_c_6__n y_c_5__n y_c_4__n y_c_3__n y_c_2__n y_c_1__n y_c_0__n \
+  y_c_1_0__n y_c_1_1__n y_c_1_2__n y_c_1_3__n y_c_1_4__n y_c_1_5__n y_c_1_6__n y_c_1_7__n
+.names  a_0_.BLIF u0_a_lat_0_.D
+1 1
+.names  a_1_.BLIF u0_a_lat_1_.D
+1 1
+.names  a_2_.BLIF u0_a_lat_2_.D
+1 1
+.names  le_bar.BLIF le_bar_c
+1 1
+.names  e1_bar.BLIF e1_bar_c
+1 1
+.names  e2.BLIF e2_c
+1 1
+.names  y_c_7__n.BLIF y_7_
+1 1
+.names  y_c_6__n.BLIF y_6_
+1 1
+.names  y_c_5__n.BLIF y_5_
+1 1
+.names  y_c_4__n.BLIF y_4_
+1 1
+.names  y_c_3__n.BLIF y_3_
+1 1
+.names  y_c_2__n.BLIF y_2_
+1 1
+.names  y_c_1__n.BLIF y_1_
+1 1
+.names  y_c_0__n.BLIF y_0_
+1 1
+.names  u1_n_21_n.BLIF u0_a_lat_1_.BLIF y_c_1_2__n
+11 1
+.names  y_c_1_2__n.BLIF a_lat_i_2__n.BLIF y_c_2__n
+11 1
+.names  u1_n_22_n.BLIF u0_a_lat_1_.BLIF y_c_1_3__n
+11 1
+.names  y_c_1_3__n.BLIF a_lat_i_2__n.BLIF y_c_3__n
+11 1
+.names  u1_n_21_n.BLIF u0_a_lat_2_.BLIF y_c_1_4__n
+11 1
+.names  y_c_1_4__n.BLIF a_lat_i_1__n.BLIF y_c_4__n
+11 1
+.names  u1_n_22_n.BLIF u0_a_lat_2_.BLIF y_c_1_5__n
+11 1
+.names  y_c_1_5__n.BLIF a_lat_i_1__n.BLIF y_c_5__n
+11 1
+.names  u1_n_21_n.BLIF u0_a_lat_1_.BLIF y_c_1_6__n
+11 1
+.names  y_c_1_6__n.BLIF u0_a_lat_2_.BLIF y_c_6__n
+11 1
+.names  u1_n_22_n.BLIF u0_a_lat_1_.BLIF y_c_1_7__n
+11 1
+.names  y_c_1_7__n.BLIF u0_a_lat_2_.BLIF y_c_7__n
+11 1
+.names  u1_n_21_n.BLIF a_lat_i_1__n.BLIF y_c_1_0__n
+11 1
+.names  y_c_1_0__n.BLIF a_lat_i_2__n.BLIF y_c_0__n
+11 1
+.names  u1_n_22_n.BLIF a_lat_i_1__n.BLIF y_c_1_1__n
+11 1
+.names  y_c_1_1__n.BLIF a_lat_i_2__n.BLIF y_c_1__n
+11 1
+.names  u0_a_lat_1_.BLIF a_lat_i_1__n
+0 1
+.names  u0_a_lat_2_.BLIF a_lat_i_2__n
+0 1
+.names  u0_a_lat_0_.BLIF a_lat_i_0__n
+0 1
+.names  a_lat_i_0__n.BLIF u2_u2_un2_g_n.BLIF u1_n_21_n
+11 1
+.names  u0_a_lat_0_.BLIF u2_u2_un2_g_n.BLIF u1_n_22_n
+11 1
+.names  e1_bar_c.BLIF e1_bar_i
+0 1
+.names  e1_bar_i.BLIF e2_c.BLIF u2_u2_un2_g_n
+11 1
+.names  le_bar_c.BLIF le_bar_i
+0 1
+.names  le_bar_i.BLIF u0_a_lat_0_.LH
+1 1
+.names  le_bar_i.BLIF u0_a_lat_1_.LH
+1 1
+.names  le_bar_i.BLIF u0_a_lat_2_.LH
+1 1
+.end

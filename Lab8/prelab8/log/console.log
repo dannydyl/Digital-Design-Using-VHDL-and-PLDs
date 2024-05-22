@@ -1,0 +1,985 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Warning: Unit right_shift_reg(behavior) created by an old version of the compiler found.
+# ELBREAD: Error: Library 'prelab8' has incompatible format. Recompile all library units.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Error: COMP96_0019: 3_to_8_decoder.vhd : (57, 2): Keyword 'begin' expected.
+# Error: COMP96_0329: 3_to_8_decoder.vhd : (58, 2): Generate statement must have a label.
+# Error: COMP96_0019: 3_to_8_decoder.vhd : (58, 18): Keyword 'generate' expected.
+# Error: COMP96_0015: 3_to_8_decoder.vhd : (61, 7): ';' expected.
+# Error: COMP96_0016: 3_to_8_decoder.vhd : (61, 9): Design unit declaration expected.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Error: COMP96_0078: 3_to_8_decoder.vhd : (60, 6): Unknown identifier "unsigned".
+# Error: COMP96_0078: 3_to_8_decoder.vhd : (60, 23): Unknown identifier "unsigned".
+# Error: COMP96_0133: 3_to_8_decoder.vhd : (60, 6): Cannot find object declaration.
+# Error: COMP96_0289: 3_to_8_decoder.vhd : (60, 6): Prefix of index must be an array.
+# Error: COMP96_0077: 3_to_8_decoder.vhd : (60, 6): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Error: COMP96_0078: 3_to_8_decoder.vhd : (60, 6): Unknown identifier "unsigned".
+# Error: COMP96_0078: 3_to_8_decoder.vhd : (60, 24): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: 3_to_8_decoder.vhd : (60, 6): Cannot find object declaration.
+# Error: COMP96_0289: 3_to_8_decoder.vhd : (60, 6): Prefix of index must be an array.
+# Error: COMP96_0077: 3_to_8_decoder.vhd : (60, 6): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Error: COMP96_0078: 3_to_8_decoder.vhd : (60, 6): Unknown identifier "unsigned".
+# Error: COMP96_0078: 3_to_8_decoder.vhd : (60, 24): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: 3_to_8_decoder.vhd : (60, 6): Cannot find object declaration.
+# Error: COMP96_0289: 3_to_8_decoder.vhd : (60, 6): Prefix of index must be an array.
+# Error: COMP96_0077: 3_to_8_decoder.vhd : (60, 6): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 5 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Error: COMP96_0078: 3_to_8_decoder.vhd : (60, 6): Unknown identifier "unsigned".
+# Error: COMP96_0078: 3_to_8_decoder.vhd : (60, 41): Unknown identifier "to_unsigned".
+# Error: COMP96_0133: 3_to_8_decoder.vhd : (60, 41): Cannot find object declaration.
+# Error: COMP96_0133: 3_to_8_decoder.vhd : (60, 6): Cannot find object declaration.
+# Error: COMP96_0289: 3_to_8_decoder.vhd : (60, 6): Prefix of index must be an array.
+# Error: COMP96_0077: 3_to_8_decoder.vhd : (60, 6): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Error: COMP96_0269: 3_to_8_decoder.vhd : (61, 41): For each formal parameter of a subprogram, a subprogram call must specify exactly one corresponding actual.
+# Error: COMP96_0753: 3_to_8_decoder.vhd : (61, 24): Cannot find the "=" operator with operands denoted with the "[UNSIGNED, STD_LOGIC_VECTOR]" signature.
+# Error: COMP96_0077: 3_to_8_decoder.vhd : (61, 6): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Error: COMP96_0753: 3_to_8_decoder.vhd : (61, 24): Cannot find the "=" operator with operands denoted with the "[UNSIGNED, STD_LOGIC_VECTOR]" signature.
+# Error: COMP96_0077: 3_to_8_decoder.vhd : (61, 6): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Error: COMP96_0019: 3_to_8_decoder.vhd : (65, 7): Keyword 'loop' expected.
+# Error: COMP96_0036: 3_to_8_decoder.vhd : (65, 9): Boolean expression expected.
+# Error: COMP96_0019: 3_to_8_decoder.vhd : (66, 7): Keyword 'if' expected.
+# Error: COMP96_0015: 3_to_8_decoder.vhd : (66, 7): ';' expected.
+# Error: COMP96_0019: 3_to_8_decoder.vhd : (66, 11): Keyword 'end' expected.
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# Error: COMP96_0019: 3_to_8_decoder.vhd : (90, 0): Keyword 'end' expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Error: COMP96_0078: 3_to_8_decoder.vhd : (57, 28): Unknown identifier "g".
+# Error: COMP96_0348: 3_to_8_decoder.vhd : (57, 28): Name on sensitivity list must denote a signal.
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# Error: COMP96_0019: 3_to_8_decoder.vhd : (90, 0): Keyword 'end' expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# Error: COMP96_0019: 3_to_8_decoder.vhd : (90, 0): Keyword 'end' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  94.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# Error: COMP96_0078: 3_to_8_decoder.vhd : (87, 14): Unknown identifier "input_latch".
+# Error: COMP96_0056: 3_to_8_decoder.vhd : (87, 14): Cannot find referenced entity declaration "input_latch".
+# Error: COMP96_0055: 3_to_8_decoder.vhd : (87, 14): Cannot find context item "input_latch".
+# Error: COMP96_0078: 3_to_8_decoder.vhd : (88, 14): Unknown identifier "decoder_3to8".
+# Error: COMP96_0056: 3_to_8_decoder.vhd : (88, 14): Cannot find referenced entity declaration "decoder_3to8".
+# Error: COMP96_0055: 3_to_8_decoder.vhd : (88, 14): Cannot find context item "decoder_3to8".
+# Compile failure 6 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# Error: COMP96_0413: 3_to_8_decoder.vhd : (89, 86): Actual of mode "in" cannot be assigned to formal "y" of mode "out".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  93.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/latched_3to8_decoder_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/3_to_8_decoder.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work prelab8 -2002  $dsn/src/latched_3to8_decoder_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Error: COMP96_0077: latched_3to8_decoder_tb.vhd : (49, 7): Undefined type of expression. Expected type 'STD_LOGIC_VECTOR'.
+# Error: COMP96_0077: latched_3to8_decoder_tb.vhd : (47, 39): Undefined type of expression. Expected type 'test_vectors'.
+# Error: COMP96_0078: latched_3to8_decoder_tb.vhd : (82, 55): Unknown identifier "to_string".
+# Error: COMP96_0078: latched_3to8_decoder_tb.vhd : (82, 70): Unknown identifier "to_string".
+# Error: COMP96_0078: latched_3to8_decoder_tb.vhd : (82, 90): Unknown identifier "to_string".
+# Error: COMP96_0078: latched_3to8_decoder_tb.vhd : (82, 110): Unknown identifier "to_string".
+# Error: COMP96_0133: latched_3to8_decoder_tb.vhd : (82, 110): Cannot find object declaration.
+# Error: COMP96_0289: latched_3to8_decoder_tb.vhd : (82, 110): Prefix of index must be an array.
+# Error: COMP96_0133: latched_3to8_decoder_tb.vhd : (82, 55): Cannot find object declaration.
+# Error: COMP96_0289: latched_3to8_decoder_tb.vhd : (82, 55): Prefix of index must be an array.
+# Error: COMP96_0086: latched_3to8_decoder_tb.vhd : (82, 11): String expected.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Error: COMP96_0077: latched_3to8_decoder_tb.vhd : (49, 7): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0077: latched_3to8_decoder_tb.vhd : (47, 39): Undefined type of expression. Expected type 'test_vectors'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Error: COMP96_0077: latched_3to8_decoder_tb.vhd : (53, 7): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0077: latched_3to8_decoder_tb.vhd : (47, 39): Undefined type of expression. Expected type 'test_vectors'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  63.0 [ms]
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Error: COMP96_0077: latched_3to8_decoder_tb.vhd : (49, 7): Undefined type of expression. Expected type 'STD_ULOGIC_VECTOR'.
+# Error: COMP96_0077: latched_3to8_decoder_tb.vhd : (47, 39): Undefined type of expression. Expected type 'test_vectors'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Warning: DAGGEN_0001: latched_3to8_decoder_tb.vhd : (71, 0): Process without explicit or implicit wait statement - possible infinite loop.
+# Compile success 0 Errors 1 Warnings  Analysis time :  94.0 [ms]
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5446 kB (elbread=427 elab2=4879 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location Z:\Desktop\SBU 2024 Spring\ESE 382\lab-backup\Lab8\prelab8\prelab8\src\wave.asdb
+# Stimuli: Warning: The stimuli set "StimuliSet1" has been made inactive.
+#  6:32 PM, Saturday, March 30, 2024
+#  Simulation has been initialized
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/wave.asdb'.
+run 3000 ns
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : ---101
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 000001
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 100001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 010001
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 110001
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 001001
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 101001
+# EXECUTION:: Time: 180 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 011001
+# EXECUTION:: Time: 200 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 111001
+# EXECUTION:: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (86): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/3_to_8_decoder.vhd $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/3_to_8_decoder.vhd $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5449 kB (elbread=427 elab2=4881 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location Z:\Desktop\SBU 2024 Spring\ESE 382\lab-backup\Lab8\prelab8\prelab8\src\wave.asdb
+#  6:36 PM, Saturday, March 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/wave.asdb'.
+# KERNEL: Warning: KERNEL_0291 Object "/latched_3to8_decoder_tb/a" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/latched_3to8_decoder_tb/le_bar" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/latched_3to8_decoder_tb/e1_bar" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/latched_3to8_decoder_tb/e2" has already been traced.
+# KERNEL: Warning: KERNEL_0291 Object "/latched_3to8_decoder_tb/y" has already been traced.
+# VSIM: 0 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/wave.asdb'.
+run 3000 ns
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : ---101
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 000001
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 100001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 010001
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 110001
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 001001
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 101001
+# EXECUTION:: Time: 180 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 011001
+# EXECUTION:: Time: 200 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 111001
+# EXECUTION:: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (86): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+# Library Manager: Library "prelab8" contents cleared.
+acom -reorder -dbg -e 100 -work prelab8 -2008  $dsn/src/3_to_8_decoder.vhd $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Top-level unit(s) detected:
+# Entity => latched_3to8_decoder_tb
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5449 kB (elbread=427 elab2=4881 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location Z:\Desktop\SBU 2024 Spring\ESE 382\lab-backup\Lab8\prelab8\prelab8\src\wave.asdb
+#  6:36 PM, Saturday, March 30, 2024
+#  Simulation has been initialized
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/wave.asdb'.
+run 3000 ns
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : ---101
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 000001
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 100001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 010001
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 110001
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 001001
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 101001
+# EXECUTION:: Time: 180 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 011001
+# EXECUTION:: Time: 200 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 111001
+# EXECUTION:: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (86): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/3_to_8_decoder.vhd $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5449 kB (elbread=427 elab2=4881 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location Z:\Desktop\SBU 2024 Spring\ESE 382\lab-backup\Lab8\prelab8\prelab8\src\wave.asdb
+#  6:54 PM, Saturday, March 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/wave.asdb'.
+run 3000 ns
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : ---101
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 100001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 110001
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 001001
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 011001
+# EXECUTION:: Time: 200 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (86): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/3_to_8_decoder.vhd $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Error: COMP96_0015: latched_3to8_decoder_tb.vhd : (35, 40): ')' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  94.0 [ms]
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5449 kB (elbread=427 elab2=4881 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location Z:\Desktop\SBU 2024 Spring\ESE 382\lab-backup\Lab8\prelab8\prelab8\src\wave.asdb
+#  6:56 PM, Saturday, March 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/wave.asdb'.
+run 3000 ns
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : ---101
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 100001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 110001
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 001001
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 011001
+# EXECUTION:: Time: 200 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (86): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/3_to_8_decoder.vhd $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/3_to_8_decoder.vhd $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5449 kB (elbread=427 elab2=4881 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location Z:\Desktop\SBU 2024 Spring\ESE 382\lab-backup\Lab8\prelab8\prelab8\src\wave.asdb
+#  6:57 PM, Saturday, March 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/wave.asdb'.
+run 3000 ns
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : ---101
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 100001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 110001
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 001001
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : 011001
+# EXECUTION:: Time: 200 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (86): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/3_to_8_decoder.vhd $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5449 kB (elbread=427 elab2=4881 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location Z:\Desktop\SBU 2024 Spring\ESE 382\lab-backup\Lab8\prelab8\prelab8\src\wave.asdb
+#  7:02 PM, Saturday, March 30, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/wave.asdb'.
+run 3000 ns
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# EXECUTION:: ERROR  : Error at input a, le_bar, e1_bar, e2 : ---101
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (86): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/3_to_8_decoder.vhd $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5450 kB (elbread=427 elab2=4882 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location Z:\Desktop\SBU 2024 Spring\ESE 382\lab-backup\Lab8\prelab8\prelab8\src\wave.asdb
+#  12:49 PM, Monday, April 1, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/wave.asdb'.
+run 3000 ns
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# KERNEL: WARNING: NUMERIC_STD."=": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 2,  Instance: /latched_3to8_decoder_tb/UUT/u1,  Process: decoder.
+# EXECUTION:: ERROR  : Assertion violation.
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# EXECUTION:: ERROR  : Error at le_bar = '1' and e1_bar = '0' and e2 = '1'. Output should be stable
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (94): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/3_to_8_decoder.vhd $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5450 kB (elbread=427 elab2=4882 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location Z:\Desktop\SBU 2024 Spring\ESE 382\lab-backup\Lab8\prelab8\prelab8\src\wave.asdb
+#  12:50 PM, Monday, April 1, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/wave.asdb'.
+run 3000 ns
+# EXECUTION:: ERROR  : Error at le_bar = '1' and e1_bar = '0' and e2 = '1'. Output should be stable
+# EXECUTION:: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (94): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/3_to_8_decoder.vhd $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5450 kB (elbread=427 elab2=4882 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location Z:\Desktop\SBU 2024 Spring\ESE 382\lab-backup\Lab8\prelab8\prelab8\src\wave.asdb
+#  12:51 PM, Monday, April 1, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/wave.asdb'.
+run 3000 ns
+# EXECUTION:: ERROR  : Error at le_bar = '1' and e1_bar = '0' and e2 = '1'. Output should be stable
+# EXECUTION:: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (94): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+acom -dbg -e 100 -work prelab8 -2008  $dsn/src/3_to_8_decoder.vhd $dsn/src/latched_3to8_decoder_tb.vhd
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/3_to_8_decoder.vhd
+# Compile Entity "input_latch"
+# Compile Architecture "behavioral" of Entity "input_latch"
+# Compile Entity "decoder_3to8"
+# Compile Architecture "cond" of Entity "decoder_3to8"
+# Compile Entity "latched_3to8_decoder"
+# Compile Architecture "structural" of Entity "latched_3to8_decoder"
+# File: Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/latched_3to8_decoder_tb.vhd
+# Compile Entity "latched_3to8_decoder_tb"
+# Compile Architecture "latched_3to8_decoder_tb" of Entity "latched_3to8_decoder_tb"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+latched_3to8_decoder_tb latched_3to8_decoder_tb latched_3to8_decoder_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5450 kB (elbread=427 elab2=4882 kernel=141 sdf=0)
+# KERNEL: ASDB file was created in location Z:\Desktop\SBU 2024 Spring\ESE 382\lab-backup\Lab8\prelab8\prelab8\src\wave.asdb
+#  12:52 PM, Monday, April 1, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'Z:/Desktop/SBU 2024 Spring/ESE 382/lab-backup/Lab8/prelab8/prelab8/src/wave.asdb'.
+run 3000 ns
+# EXECUTION:: ERROR  : Error at le_bar = '1' and e1_bar = '0' and e2 = '1'. Output should be stable
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# RUNTIME: Info: RUNTIME_0142 latched_3to8_decoder_tb.vhd (94): finish called.
+# KERNEL: Time: 220 ns,  Iteration: 0,  Instance: /latched_3to8_decoder_tb,  Process: tb.
+# KERNEL: stopped at time: 220 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
